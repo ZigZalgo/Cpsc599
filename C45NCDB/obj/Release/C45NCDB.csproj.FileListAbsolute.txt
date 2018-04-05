@@ -1,0 +1,6 @@
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\bin\Release\C45NCDB.exe.config
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\bin\Release\C45NCDB.exe
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\bin\Release\C45NCDB.pdb
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Release\C45NCDB.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Release\C45NCDB.exe
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Release\C45NCDB.pdb

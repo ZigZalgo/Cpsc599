@@ -1,0 +1,7 @@
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\bin\Debug\C45NCDB.exe.config
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\bin\Debug\C45NCDB.exe
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\bin\Debug\C45NCDB.pdb
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Debug\C45NCDB.csprojResolveAssemblyReference.cache
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Debug\C45NCDB.csproj.CoreCompileInputs.cache
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Debug\C45NCDB.exe
+C:\Users\Cooper\source\repos\C45NCDB\C45NCDB\obj\Debug\C45NCDB.pdb

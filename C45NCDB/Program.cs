@@ -22,10 +22,10 @@ namespace C45NCDB
                 C4p5.SetHeaderToPredict(args[4]);
             }
             Node root = alg.Root;
-            C4p5.MaxDepth = 10;
+            C4p5.MaxDepth = 2;
             C4p5.MinDivSize = 1000;
             alg.Learn();
-            alg.PrintRules(args[2]);  
+            alg.PrintRulesSorted(args[2]);  
         }
     }
 }

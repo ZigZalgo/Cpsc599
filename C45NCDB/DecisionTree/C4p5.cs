@@ -85,12 +85,27 @@ namespace C45NCDB.DecisionTree
             Learn();
         }
 
-        public void PrintRules(string FilePath)
+        public void PrintRulesSorted(string FilePath)
         {
             StreamWriter writer = new StreamWriter(FilePath);
-            Root.PrintRules(writer);
+			List<Tuple<int, string>> allRules = new List<Tuple<int, string>>();
+			Root.GetRules(allRules);
+			allRules.Sort((x, y) => y.Item1.CompareTo(x.Item1));
+			int totalCases = 0;
+			foreach (Tuple<int, string> temp in allRules) {
+				totalCases += temp.Item1;
+				writer.WriteLine(temp.Item2);
+			}
+			writer.WriteLine("\nTotal cases: " + totalCases);
             writer.Close();
         }
+
+		public void PrintRules(string FilePath)
+		{
+			StreamWriter writer = new StreamWriter(FilePath);
+			Root.PrintRules(writer);
+			writer.Close();
+		}
     }
 
     public class Node
@@ -240,6 +255,29 @@ namespace C45NCDB.DecisionTree
             }
         }
 
+		public void GetRules(List<Tuple<int, string>> list) {
+			if (children == null) {
+				StringBuilder sb = new StringBuilder();
+				int collisionNum = 0;
+				foreach (Rule r in usedRules) {
+					sb.AppendLine(r.ToString());
+				}
+				collisionNum = currentEntries.Count;
+				sb.AppendLine(collisionNum + " collisions");
 
+				if (C4p5.predict) {
+					int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
+					foreach (int val in values) {
+						sb.AppendLine("Predicted Column with Value: " + val + " has count = " + (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+					}
+				}
+				sb.AppendLine();
+				list.Add(new Tuple<int, string>(collisionNum, sb.ToString()));
+			} else {
+				foreach (Node child in children)
+					child.GetRules(list);
+			}
+
+		}
     }
 }

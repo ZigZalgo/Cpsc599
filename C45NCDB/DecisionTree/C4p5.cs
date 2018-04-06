@@ -242,10 +242,13 @@ namespace C45NCDB.DecisionTree
 
         internal void ApplyAllRules(List<Rule> rules)
         {
-            List<CollisionEntry> passed = new List<CollisionEntry>();
-            List<CollisionEntry> failed = new List<CollisionEntry>();
+            List<CollisionEntry> passed;
+            List<CollisionEntry> failed;
             foreach (Rule rule in rules)
             {
+                passed = new List<CollisionEntry>();
+                failed = new List<CollisionEntry>();
+                //Console.WriteLine("Applying rule " + rule.ToString());
                 CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
                 currentEntries = passed;
             }

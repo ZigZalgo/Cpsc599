@@ -228,6 +228,8 @@ namespace C45NCDB.Tools
                  *  H(A|B) = the number of entries that match B and then A
                  */
                 double infoGain = (maxKeyTotalOccurances / total.Count) - maxVal;
+                if (infoGain <= C4p5.MinimumInformationGain) continue; //forgot the escape case for recursion
+            
                 if (informationGainBest.Count < C4p5.MaxBreadth)
                 {
                     //add it to the list if not enough good rules have yet been found

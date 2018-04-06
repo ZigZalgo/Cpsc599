@@ -26,7 +26,7 @@ namespace C45NCDB.DecisionTree
         //I think these can be non-static, but following what's already here.
         //TODO: optimize default values.
         public static int MaxBreadth { get; set; } = 5;
-        public static double MinimumInformationGain { get; set; } = 0.1;
+        public static double MinimumInformationGain { get; set; } = .2;
         private List<CollisionEntry> allEntries;
 
 
@@ -237,7 +237,10 @@ namespace C45NCDB.DecisionTree
             CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
 
             List<Rule> childRules = new List<Rule>(usedRules) { rule };
-            return new Node(passed, depth + 1, childRules, this);
+            Node child = new Node(passed, depth + 1, childRules, this);
+            if (children == null) children = new List<Node>() { child };
+            else children.Add(child);
+            return child;
         }
 
         internal void ApplyAllRules(List<Rule> rules)

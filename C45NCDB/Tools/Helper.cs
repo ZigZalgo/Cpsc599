@@ -214,7 +214,7 @@ namespace C45NCDB.Tools
                 int maxKeyTotalOccurances = 0;
                 foreach (CollisionEntry c in total)
                 {
-                    if (c.vals[i] == count[maxKey]) maxKeyTotalOccurances++;
+                    if (c.vals[i] == maxKey) maxKeyTotalOccurances++;
                 }
 
                 //calculate information gain.
@@ -224,22 +224,24 @@ namespace C45NCDB.Tools
                  * where 
                  *  A = the condition under consideration
                  *  B = All previous rules
-                 *  H(A) = the number of entries that match A out of all entries
-                 *  H(A|B) = the number of entries that match B and then A
+                 *  H(A) = the number of entries that match A out of all entries * that number's log base 2
+                 *  H(A|B) = the number of entries that match B and then A * that number's log base 2
                  */
-                double infoGain = (maxKeyTotalOccurances / total.Count) - maxVal;
+                double maxKeyTotalPercent = maxKeyTotalOccurances / (double) total.Count;
+                double infoGain = (maxKeyTotalPercent * Math.Log(maxKeyTotalPercent, 2)) - (maxVal * Math.Log(maxVal, 2));
                 if (infoGain <= C4p5.MinimumInformationGain) continue; //forgot the escape case for recursion
             
                 if (informationGainBest.Count < C4p5.MaxBreadth)
                 {
                     //add it to the list if not enough good rules have yet been found
                     informationGainBest.Add(new RuleInfo(infoGain, i, maxKey));
+                    informationGainBest.Sort();
                 }
-                else if (infoGain > informationGainBest[C4p5.MaxBreadth].informationGain)
+                else if (infoGain > informationGainBest[0].informationGain)
                 {
                     //pop off the least best and replace it with this new better value
                     //Then sort all the most best to ensure list integrity
-                    informationGainBest[C4p5.MaxBreadth - 1] = new RuleInfo(infoGain, i, maxKey);
+                    informationGainBest[0] = new RuleInfo(infoGain, i, maxKey);
                     informationGainBest.Sort();
                 }
             }

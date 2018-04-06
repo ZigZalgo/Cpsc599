@@ -20,6 +20,7 @@ namespace C45NCDB
                 if (args[3] == "-o")
                 {
                     alg.LearnOrTree(alg.Root);
+                    alg.PrintRules(args[2]);
                     return;
                 }
                 else

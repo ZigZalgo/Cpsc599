@@ -15,11 +15,13 @@ namespace C45NCDB.DecisionTree
 
         private List<Rule> unusedRules;
         private List<Node> currentNodes;
+
+        private static List<int> ignoreHeaders = new List<int>();
         public static List<Node> nextIterationNodes;
 
         public static int Header_To_Predict { get; set; } = -1;
-        public static int MaxDepth { get; set; } = 8;
-        public static int MinDivSize { get; set; } = 100;
+        public static int MaxDepth { get; set; } = 5;
+        public static int MinDivSize { get; set; } = 1000;
         public static bool predict = false;
 
 
@@ -34,9 +36,21 @@ namespace C45NCDB.DecisionTree
             predict = true;
         }
 
+        public static void SetIgnoreHeaders(List<string> headers)
+        {
+            foreach (string s in headers)
+            {
+                if (!CollisionEntry.headers.Contains(s))
+                    throw new Exception(s + " does not exist in collision dataset");
+                
+                ignoreHeaders.Add(CollisionEntry.headers.ToList().IndexOf(s));
+                
+            }
+        }
+
         public C4p5(List<CollisionEntry> collisions, List<Rule> Pre_Generated_Rules)
         {
-            Root = new Node(collisions, 0, new List<Rule>(), null);
+            Root = new Node(collisions, 0, new List<Rule>(), null, ignoreHeaders);
             currentNodes = new List<Node>();
             nextIterationNodes = new List<Node>();
             unusedRules = Pre_Generated_Rules;
@@ -86,11 +100,13 @@ namespace C45NCDB.DecisionTree
 
         public List<CollisionEntry> currentEntries;
 
+        public List<int> headersToIgnore;
         public int depth;
         public List<Node> children;
 
-        public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent)
+        public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent, List<int> ignore)
         {
+            headersToIgnore = new List<int>(ignore);
             usedRules = new List<Rule>(previousRules);
             currentEntries = collisions;
             Parent = parent;
@@ -124,7 +140,9 @@ namespace C45NCDB.DecisionTree
 
             if (!Predict)
             {
-                Rule usedRule = Helper.Generate_Rule_From_Even_Divisions(currentEntries);
+                Rule usedRule = Helper.Generate_Rule_From_Even_Divisions(currentEntries, headersToIgnore);
+                if (usedRule == null)
+                    return;
                 createChildrenFromRule(usedRule);
             }
             else
@@ -145,20 +163,13 @@ namespace C45NCDB.DecisionTree
                 return;
             }
             currentEntries = null;
-            Rule failedRule = rule.Invert();
-            List<Rule> failedRules = new List<Rule>(usedRules)
-            {
-                failedRule
-            };
             List<Rule> passedRules = new List<Rule>(usedRules)
             {
                 rule
             };
             children = new List<Node>();
-            Node c1 = new Node(failed, depth + 1, failedRules, this);
-            Node c2 = new Node(passed, depth + 1, passedRules, this);
-            children.Add(c1); children.Add(c2);
-            C4p5.nextIterationNodes.Add(c1);
+            Node c2 = new Node(passed, depth + 1, passedRules, this, headersToIgnore);
+            children.Add(c2);
             C4p5.nextIterationNodes.Add(c2);
         }
 
@@ -170,10 +181,11 @@ namespace C45NCDB.DecisionTree
             if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
                 return;
 
-            int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict);
-
+            int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict, headersToIgnore);
+            if (Header_To_Split == -1)
+                return;
             int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split];
-
+            headersToIgnore.Add(Header_To_Split);
             children = new List<Node>();
             foreach (int v in values)
             {
@@ -189,10 +201,11 @@ namespace C45NCDB.DecisionTree
                     {
                         rule
                     };
-                Node n = new Node(passed, depth + 1, passedRules, this);
+                Node n = new Node(passed, depth + 1, passedRules, this, headersToIgnore);
                 children.Add(n);
                 C4p5.nextIterationNodes.Add(n);
             }
+
             if (children.Count == 0)
                 children = null;
             return;

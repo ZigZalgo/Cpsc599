@@ -1,4 +1,5 @@
-﻿using C45NCDB.RuleEngine;
+﻿using C45NCDB.DecisionTree;
+using C45NCDB.RuleEngine;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,12 +24,29 @@ namespace C45NCDB.Tools
             }
         }
 
+        internal static List<string> ReaderIgnoreHeaders(string filePath)
+        {
+            StreamReader reader = new StreamReader(filePath);
+            string line = "";
+            int LineNumber = 1;
+            List<String> retVal = new List<string>();
+            while ((line = reader.ReadLine()) != null && line != String.Empty)
+            {
+                string header = line.Trim();
+                if (header.Split().Count() > 1)
+                    throw new Exception("Invalid ignore header file syntax on line "+ LineNumber);
+                retVal.Add(header);
+            }
+            reader.Close();
+            return retVal;
+        }
+
         /// <summary>
         /// Generates a rule that divides the dataset in a way that causes for the most equal split
         /// </summary>
         /// <param name="collection"></param>
         /// <returns></returns>
-        public static Rule Generate_Rule_From_Even_Divisions(List<CollisionEntry> collection)
+        public static Rule Generate_Rule_From_Even_Divisions(List<CollisionEntry> collection, List<int> headersToIgnore)
         {
             double information_gain_best = double.MaxValue;
             int header_corresponding = -1;
@@ -36,6 +54,8 @@ namespace C45NCDB.Tools
 
             for (int i = 0; i < CollisionEntry.headers.Length; i++)
             {
+                if (headersToIgnore.Contains(i))
+                    continue;
                 Dictionary<int, int> count = new Dictionary<int, int>();
                 foreach (CollisionEntry c in collection)
                 {
@@ -56,7 +76,9 @@ namespace C45NCDB.Tools
                     value_corresponding = maxKey;
                 }
             }
-
+            if (header_corresponding == -1)
+                return null;
+            headersToIgnore.Add(header_corresponding);
             Rule r = new Rule(header_corresponding, value_corresponding, HValType.HeaderCompVal, Operator.Equals);
             return r;
         }
@@ -68,7 +90,7 @@ namespace C45NCDB.Tools
         /// <param name="entries"></param>
         /// <param name="header_To_Predict"></param>
         /// <returns></returns>
-        public static int AttributeWithBestInfoGain(List<CollisionEntry> entries, int header_To_Predict)
+        public static int AttributeWithBestInfoGain(List<CollisionEntry> entries, int header_To_Predict, List<int> headersToIgnore)
         {
             Dictionary<int, int[]> valuesOfHeaders = GetValuesOfHeaders(entries);
 
@@ -84,8 +106,9 @@ namespace C45NCDB.Tools
             {
                 if (i == header_To_Predict)
                     continue;
-
-                double infoGainForAttributeI = double.MinValue;
+                if (headersToIgnore.Contains(i))
+                    continue;
+                double infoGainForAttributeI = 0;
 
                 //For each value of attribute i
                 for (int ValueIndex = 0; ValueIndex < valuesOfHeaders[i].Length; ValueIndex++)

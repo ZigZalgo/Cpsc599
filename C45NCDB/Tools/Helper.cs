@@ -185,11 +185,6 @@ namespace C45NCDB.Tools
 
             return retVal;
 
-        internal static Rule GenerateRuleFromInformationGain(List<CollisionEntry> currentEntries, int header_To_Predict)
-        {
-            if (header_To_Predict == -1)
-                throw new Exception("You forgot to se the Header to predict");
-            return GenerateRuleFromEvenDivisions(currentEntries);
         }
 
         public static List<Rule> GenerateRulesFromCoverage(List<CollisionEntry> currentNodeCollection, List<CollisionEntry> total)

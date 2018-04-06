@@ -15,7 +15,7 @@ namespace C45NCDB.DecisionTree
 
         private List<Rule> unusedRules;
         private List<Node> currentNodes;
-        private List<Node> nextIterationNodes;
+        public static List<Node> nextIterationNodes;
 
         public static int Header_To_Predict { get; set; } = -1;
         public static int MaxDepth { get; set; } = 8;
@@ -94,6 +94,7 @@ namespace C45NCDB.DecisionTree
             usedRules = new List<Rule>(previousRules);
             currentEntries = collisions;
             Parent = parent;
+            this.depth = depth;
         }
 
         internal void Divide(Rule rule, List<Node> nextIterationNodes)
@@ -106,7 +107,35 @@ namespace C45NCDB.DecisionTree
             {
                 return;
             }
+            createChildrenFromRule(rule);
 
+        }
+
+        internal void Divide(List<Node> nextIterationNodes, bool Predict)
+        {
+            if (depth > C4p5.MaxDepth)
+            {
+                return;
+            }
+            if (currentEntries.Count < C4p5.MinDivSize)
+            {
+                return;
+            }
+
+            if (!Predict)
+            {
+                Rule usedRule = Helper.Generate_Rule_From_Even_Divisions(currentEntries);
+                createChildrenFromRule(usedRule);
+            }
+            else
+            {
+                createChildrenFromEntropy();
+            }
+
+        }
+
+        public void createChildrenFromRule(Rule rule)
+        {
             List<CollisionEntry> failed = new List<CollisionEntry>();
             List<CollisionEntry> passed = new List<CollisionEntry>();
 
@@ -129,63 +158,46 @@ namespace C45NCDB.DecisionTree
             Node c1 = new Node(failed, depth + 1, failedRules, this);
             Node c2 = new Node(passed, depth + 1, passedRules, this);
             children.Add(c1); children.Add(c2);
-            nextIterationNodes.Add(c1);
-            nextIterationNodes.Add(c2);
+            C4p5.nextIterationNodes.Add(c1);
+            C4p5.nextIterationNodes.Add(c2);
         }
 
-        internal void Divide(List<Node> nextIterationNodes, bool Predict)
+        public void createChildrenFromEntropy()
         {
-            if (depth > C4p5.MaxDepth)
-            {
+            if (C4p5.Header_To_Predict == -1)
+                throw new Exception("You forgot to se the Header to predict");
+            //If they are all the same class we are done
+            if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
                 return;
-            }
-            if (currentEntries.Count < C4p5.MinDivSize)
+
+            int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict);
+
+            int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split];
+
+            children = new List<Node>();
+            foreach (int v in values)
             {
-                return;
-            }
-
-            List<CollisionEntry> failed = new List<CollisionEntry>();
-            List<CollisionEntry> passed = new List<CollisionEntry>();
-
-            Rule usedRule;
-            if (!Predict)
-                usedRule = Helper.Generate_Rule_From_Even_Divisions(currentEntries);
-            else
-            {
-
-                if (C4p5.Header_To_Predict == -1)
-                    throw new Exception("You forgot to se the Header to predict");
-                //If they are all the same class we are done
-                if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
-                    return;
-
-                int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict);
-
-                int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split];
-
-                children = new List<Node>();
-                foreach (int v in values)
+                Rule rule = new Rule(Header_To_Split, v, HValType.HeaderCompVal, Operator.Equals);
+                List<CollisionEntry> passed = new List<CollisionEntry>();
+                List<CollisionEntry> failed = new List<CollisionEntry>();
+                CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
+                if (passed.Count < 1)
                 {
-                    Rule rule = new Rule(Header_To_Split, v, HValType.HeaderCompVal, Operator.Equals);
-                    CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
-                    if (passed.Count < 1)
-                    {
-                        continue;
-                    }
-                    List<Rule> passedRules = new List<Rule>(usedRules)
+                    continue;
+                }
+                List<Rule> passedRules = new List<Rule>(usedRules)
                     {
                         rule
                     };
-                    Node n = new Node(passed, depth + 1, passedRules, this);
-                    children.Add(n);
-                    nextIterationNodes.Add(n);
-                }
-                if (children.Count == 0)
-                    children = null;
-
-
+                Node n = new Node(passed, depth + 1, passedRules, this);
+                children.Add(n);
+                C4p5.nextIterationNodes.Add(n);
             }
+            if (children.Count == 0)
+                children = null;
+            return;
         }
+
 
         public void PrintRules(StreamWriter writer)
         {
@@ -198,14 +210,14 @@ namespace C45NCDB.DecisionTree
                 }
                 writer.WriteLine(currentEntries.Count + " collisions");
 
-                int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
-                foreach(int val in values)
+                if (C4p5.predict)
                 {
-                    writer.WriteLine("Predicted Column with Value: "+val+" has count = "+(currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+                    int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
+                    foreach (int val in values)
+                    {
+                        writer.WriteLine("Predicted Column with Value: " + val + " has count = " + (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+                    }
                 }
-                
-                
-
                 writer.WriteLine();
             }
             else

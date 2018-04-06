@@ -12,7 +12,7 @@ namespace C45NCDB.DecisionTree
     public class C4p5
     {
         public Node Root;
-        
+
         private List<Rule> unusedRules;
         private List<Node> currentNodes;
         private List<Node> nextIterationNodes;
@@ -31,6 +31,7 @@ namespace C45NCDB.DecisionTree
             {
                 Header_To_Predict = CollisionEntry.headers.ToList().IndexOf(header);
             }
+            predict = true;
         }
 
         public C4p5(List<CollisionEntry> collisions, List<Rule> Pre_Generated_Rules)
@@ -86,8 +87,7 @@ namespace C45NCDB.DecisionTree
         public List<CollisionEntry> currentEntries;
 
         public int depth;
-        public Node Left;
-        public Node Right;
+        public List<Node> children;
 
         public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent)
         {
@@ -125,11 +125,14 @@ namespace C45NCDB.DecisionTree
             {
                 rule
             };
-            Left = new Node(failed, depth+1, failedRules, this);
-            Right = new Node(passed, depth+1, passedRules, this);
-            nextIterationNodes.Add(Left);
-            nextIterationNodes.Add(Right);
+            children = new List<Node>();
+            Node c1 = new Node(failed, depth + 1, failedRules, this);
+            Node c2 = new Node(passed, depth + 1, passedRules, this);
+            children.Add(c1); children.Add(c2);
+            nextIterationNodes.Add(c1);
+            nextIterationNodes.Add(c2);
         }
+
         internal void Divide(List<Node> nextIterationNodes, bool Predict)
         {
             if (depth > C4p5.MaxDepth)
@@ -146,50 +149,72 @@ namespace C45NCDB.DecisionTree
 
             Rule usedRule;
             if (!Predict)
-                usedRule = Helper.GenerateRuleFromEvenDivisions(currentEntries);
+                usedRule = Helper.Generate_Rule_From_Even_Divisions(currentEntries);
             else
-                usedRule = Helper.GenerateRuleFromInformationGain(currentEntries, C4p5.Header_To_Predict);
+            {
 
-            CollisionEntry.EvaluateEntries(currentEntries, failed, passed, usedRule);
-            currentEntries = null;
-            if (failed.Count < 1)
-            {
-                return;
+                if (C4p5.Header_To_Predict == -1)
+                    throw new Exception("You forgot to se the Header to predict");
+                //If they are all the same class we are done
+                if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
+                    return;
+
+                int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict);
+
+                int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split];
+
+                children = new List<Node>();
+                foreach (int v in values)
+                {
+                    Rule rule = new Rule(Header_To_Split, v, HValType.HeaderCompVal, Operator.Equals);
+                    CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
+                    if (passed.Count < 1)
+                    {
+                        continue;
+                    }
+                    List<Rule> passedRules = new List<Rule>(usedRules)
+                    {
+                        rule
+                    };
+                    Node n = new Node(passed, depth + 1, passedRules, this);
+                    children.Add(n);
+                    nextIterationNodes.Add(n);
+                }
+                if (children.Count == 0)
+                    children = null;
+
+
             }
-            Rule failedRule = usedRule.Invert();
-            List<Rule> failedRules = new List<Rule>(usedRules)
-            {
-                failedRule
-            };
-            List<Rule> passedRules = new List<Rule>(usedRules)
-            {
-                usedRule
-            };
-            Left = new Node(failed, depth + 1, failedRules, this);
-            Right = new Node(passed, depth + 1, passedRules, this);
-            nextIterationNodes.Add(Left);
-            nextIterationNodes.Add(Right);
         }
 
         public void PrintRules(StreamWriter writer)
         {
-            if(Left == null && Right == null)
+            if (children == null)
             {
                 string retVal = "";
-                foreach(Rule r in usedRules)
+                foreach (Rule r in usedRules)
                 {
                     writer.WriteLine(retVal + r.ToString());
                 }
                 writer.WriteLine(currentEntries.Count + " collisions");
+
+                int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
+                foreach(int val in values)
+                {
+                    writer.WriteLine("Predicted Column with Value: "+val+" has count = "+(currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+                }
+                
+                
+
                 writer.WriteLine();
             }
             else
             {
-                if (Left != null)
-                    Left.PrintRules(writer);
-                if (Right != null)
-                    Right.PrintRules(writer);
+                foreach (Node child in children)
+                    child.PrintRules(writer);
             }
         }
+
+
     }
 }

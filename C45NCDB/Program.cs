@@ -17,10 +17,10 @@ namespace C45NCDB
             C4p5 alg = new C4p5(collisions.ToList(), gen.CurrentRules);
             if(args.Length == 4)
             {
-
+                C4p5.SetHeaderToPredict(args[3]);
             }
             Node root = alg.Root;
-            C4p5.MaxDepth = 6;
+            C4p5.MaxDepth = 4;
             C4p5.MinDivSize = 10000;
             alg.Learn();
             alg.PrintRules(args[2]);  

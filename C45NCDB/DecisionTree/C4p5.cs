@@ -295,9 +295,12 @@ namespace C45NCDB.DecisionTree
                 if (C4p5.predict)
                 {
                     int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
-                    foreach (int val in values)
+					Array.Sort(values);
+					double total = (double)currentEntries.Count();
+					foreach (int val in values)
                     {
-                        writer.WriteLine("Predicted Column with Value: " + val + " has count = " + (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+						int count = (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count());
+						writer.WriteLine("Predicted Column with Value: " + val + " has count = " + count + " or %" + Math.Round((double)count / total * 100.0, 3));
                     }
                 }
                 writer.WriteLine();
@@ -321,8 +324,11 @@ namespace C45NCDB.DecisionTree
 
 				if (C4p5.predict) {
 					int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
+					Array.Sort(values);
+					double total = (double)currentEntries.Count();
 					foreach (int val in values) {
-						sb.AppendLine("Predicted Column with Value: " + val + " has count = " + (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+						int count = (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count());
+						sb.AppendLine("Predicted Column with Value: " + val + " has count = " + count + " or %" + Math.Round((double)count / total * 100.0, 3));
 					}
 				}
 				sb.AppendLine();

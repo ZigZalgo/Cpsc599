@@ -17,12 +17,14 @@ namespace C45NCDB.DecisionTree
         private List<Node> currentNodes;
 
         private static List<int> ignoreHeaders = new List<int>();
+		public static List<int> continuousHeaders = new List<int>();
         public static List<Node> nextIterationNodes;
 
         public static int Header_To_Predict { get; set; } = -1;
         public static int MaxDepth { get; set; } = 5;
         public static int MinDivSize { get; set; } = 1000;
-        public static bool predict = false;
+		public static int MaxContinuousSplits { get; set; } = 5;
+		public static bool predict = false;
 
 
         public static void SetHeaderToPredict(string header)
@@ -36,21 +38,28 @@ namespace C45NCDB.DecisionTree
             predict = true;
         }
 
-        public static void SetIgnoreHeaders(List<string> headers)
+        public static void SetSpecialHeaders(List<string> headers)
         {
             foreach (string s in headers)
             {
-                if (!CollisionEntry.headers.Contains(s))
+				string[] temp = s.Split();
+                if (!CollisionEntry.headers.Contains(temp[1]))
                     throw new Exception(s + " does not exist in collision dataset");
-                
-                ignoreHeaders.Add(CollisionEntry.headers.ToList().IndexOf(s));
-                
+
+				switch (temp[0]) {
+					case "ignore":
+						ignoreHeaders.Add(CollisionEntry.headers.ToList().IndexOf(temp[1]));
+						break;
+					case "cont":
+						continuousHeaders.Add(CollisionEntry.headers.ToList().IndexOf(temp[1]));
+						break;
+				}
             }
         }
 
         public C4p5(List<CollisionEntry> collisions, List<Rule> Pre_Generated_Rules)
         {
-            Root = new Node(collisions, 0, new List<Rule>(), null, ignoreHeaders);
+            Root = new Node(collisions, 0, new List<Rule>(), null, ignoreHeaders, new Dictionary<int, int>());
             currentNodes = new List<Node>();
             nextIterationNodes = new List<Node>();
             unusedRules = Pre_Generated_Rules;
@@ -74,10 +83,14 @@ namespace C45NCDB.DecisionTree
             }
             else
             {
+				int total = currentNodes.Count();
+				int current = 0;
                 foreach (Node toBeDivided in currentNodes)
                 {
-                    toBeDivided.Divide(nextIterationNodes, predict);
-                }
+                    toBeDivided.Divide(predict);
+					current++;
+					if (current % 10 == 0) Console.WriteLine("Progress: " + current + "\\" + total);
+				}
             }
             currentNodes = nextIterationNodes;
             Console.WriteLine(currentNodes.Count + " Number of unlearned nodes");
@@ -116,13 +129,15 @@ namespace C45NCDB.DecisionTree
         public List<CollisionEntry> currentEntries;
 
         public List<int> headersToIgnore;
+		public Dictionary<int, int> continuousSplits;
         public int depth;
         public List<Node> children;
 
-        public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent, List<int> ignore)
+        public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent, List<int> ignore, Dictionary<int, int> contSplits)
         {
             headersToIgnore = new List<int>(ignore);
-            usedRules = new List<Rule>(previousRules);
+			continuousSplits = new Dictionary<int, int>(contSplits);
+			usedRules = new List<Rule>(previousRules);
             currentEntries = collisions;
             Parent = parent;
             this.depth = depth;
@@ -142,7 +157,7 @@ namespace C45NCDB.DecisionTree
 
         }
 
-        internal void Divide(List<Node> nextIterationNodes, bool Predict)
+        internal void Divide(bool Predict)
         {
             if (depth > C4p5.MaxDepth)
             {
@@ -183,7 +198,7 @@ namespace C45NCDB.DecisionTree
                 rule
             };
             children = new List<Node>();
-            Node c2 = new Node(passed, depth + 1, passedRules, this, headersToIgnore);
+            Node c2 = new Node(passed, depth + 1, passedRules, this, headersToIgnore, continuousSplits);
             children.Add(c2);
             C4p5.nextIterationNodes.Add(c2);
         }
@@ -196,34 +211,73 @@ namespace C45NCDB.DecisionTree
             if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
                 return;
 
-            int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict, headersToIgnore);
-            if (Header_To_Split == -1)
+            Tuple<int, int> Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict, headersToIgnore);
+            if (Header_To_Split.Item1 == -1) // If the info gain is -1, then there is no good choice anymore
                 return;
-            int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split];
-            headersToIgnore.Add(Header_To_Split);
-            children = new List<Node>();
-            foreach (int v in values)
-            {
-                Rule rule = new Rule(Header_To_Split, v, HValType.HeaderCompVal, Operator.Equals);
-                List<CollisionEntry> passed = new List<CollisionEntry>();
-                List<CollisionEntry> failed = new List<CollisionEntry>();
-                CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
-                if (passed.Count < 1)
-                {
-                    continue;
-                }
-                List<Rule> passedRules = new List<Rule>(usedRules)
-                    {
-                        rule
-                    };
-                Node n = new Node(passed, depth + 1, passedRules, this, headersToIgnore);
-                children.Add(n);
-                C4p5.nextIterationNodes.Add(n);
-            }
+
+			// Now determine whether the returned header is discrete or continuous
+			if (C4p5.continuousHeaders.Contains(Header_To_Split.Item1)) {
+				Console.WriteLine("Continuous split");
+
+				if (continuousSplits.ContainsKey(Header_To_Split.Item1)) { // Tally the number of times this had been used to split
+					continuousSplits[Header_To_Split.Item1]++;
+					if (continuousSplits[Header_To_Split.Item1] >= C4p5.MaxContinuousSplits) {
+						headersToIgnore.Add(Header_To_Split.Item1);
+					}
+				} else {
+					continuousSplits.Add(Header_To_Split.Item1, 1);
+				}
+
+				children = new List<Node>();
+
+				Rule rule1 = new Rule(Header_To_Split.Item1, Header_To_Split.Item2, HValType.HeaderCompVal, Operator.LessThan);
+				Rule rule2 = new Rule(Header_To_Split.Item1, Header_To_Split.Item2, HValType.HeaderCompVal, Operator.GreaterThanEqualTo);
+
+				List<CollisionEntry> passed1 = new List<CollisionEntry>();
+				List<CollisionEntry> failed1 = new List<CollisionEntry>();
+				CollisionEntry.EvaluateEntries(currentEntries, failed1, passed1, rule1);
+				if (passed1.Count > 1) {
+					List<Rule> passedRules = new List<Rule>(usedRules) { rule1 };
+					Node n = new Node(passed1, depth + 1, passedRules, this, headersToIgnore, continuousSplits);
+					children.Add(n);
+					C4p5.nextIterationNodes.Add(n);
+				}
+
+				List<CollisionEntry> passed2 = new List<CollisionEntry>();
+				List<CollisionEntry> failed2 = new List<CollisionEntry>();
+				CollisionEntry.EvaluateEntries(currentEntries, failed2, passed2, rule2);
+				if (passed2.Count > 1) {
+					List<Rule> passedRules = new List<Rule>(usedRules) { rule2 };
+					Node n = new Node(passed2, depth + 1, passedRules, this, headersToIgnore, continuousSplits);
+					children.Add(n);
+					C4p5.nextIterationNodes.Add(n);
+				}
+
+			} else { // else perform a discrete split
+				Console.WriteLine("Discrete Split");
+				int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split.Item1];
+				headersToIgnore.Add(Header_To_Split.Item1);
+				children = new List<Node>();
+				foreach (int v in values) {
+					Rule rule = new Rule(Header_To_Split.Item1, v, HValType.HeaderCompVal, Operator.Equals);
+					List<CollisionEntry> passed = new List<CollisionEntry>();
+					List<CollisionEntry> failed = new List<CollisionEntry>();
+					CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
+					if (passed.Count < 1) {
+						continue;
+					}
+					List<Rule> passedRules = new List<Rule>(usedRules)
+						{
+						rule
+					};
+					Node n = new Node(passed, depth + 1, passedRules, this, headersToIgnore, continuousSplits);
+					children.Add(n);
+					C4p5.nextIterationNodes.Add(n);
+				}
+			}
 
             if (children.Count == 0)
                 children = null;
-            return;
         }
 
 

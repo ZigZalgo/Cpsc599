@@ -165,6 +165,8 @@ namespace C45NCDB.RuleEngine
                 return entry.vals[v1] == v2;
             if (op == Operator.NotEquals)
                 return entry.vals[v1] != v2;
+			if (op == Operator.GreaterThanEqualTo)
+				return entry.vals[v1] >= v2;
             throw new Exception("this should never happen RuleEngine ValEvaluateFunction");
         }
 

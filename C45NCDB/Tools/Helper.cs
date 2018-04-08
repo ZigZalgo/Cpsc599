@@ -1,15 +1,13 @@
-﻿using C45NCDB.DecisionTree;
-using C45NCDB.RuleEngine;
+﻿using C45NCDB.RuleEngine;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
+using C45NCDB.DecisionTree;
 
-
-namespace C45NCDB.Tools
-{
-    public static class Helper
+namespace C45NCDB.Tools {
+	public static class Helper
     {
 
         public static byte[] ObjectToByteArray(object obj)
@@ -24,7 +22,7 @@ namespace C45NCDB.Tools
             }
         }
 
-        internal static List<string> ReaderIgnoreHeaders(string filePath)
+        internal static List<string> ReadSpecialHeaders(string filePath)
         {
             StreamReader reader = new StreamReader(filePath);
             string line = "";
@@ -33,8 +31,8 @@ namespace C45NCDB.Tools
             while ((line = reader.ReadLine()) != null && line != String.Empty)
             {
                 string header = line.Trim();
-                if (header.Split().Count() > 1)
-                    throw new Exception("Invalid ignore header file syntax on line "+ LineNumber);
+                if (header.Split().Count() != 2)
+                    throw new Exception("Invalid header file syntax on line "+ LineNumber + ", expected syntax per line: ignore <header> OR cont <header>");
                 retVal.Add(header);
             }
             reader.Close();
@@ -90,16 +88,14 @@ namespace C45NCDB.Tools
         /// <param name="entries"></param>
         /// <param name="header_To_Predict"></param>
         /// <returns></returns>
-        public static int AttributeWithBestInfoGain(List<CollisionEntry> entries, int header_To_Predict, List<int> headersToIgnore)
+        public static Tuple<int, int> AttributeWithBestInfoGain(List<CollisionEntry> entries, int header_To_Predict, List<int> headersToIgnore)
         {
-            Dictionary<int, int[]> valuesOfHeaders = GetValuesOfHeaders(entries);
-
-            //Entropy of whole
-            double IS = Calculate_Entropy(entries, header_To_Predict);
+			Dictionary<int, int[]> valuesOfHeaders = GetValuesOfHeaders(entries);
 
             //Current best Values
             double InfoGain = double.MinValue;
             int attributeWithBest = -1;
+			int thresholdValue = -1;
 
             //For each attribute i
             for (int i = 0; i < CollisionEntry.headers.Length; i++)
@@ -108,27 +104,142 @@ namespace C45NCDB.Tools
                     continue;
                 if (headersToIgnore.Contains(i))
                     continue;
-                double infoGainForAttributeI = 0;
 
-                //For each value of attribute i
-                for (int ValueIndex = 0; ValueIndex < valuesOfHeaders[i].Length; ValueIndex++)
+				Tuple<double, int> current = null;
+
+				if (C4p5.continuousHeaders.Contains(i)) {
+					current = getContinuousInfoGain(entries, header_To_Predict, i);
+					//Console.WriteLine(i + " C: " + current);
+				} else {
+					current = getDiscreteInfoGain(entries, header_To_Predict, valuesOfHeaders, i);
+					//Console.WriteLine(i + " D: " + current);
+				}
+				
+
+				if (current.Item1 > InfoGain)
                 {
-                    int Value = valuesOfHeaders[i][ValueIndex];
-                    List<CollisionEntry> subset = entries.Where(x => x.vals[i] == Value).ToList();
-                    double entropyOfDivisions = Calculate_Entropy(subset, header_To_Predict);
-                    double Probability = (double)subset.Count / (double)entries.Count;
-                    infoGainForAttributeI += Probability * entropyOfDivisions;
-                }
-                double current = IS - infoGainForAttributeI;
-                if (current > InfoGain)
-                {
-                    InfoGain = current;
+                    InfoGain = current.Item1;
                     attributeWithBest = i;
-                }
+					thresholdValue = current.Item2;
+				}
             }
-            return attributeWithBest;
+            return new Tuple<int, int>(attributeWithBest, thresholdValue);
         }
-         
+
+		/// <summary>
+		/// Calculates the information gain for discrete attributes
+		/// </summary>
+		/// <param name="entries"></param>
+		/// <param name="header_To_Predict"></param>
+		/// <param name="valuesOfHeaders"></param>
+		/// <param name="headerIndex"></param>
+		/// <returns></returns>
+		public static Tuple<double, int> getDiscreteInfoGain (List<CollisionEntry> entries, int header_To_Predict, Dictionary<int, int[]> valuesOfHeaders, int headerIndex) {
+			double entropyForAttributeI = 0;
+			double splitForAttributeI = 0;
+			int total = 0;
+			//For each value of attribute i
+			for (int ValueIndex = 0; ValueIndex < valuesOfHeaders[headerIndex].Length; ValueIndex++) {
+				int Value = valuesOfHeaders[headerIndex][ValueIndex];
+				List<CollisionEntry> subset = entries.Where(x => x.vals[headerIndex] == Value).ToList();
+				total += subset.Count;
+				double entropyOfDivisions = Calculate_Entropy(subset, header_To_Predict);
+				double Probability = (double)subset.Count / (double)entries.Count;
+				entropyForAttributeI += Probability * entropyOfDivisions;
+
+				splitForAttributeI -= Probability * Math.Log(Probability, 2);
+			}
+
+			double totalEntropy = Calculate_Entropy(entries, header_To_Predict);
+			double gainForAttributeI = (totalEntropy - entropyForAttributeI);
+			if (splitForAttributeI == 0) return new Tuple<double, int>(-1, -1);
+			return new Tuple<double, int>(gainForAttributeI / splitForAttributeI, -1);
+		}
+
+		class ContinuousThresholdData {
+			public int thresholdIndex;
+			public double gainToSplitRatio;
+			public double gain;
+			public double split;
+		}
+
+		/// <summary>
+		/// Calculates the GAIN information for the continuous attributes
+		/// </summary>
+		/// <param name="entries"></param>
+		/// <param name="header_To_Predict"></param>
+		/// <param name="headerIndex"></param>
+		/// <returns></returns>
+		public static Tuple<double, int> getContinuousInfoGain (List<CollisionEntry> entries, int header_To_Predict, int headerIndex) {
+
+			double averageGain = 0;
+			double totalEntropy = Calculate_Entropy(entries, header_To_Predict);
+			List<int> thresholdInts = getAllPresentAttributeValuesSorted(entries, headerIndex);
+			List<ContinuousThresholdData> allThresholds = new List<ContinuousThresholdData>();
+			//double penalty = Math.Log((thresholdInts.Count - 1), 2) / entries.Count;
+
+			for (int ValueIndex = 1; ValueIndex < thresholdInts.Count; ValueIndex++) {
+				int thresholdValue = thresholdInts[ValueIndex];
+				List<CollisionEntry> subset1 = entries.Where(x => x.vals[headerIndex] < thresholdValue).ToList();
+				List<CollisionEntry> subset2 = entries.Where(x => x.vals[headerIndex] >= thresholdValue).ToList();
+				double entropyOfDivisions1 = Calculate_Entropy(subset1, header_To_Predict);
+				double entropyOfDivisions2 = Calculate_Entropy(subset2, header_To_Predict);
+				double Probability1 = (double)subset1.Count / (double)entries.Count;
+				double Probability2 = (double)subset2.Count / (double)entries.Count;
+
+				ContinuousThresholdData ctd = new ContinuousThresholdData();
+				ctd.thresholdIndex = ValueIndex;
+				ctd.split = -((Probability1 * Math.Log(Probability1, 2)) + (Probability2 * Math.Log(Probability2, 2)));
+				ctd.gain = (totalEntropy - ((Probability1 * entropyOfDivisions1) + (Probability2 * entropyOfDivisions2)));// - penalty;
+				ctd.gainToSplitRatio = ctd.gain / ctd.split;
+
+
+				allThresholds.Add(ctd);
+				averageGain += ctd.gain;
+			}
+			averageGain /= thresholdInts.Count - 1;
+
+			double currentHighest = 0;
+			ContinuousThresholdData currentCTD = null;
+
+			// Select the based on Highest Gain Ratio - Normal method
+			// Among those with at least average gain
+			List<ContinuousThresholdData> onlyAboveAverage = allThresholds.Where(x => x.gain > averageGain).ToList();
+			foreach (ContinuousThresholdData ctd in onlyAboveAverage) {
+				if (ctd.gainToSplitRatio > currentHighest) {
+					currentHighest = ctd.gainToSplitRatio;
+					currentCTD = ctd;
+				}
+			}
+
+			// Select the based on Highest Gain - Recommended Change Maybe, not sure if this is correct
+			/*foreach (ContinuousThresholdData ctd in allThresholds) {
+				if (ctd.gain > currentHighest) {
+					currentHighest = ctd.gain;
+					currentCTD = ctd;
+				}
+			}*/
+
+			if (currentCTD == null) return new Tuple<double, int>(-1, -1);
+			return new Tuple<double, int>(currentCTD.gainToSplitRatio, thresholdInts[currentCTD.thresholdIndex]);
+		}
+
+		/// <summary>
+		/// Returns all of the present values for a given header in the entries in a sorted list
+		/// </summary>
+		/// <param name="entries"></param>
+		/// <param name="headerIndex"></param>
+		/// <returns></returns>
+		public static List<int> getAllPresentAttributeValuesSorted (List<CollisionEntry> entries, int headerIndex) {
+			HashSet<int> intsHash = new HashSet<int>();
+			foreach (CollisionEntry ce in entries) {
+				intsHash.Add(ce.vals[headerIndex]);
+			}
+			List<int> intsList = intsHash.ToList<int>();
+			intsList.Sort();
+			return intsList;
+		}
+
         /// <summary>
         /// Calculates the entropy for a given list of collisions based on the header we are trying to predict
         /// </summary>
@@ -146,7 +257,7 @@ namespace C45NCDB.Tools
                 if (counts.ContainsKey(val))
                     counts[val]++;
                 else
-                    counts.Add(val, 0);
+                    counts.Add(val, 1);
             }
 
             double entropy = 0;

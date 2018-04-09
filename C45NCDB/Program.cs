@@ -13,20 +13,24 @@ namespace C45NCDB
     {
         public static void Main(string[] args)
         {
-            CollisionEntry[] collisions = CollisionEntry.ReadCollisionsFromFile(args[0]);
-            RulesGenerator gen = new RulesGenerator(args[1]);
-            C4p5.SetSpecialHeaders(Helper.ReadSpecialHeaders(args[3]));
-            C4p5 alg = new C4p5(collisions.ToList(), gen.CurrentRules);  
-            if(args.Length == 5)
-            {
-                C4p5.SetHeaderToPredict(args[4]);
-            }
-            Node root = alg.Root;
-            C4p5.MaxDepth = 10;
-            C4p5.MinDivSize = 10000;
-			C4p5.MaxContinuousSplits = 5;
-            alg.Learn();
-            alg.PrintRulesSorted(args[2]);  
+			if (args.Length < 4) {
+				Console.WriteLine("Incorrect number of arguments:");
+				Console.WriteLine("<Binary File> <Rules File> <Output File> <Header Config File> [Header to Predict]");
+			} else {
+				CollisionEntry[] collisions = CollisionEntry.ReadCollisionsFromFile(args[0]);
+				RulesGenerator gen = new RulesGenerator(args[1]);
+				C4p5.SetSpecialHeaders(Helper.ReadSpecialHeaders(args[3]));
+				C4p5 alg = new C4p5(collisions.ToList(), gen.CurrentRules);
+				if (args.Length == 5) {
+					C4p5.SetHeaderToPredict(args[4]);
+				}
+				Node root = alg.Root;
+				C4p5.MaxDepth = 10;
+				C4p5.MinDivSize = 100000;
+				C4p5.MaxContinuousSplits = 5;
+				alg.Learn();
+				alg.PrintRulesSorted(args[2]);
+			}
         }
     }
 }

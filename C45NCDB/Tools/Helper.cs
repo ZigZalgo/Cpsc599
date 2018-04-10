@@ -187,14 +187,15 @@ namespace C45NCDB.Tools
 
         }
 
-        public static List<Rule> GenerateRulesFromCoverage(List<CollisionEntry> currentNodeCollection, List<CollisionEntry> total)
+        public static List<Rule> GenerateRulesFromCoverage(List<CollisionEntry> currentNodeCollection, List<int> usedHeaders)
         {
-            //double information_gain_best = double.MinValue;
-            //RuleInfo[] informationGainBest = new RuleInfo[C4p5.MaxBreadth];
-            List<RuleInfo> informationGainBest = new List<RuleInfo>();
+            //Tracks the n rules with the greaetst coverage
+            List<RuleInfo> greatestCoverage = new List<RuleInfo>();
 
             for (int i = 0; i < CollisionEntry.headers.Length; i++)
-            { 
+            {
+                if (usedHeaders.Contains(i)) continue;
+
                 //Tally values into the dictionary
                 Dictionary<int, int> count = new Dictionary<int, int>();
                 foreach (CollisionEntry c in currentNodeCollection)
@@ -208,48 +209,24 @@ namespace C45NCDB.Tools
                 }
                 //get P(maxKey)
                 int maxKey = count.FirstOrDefault(x => x.Value == count.Values.Max()).Key;
-                double maxVal = (double)count[maxKey] / (double)currentNodeCollection.Count;
 
-                //tally total occurances of maxkey in the whole db
-                int maxKeyTotalOccurances = 0;
-                foreach (CollisionEntry c in total)
+                //add this rule to the list if it's within the top five.
+                if (greatestCoverage.Count < C4p5.MaxBreadth)
                 {
-                    if (c.vals[i] == maxKey) maxKeyTotalOccurances++;
+                    greatestCoverage.Add(new RuleInfo(count[maxKey], i, maxKey));
+                    greatestCoverage.Sort();
                 }
-
-                //calculate information gain.
-                /*
-                 * Gonna use as close to what exists in the slides as possible
-                 * IG = H(A) - H(A|B)
-                 * where 
-                 *  A = the condition under consideration
-                 *  B = All previous rules
-                 *  H(A) = the number of entries that match A out of all entries * that number's log base 2
-                 *  H(A|B) = the number of entries that match B and then A * that number's log base 2
-                 */
-                double maxKeyTotalPercent = maxKeyTotalOccurances / (double) total.Count;
-                double infoGain = (maxKeyTotalPercent * Math.Log(maxKeyTotalPercent, 2)) - (maxVal * Math.Log(maxVal, 2));
-                if (infoGain <= C4p5.MinimumInformationGain) continue; //forgot the escape case for recursion
-            
-                if (informationGainBest.Count < C4p5.MaxBreadth)
+                else if (count[maxKey] > greatestCoverage[0].coverage)
                 {
-                    //add it to the list if not enough good rules have yet been found
-                    informationGainBest.Add(new RuleInfo(infoGain, i, maxKey));
-                    informationGainBest.Sort();
-                }
-                else if (infoGain > informationGainBest[0].informationGain)
-                {
-                    //pop off the least best and replace it with this new better value
-                    //Then sort all the most best to ensure list integrity
-                    informationGainBest[0] = new RuleInfo(infoGain, i, maxKey);
-                    informationGainBest.Sort();
+                    greatestCoverage[0] = new RuleInfo(count[maxKey], i, maxKey);
+                    greatestCoverage.Sort();
                 }
             }
 
-            //Rule r = new Rule(header_corresponding, value_corresponding, HValType.HeaderCompVal, Operator.Equals);
             List<Rule> rules = new List<Rule>();
-            foreach (RuleInfo ruleInfo in informationGainBest)
+            foreach (RuleInfo ruleInfo in greatestCoverage)
             {
+                usedHeaders.Add(ruleInfo.headerCorresponding);
                 rules.Add(ruleInfo.MakeRule());
             }
             return rules;
@@ -258,13 +235,13 @@ namespace C45NCDB.Tools
 
     public class RuleInfo : IComparable<RuleInfo>
     {
-        public double informationGain;
+        public double coverage;
         public int headerCorresponding;
         public int valueCorresponding;
 
-        public RuleInfo(double informationGain, int headerCorresponding, int valueCorresponding)
+        public RuleInfo(double coverage, int headerCorresponding, int valueCorresponding)
         {
-            this.informationGain = informationGain;
+            this.coverage = coverage;
             this.headerCorresponding = headerCorresponding;
             this.valueCorresponding = valueCorresponding;
         }
@@ -276,7 +253,7 @@ namespace C45NCDB.Tools
 
         public int CompareTo(RuleInfo other)
         {
-            return informationGain.CompareTo(other.informationGain);
+            return coverage.CompareTo(other.coverage);
         }
     }
 }

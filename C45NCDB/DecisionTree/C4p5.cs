@@ -25,9 +25,9 @@ namespace C45NCDB.DecisionTree
         //more static fields for -o.
         //I think these can be non-static, but following what's already here.
         //TODO: optimize default values.
-        public static int MaxBreadth { get; set; } = 5;
+        public static int MaxBreadth { get; set; } = 2;
         public static double MinimumInformationGain { get; set; } = .2;
-        private List<CollisionEntry> allEntries;
+        public static List<CollisionEntry> allEntries;
 
 
         public static void SetHeaderToPredict(string header)
@@ -43,7 +43,7 @@ namespace C45NCDB.DecisionTree
 
         public C4p5(List<CollisionEntry> collisions, List<Rule> Pre_Generated_Rules)
         {
-            Root = new Node(collisions, 0, new List<Rule>(), null);
+            Root = new Node(collisions, 0, new List<Rule>(), null, new List<int>());
             currentNodes = new List<Node>();
             nextIterationNodes = new List<Node>();
             unusedRules = Pre_Generated_Rules;
@@ -91,10 +91,12 @@ namespace C45NCDB.DecisionTree
             }
             //main recursive case, generate rules from coverage finds the MaxBreadth best rules
             //for each rule, recur into the node created by applying that rule to the current node's collision set.
-            List<Rule> bestRules = Helper.GenerateRulesFromCoverage(node.currentEntries, allEntries);
+            List<Rule> bestRules = Helper.GenerateRulesFromCoverage(node.currentEntries, node.headersToIgnore);
             foreach (Rule rule in bestRules)
             {
-                LearnOrTree(node.ChildByRule(rule));
+                Node next = node.ChildByRule(rule);
+                if (next.CoverageRatioIsIncreasing())
+                    LearnOrTree(next);
             }
         }
 
@@ -112,16 +114,18 @@ namespace C45NCDB.DecisionTree
         public List<Rule> usedRules;
 
         public List<CollisionEntry> currentEntries;
+        public List<int> headersToIgnore;
 
         public int depth;
         public List<Node> children;
 
-        public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent)
+        public Node(List<CollisionEntry> collisions, int depth, List<Rule> previousRules, Node parent, List<int> ignore)
         {
             usedRules = new List<Rule>(previousRules);
             currentEntries = collisions;
             Parent = parent;
             this.depth = depth;
+            headersToIgnore = new List<int>(ignore);
         }
 
         internal void Divide(Rule rule, List<Node> nextIterationNodes)
@@ -182,8 +186,8 @@ namespace C45NCDB.DecisionTree
                 rule
             };
             children = new List<Node>();
-            Node c1 = new Node(failed, depth + 1, failedRules, this);
-            Node c2 = new Node(passed, depth + 1, passedRules, this);
+            Node c1 = new Node(failed, depth + 1, failedRules, this, this.headersToIgnore);
+            Node c2 = new Node(passed, depth + 1, passedRules, this, this.headersToIgnore);
             children.Add(c1); children.Add(c2);
             C4p5.nextIterationNodes.Add(c1);
             C4p5.nextIterationNodes.Add(c2);
@@ -216,7 +220,7 @@ namespace C45NCDB.DecisionTree
                     {
                         rule
                     };
-                Node n = new Node(passed, depth + 1, passedRules, this);
+                Node n = new Node(passed, depth + 1, passedRules, this, this.headersToIgnore);
                 children.Add(n);
                 C4p5.nextIterationNodes.Add(n);
             }
@@ -228,7 +232,6 @@ namespace C45NCDB.DecisionTree
         /**
          * Creates a child rule to this node by applying the rule to its current entries
          * Open to method name suggestions.
-         * Still tempted to call it reproduce
          */
         internal Node ChildByRule(Rule rule)
         {
@@ -237,7 +240,8 @@ namespace C45NCDB.DecisionTree
             CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
 
             List<Rule> childRules = new List<Rule>(usedRules) { rule };
-            Node child = new Node(passed, depth + 1, childRules, this);
+            headersToIgnore.Add(rule.v1);
+            Node child = new Node(passed, depth + 1, childRules, this, headersToIgnore);
             if (children == null) children = new List<Node>() { child };
             else children.Add(child);
             return child;
@@ -249,12 +253,32 @@ namespace C45NCDB.DecisionTree
             List<CollisionEntry> failed;
             foreach (Rule rule in rules)
             {
+                headersToIgnore.Add(rule.v1);
                 passed = new List<CollisionEntry>();
                 failed = new List<CollisionEntry>();
                 //Console.WriteLine("Applying rule " + rule.ToString());
                 CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
                 currentEntries = passed;
             }
+        }
+
+        internal bool CoverageRatioIsIncreasing()
+        {
+            double grandparentCount;
+            double grandparentRatio;
+            double parentCount;
+            double parentRatio;
+            if (Parent == null) return true;
+            if (Parent.Parent == null)
+                grandparentCount = C4p5.allEntries.Count();
+            else
+                grandparentCount = Parent.Parent.currentEntries.Count();
+
+            parentCount = Parent.currentEntries.Count();
+            grandparentRatio = parentCount / grandparentCount;
+            parentRatio = (double)currentEntries.Count() / parentCount;
+
+            return parentRatio >= grandparentRatio;
         }
 
         public void PrintRules(StreamWriter writer)

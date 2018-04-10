@@ -12,7 +12,6 @@ Assets/AssetStoreTools*
 ExportedObj/
 .consulo/
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.user
@@ -21,6 +20,7 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
+*.suo
 
 # Unity3D generated meta files
 *.pidb.meta

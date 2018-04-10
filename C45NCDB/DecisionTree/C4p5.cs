@@ -206,7 +206,7 @@ namespace C45NCDB.DecisionTree
         public void createChildrenFromEntropy()
         {
             if (C4p5.Header_To_Predict == -1)
-                throw new Exception("You forgot to se the Header to predict");
+                throw new Exception("You forgot to set the Header to predict");
             //If they are all the same class we are done
             if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
                 return;

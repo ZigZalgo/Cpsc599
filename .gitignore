@@ -35,3 +35,10 @@ sysinfo.txt
 
 # other things we do not want to include
 *.cache
+
+
+
+
+# data
+*.binary
+*.txt

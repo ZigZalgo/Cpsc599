@@ -16,18 +16,21 @@ class StatsCalc {
 			mySets.add(new HashMap<>());
 		}
 
+		double totalEntiries = 0;
+
 		while (scn.hasNextLine()) {
 			String line[] = scn.nextLine().split(",");
 			for (int i = 0; i < line.length; i++) {
 				Integer v = mySets.get(i).get(line[i]);
 				mySets.get(i).put(line[i], (v == null ? 0 : v) + 1);
 			}
+			totalEntiries++;
 		}
 		scn.close();
 
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < mySets.size()-1; i++) {
-			sb.append(firstLine[i] + ",\n");
+			sb.append(firstLine[i] + ",Count,Percentage\n");
 			ArrayList<Entry<String, Integer>> temp = new ArrayList<>(mySets.get(i).entrySet());
 			Collections.sort(temp, new Comparator<Entry<String, Integer>>() {
 				public int compare(Entry<String, Integer> c1, Entry<String, Integer> c2) {
@@ -43,7 +46,8 @@ class StatsCalc {
 			});
 
 			for (Entry<String, Integer> e : temp) {
-				sb.append(e.getKey() + "," + e.getValue() + "\n");
+				double percent = ((((double)e.getValue()) / totalEntiries) * 100.0);
+				sb.append(e.getKey() + "," + e.getValue() + "," + percent + "\n");
 			}
 			sb.append("\n");
 		}

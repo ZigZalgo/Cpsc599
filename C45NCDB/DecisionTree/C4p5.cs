@@ -89,7 +89,7 @@ namespace C45NCDB.DecisionTree
                 {
                     toBeDivided.Divide(predict);
 					current++;
-					if (current % 10 == 0) Console.WriteLine("Progress: " + current + "\\" + total);
+					if (current % 10 == 0) Console.WriteLine("Progress: " + current + "/" + total);
 				}
             }
             currentNodes = nextIterationNodes;
@@ -217,7 +217,7 @@ namespace C45NCDB.DecisionTree
 
 			// Now determine whether the returned header is discrete or continuous
 			if (C4p5.continuousHeaders.Contains(Header_To_Split.Item1)) {
-				Console.WriteLine("Continuous split");
+				//Console.WriteLine("Continuous split");
 
 				if (continuousSplits.ContainsKey(Header_To_Split.Item1)) { // Tally the number of times this had been used to split
 					continuousSplits[Header_To_Split.Item1]++;
@@ -254,7 +254,7 @@ namespace C45NCDB.DecisionTree
 				}
 
 			} else { // else perform a discrete split
-				Console.WriteLine("Discrete Split");
+				//Console.WriteLine("Discrete Split");
 				int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split.Item1];
 				headersToIgnore.Add(Header_To_Split.Item1);
 				children = new List<Node>();
@@ -328,7 +328,7 @@ namespace C45NCDB.DecisionTree
 					double total = (double)currentEntries.Count();
 					foreach (int val in values) {
 						int count = (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count());
-						sb.AppendLine("Predicted Column with Value: " + val + " has count = " + count + " or %" + Math.Round((double)count / total * 100.0, 3));
+						sb.AppendLine("Predicted Column with Value: " + val + " has count = " + count + " or " + Math.Round((double)count / total * 100.0, 3) + "%");
 					}
 				}
 				sb.AppendLine();

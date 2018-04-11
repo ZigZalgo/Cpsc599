@@ -26,7 +26,7 @@ class StatsCalc {
 		scn.close();
 
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < mySets.size(); i++) {
+		for (int i = 0; i < mySets.size()-1; i++) {
 			sb.append(firstLine[i] + ",\n");
 			ArrayList<Entry<String, Integer>> temp = new ArrayList<>(mySets.get(i).entrySet());
 			Collections.sort(temp, new Comparator<Entry<String, Integer>>() {

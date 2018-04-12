@@ -1,6 +1,6 @@
 #!/bin/bash
 
-search=${1:-C_HOUR}
+search=${1:-C_SEV}
 data=${2:-NCDB.binary}
 rules=${3:-rules.txt}
 headers=${4:-headers.txt}

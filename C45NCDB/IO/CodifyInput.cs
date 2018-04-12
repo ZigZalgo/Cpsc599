@@ -27,12 +27,12 @@ namespace C45NCDB
                 for (int i = 0; i < stringCode.Length; i++)
                 {
                     //Custom number for the year :P
-                    if(i == 0)
+                    if(i == 1)
                     {
 						byte result;
                         if (byte.TryParse(stringCode[i].Substring(2), out result))
                         {
-                            intCode[0] = result;
+                            intCode[i] = result;
                         }
                         else
                         {

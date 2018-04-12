@@ -1,4 +1,5 @@
 ﻿using C45NCDB.RuleEngine;
+using C45NCDB.DecisionTree;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -317,6 +318,76 @@ namespace C45NCDB.Tools {
             }
 
             return retVal;
+
+        }
+
+        public static List<Rule> GenerateRulesFromCoverage(List<CollisionEntry> currentNodeCollection, List<int> usedHeaders)
+        {
+            //Tracks the n rules with the greaetst coverage
+            List<RuleInfo> greatestCoverage = new List<RuleInfo>();
+
+            for (int i = 0; i < CollisionEntry.headers.Length; i++)
+            {
+                if (usedHeaders.Contains(i)) continue;
+
+                //Tally values into the dictionary
+                Dictionary<int, int> count = new Dictionary<int, int>();
+                foreach (CollisionEntry c in currentNodeCollection)
+                {
+                    if (count.ContainsKey(c.vals[i]))
+                        count[c.vals[i]]++;
+                    else
+                    {
+                        count.Add(c.vals[i], 0);
+                    }
+                }
+                //get P(maxKey)
+                int maxKey = count.FirstOrDefault(x => x.Value == count.Values.Max()).Key;
+
+                //add this rule to the list if it's within the top five.
+                if (greatestCoverage.Count < C4p5.MaxBreadth)
+                {
+                    greatestCoverage.Add(new RuleInfo(count[maxKey], i, maxKey));
+                    greatestCoverage.Sort();
+                }
+                else if (count[maxKey] > greatestCoverage[0].coverage)
+                {
+                    greatestCoverage[0] = new RuleInfo(count[maxKey], i, maxKey);
+                    greatestCoverage.Sort();
+                }
+            }
+
+            List<Rule> rules = new List<Rule>();
+            foreach (RuleInfo ruleInfo in greatestCoverage)
+            {
+                usedHeaders.Add(ruleInfo.headerCorresponding);
+                rules.Add(ruleInfo.MakeRule());
+            }
+            return rules;
+        }
+    }
+
+    public class RuleInfo : IComparable<RuleInfo>
+    {
+        public double coverage;
+        public int headerCorresponding;
+        public int valueCorresponding;
+
+        public RuleInfo(double coverage, int headerCorresponding, int valueCorresponding)
+        {
+            this.coverage = coverage;
+            this.headerCorresponding = headerCorresponding;
+            this.valueCorresponding = valueCorresponding;
+        }
+
+        public Rule MakeRule()
+        {
+            return new Rule(headerCorresponding, valueCorresponding, HValType.HeaderCompVal, Operator.Equals);
+        }
+
+        public int CompareTo(RuleInfo other)
+        {
+            return coverage.CompareTo(other.coverage);
         }
     }
 }

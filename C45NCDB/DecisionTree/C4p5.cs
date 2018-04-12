@@ -29,6 +29,13 @@ namespace C45NCDB.DecisionTree
 		public static int MaxContinuousSplits { get; set; } = 5;
 		public static bool predict = false;
 
+        //more static fields for -o.
+        //I think these can be non-static, but following what's already here.
+        //TODO: optimize default values.
+        public static int MaxBreadth { get; set; } = 2;
+        public static double MinimumInformationGain { get; set; } = .2;
+        public static List<CollisionEntry> allEntries;
+
 
         public static void SetHeaderToPredict(string header)
         {
@@ -67,6 +74,9 @@ namespace C45NCDB.DecisionTree
             nextIterationNodes = new List<Node>();
             unusedRules = Pre_Generated_Rules;
             currentNodes.Add(Root);
+
+            //need for InfoGain calculation
+            allEntries = collisions;
         }
 
         public void Learn()
@@ -101,6 +111,25 @@ namespace C45NCDB.DecisionTree
             Learn();
         }
 
+        public void LearnOrTree(Node node)
+        {
+            //generally the top of the recursion. Applys all the unused rules to the node,
+            //ignoring data which doesn't match the rule list
+            if (unusedRules.Count > 0)
+            {
+                node.ApplyAllRules(unusedRules);
+            }
+            //main recursive case, generate rules from coverage finds the MaxBreadth best rules
+            //for each rule, recur into the node created by applying that rule to the current node's collision set.
+            List<Rule> bestRules = Helper.GenerateRulesFromCoverage(node.currentEntries, node.headersToIgnore);
+            foreach (Rule rule in bestRules)
+            {
+                Node next = node.ChildByRule(rule);
+                if (next.CoverageRatioIsIncreasing())
+                    LearnOrTree(next);
+            }
+        }
+
         public void PrintRulesSorted(string FilePath)
         {
             StreamWriter writer = new StreamWriter(FilePath);
@@ -130,6 +159,7 @@ namespace C45NCDB.DecisionTree
         public List<Rule> usedRules;
 
         public List<CollisionEntry> currentEntries;
+        public List<int> headersToIgnore;
 
         public List<int> headersToIgnore;
 		public Dictionary<int, int> continuousSplits;
@@ -144,6 +174,7 @@ namespace C45NCDB.DecisionTree
             currentEntries = collisions;
             Parent = parent;
             this.depth = depth;
+            headersToIgnore = new List<int>(ignore);
         }
 
         internal void Divide(Rule rule, List<Node> nextIterationNodes)
@@ -300,6 +331,57 @@ namespace C45NCDB.DecisionTree
             }
         }
 
+        /**
+         * Creates a child rule to this node by applying the rule to its current entries
+         * Open to method name suggestions.
+         */
+        internal Node ChildByRule(Rule rule)
+        {
+            List<CollisionEntry> passed = new List<CollisionEntry>();
+            List<CollisionEntry> failed = new List<CollisionEntry>();
+            CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
+
+            List<Rule> childRules = new List<Rule>(usedRules) { rule };
+            headersToIgnore.Add(rule.v1);
+            Node child = new Node(passed, depth + 1, childRules, this, headersToIgnore);
+            if (children == null) children = new List<Node>() { child };
+            else children.Add(child);
+            return child;
+        }
+
+        internal void ApplyAllRules(List<Rule> rules)
+        {
+            List<CollisionEntry> passed;
+            List<CollisionEntry> failed;
+            foreach (Rule rule in rules)
+            {
+                headersToIgnore.Add(rule.v1);
+                passed = new List<CollisionEntry>();
+                failed = new List<CollisionEntry>();
+                //Console.WriteLine("Applying rule " + rule.ToString());
+                CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
+                currentEntries = passed;
+            }
+        }
+
+        internal bool CoverageRatioIsIncreasing()
+        {
+            double grandparentCount;
+            double grandparentRatio;
+            double parentCount;
+            double parentRatio;
+            if (Parent == null) return true;
+            if (Parent.Parent == null)
+                grandparentCount = C4p5.allEntries.Count();
+            else
+                grandparentCount = Parent.Parent.currentEntries.Count();
+
+            parentCount = Parent.currentEntries.Count();
+            grandparentRatio = parentCount / grandparentCount;
+            parentRatio = (double)currentEntries.Count() / parentCount;
+
+            return parentRatio >= grandparentRatio;
+        }
 
         public void PrintRules(StreamWriter writer)
         {

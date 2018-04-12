@@ -1,0 +1,4 @@
+C_SEV == 2  
+C_YEAR > 13
+C_WTHR == 3
+C_YEAR < 99

@@ -13,7 +13,8 @@ namespace C45NCDB
     {
         public static void Main(string[] args)
         {
-			if (args.Length == 0 || args[0].Equals("help") || args[0].Equals("--help") || args[0].Equals("-h") || args.Length < 4) {
+			if (args.Length == 0 || args[0].Equals("help") || args[0].Equals("--help") || args[0].Equals("-h") || args.Length < 4) 
+			{
 				Console.WriteLine("Args: <Binary File> <Rules File> <Output File> <Header Config File> [Header to Predict]\n");
 				Console.WriteLine("<Binary File> - Pregenerated Binary file of the data to build the tree with\n");
 				Console.WriteLine("<Rules File> - Rules to build the tree with before running the C4.5 algorithm.\n" +
@@ -23,11 +24,19 @@ namespace C45NCDB
 					" ignore a header or mark a header as continuous. \n\tOne config per line. Ex. (ignore,cont) C_HOUR\n");
 				Console.WriteLine("[Header to Predict] - One of the headers. Ex. C_HOUR. \n\tOptional, but required if you want to run the " +
 					"C4.5 algorithm. \n\tIf not specified, then a binary tree will be created.\n");
-			} else {
+			} 
+			else 
+			{
 				CollisionEntry[] collisions = CollisionEntry.ReadCollisionsFromFile(args[0]);
 				RulesGenerator gen = new RulesGenerator(args[1]);
 				C4p5.SetSpecialHeaders(Helper.ReadSpecialHeaders(args[3]));
 				C4p5 alg = new C4p5(collisions.ToList(), gen.CurrentRules);
+				if (args[3] == "-o")
+				{
+					alg.LearnOrTree(alg.Root);
+					alg.PrintRules(args[2]);
+					return;
+				}
 				if (args.Length == 5) {
 					C4p5.SetHeaderToPredict(args[4]);
 				}

@@ -24,6 +24,7 @@ namespace C45NCDB
             Node root = alg.Root;
             C4p5.MaxDepth = 10;
             C4p5.MinDivSize = 1000;
+            C4p5.LeafNodeMinimum = 5;
             alg.Learn();
             alg.PrintRules(args[2]);  
         }

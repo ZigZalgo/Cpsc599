@@ -19,11 +19,13 @@ namespace C45NCDB.DecisionTree
         private static List<int> ignoreHeaders = new List<int>();
         public static List<Node> nextIterationNodes;
 
+        public static int numberOfLeafNodes = 0;
+
         public static int Header_To_Predict { get; set; } = -1;
         public static int MaxDepth { get; set; } = 5;
         public static int MinDivSize { get; set; } = 1000;
         public static bool predict = false;
-
+        public static int LeafNodeMinimum { get; set; } = 10;
 
         public static void SetHeaderToPredict(string header)
         {
@@ -117,10 +119,12 @@ namespace C45NCDB.DecisionTree
         {
             if (depth > C4p5.MaxDepth)
             {
+                C4p5.numberOfLeafNodes++;
                 return;
             }
             if (currentEntries.Count < C4p5.MinDivSize)
             {
+                C4p5.numberOfLeafNodes++;
                 return;
             }
             createChildrenFromRule(rule);
@@ -131,10 +135,12 @@ namespace C45NCDB.DecisionTree
         {
             if (depth > C4p5.MaxDepth)
             {
+                C4p5.numberOfLeafNodes++;
                 return;
             }
             if (currentEntries.Count < C4p5.MinDivSize)
             {
+                C4p5.numberOfLeafNodes++;
                 return;
             }
 
@@ -142,7 +148,10 @@ namespace C45NCDB.DecisionTree
             {
                 Rule usedRule = Helper.Generate_Rule_From_Even_Divisions(currentEntries, headersToIgnore);
                 if (usedRule == null)
+                {
+                    C4p5.numberOfLeafNodes++;
                     return;
+                }
                 createChildrenFromRule(usedRule);
             }
             else
@@ -160,6 +169,7 @@ namespace C45NCDB.DecisionTree
             CollisionEntry.EvaluateEntries(currentEntries, failed, passed, rule);
             if (failed.Count < 1)
             {
+                C4p5.numberOfLeafNodes++;
                 return;
             }
             currentEntries = null;
@@ -179,11 +189,17 @@ namespace C45NCDB.DecisionTree
                 throw new Exception("You forgot to se the Header to predict");
             //If they are all the same class we are done
             if (Helper.AllSame(currentEntries, C4p5.Header_To_Predict))
+            {
+                C4p5.numberOfLeafNodes++;
                 return;
+            }
 
             int Header_To_Split = Helper.AttributeWithBestInfoGain(currentEntries, C4p5.Header_To_Predict, headersToIgnore);
             if (Header_To_Split == -1)
+            {
+                C4p5.numberOfLeafNodes++;
                 return;
+            }
             int[] values = Helper.GetValuesOfHeaders(currentEntries)[Header_To_Split];
             headersToIgnore.Add(Header_To_Split);
             children = new List<Node>();
@@ -207,31 +223,39 @@ namespace C45NCDB.DecisionTree
             }
 
             if (children.Count == 0)
+            {
+                C4p5.numberOfLeafNodes++;
                 children = null;
+            }
             return;
         }
 
 
         public void PrintRules(StreamWriter writer)
         {
+
             if (children == null)
             {
-                string retVal = "";
-                foreach (Rule r in usedRules)
-                {
-                    writer.WriteLine(retVal + r.ToString());
-                }
-                writer.WriteLine(currentEntries.Count + " collisions");
-
-                if (C4p5.predict)
-                {
-                    int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
-                    foreach (int val in values)
+                    string retVal = "";
+                    foreach (Rule r in usedRules)
                     {
-                        writer.WriteLine("Predicted Column with Value: " + val + " has count = " + (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+                        writer.WriteLine(retVal + r.ToString());
                     }
+                    writer.WriteLine(currentEntries.Count + " collisions");
+
+                    if (C4p5.predict)
+                    {
+                        int[] values = Helper.GetValuesOfHeaders(currentEntries)[C4p5.Header_To_Predict];
+                        foreach (int val in values)
+                        {
+                            writer.WriteLine("Predicted Column with Value: " + val + " has count = " + (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count()));
+                        }
+                    }
+                    if(C4p5.numberOfLeafNodes >= C4p5.LeafNodeMinimum)
+                {
+                    PrintStatistics(writer);
                 }
-                writer.WriteLine();
+                    writer.WriteLine();
             }
             else
             {
@@ -240,6 +264,57 @@ namespace C45NCDB.DecisionTree
             }
         }
 
+        public void PrintStatistics(StreamWriter writer)
+        {
+            Dictionary<int, Dictionary<int, int>> count = RetrieveStatistics();
+            List<int> sorted = count.Keys.ToList();
+            sorted.Sort();
+            foreach(int key in sorted)
+            {
+                String retVal = CollisionEntry.headers[key]+"===> ";
+                Dictionary<int, int> Values = count[key];
+                List<int> sorted2 = Values.Keys.ToList();
+                sorted2.Sort();
+                foreach(int val in sorted2)
+                {
+                    int countOfValue = Values[val];
+                    retVal += val + ": " + ((float)countOfValue / (float)currentEntries.Count);
+                }
+                writer.WriteLine(retVal);
+            }
+
+        }
+
+        /// <summary>
+        /// Calculates the current count for each value of each attribute for the current list
+        /// </summary>
+        /// <returns></returns>
+        public Dictionary<int, Dictionary<int, int>> RetrieveStatistics()
+        {
+            Dictionary<int, Dictionary<int, int>> retVal = new Dictionary<int, Dictionary<int, int>>();
+            foreach(CollisionEntry c in currentEntries)
+            {
+                for(int i = 0; i < CollisionEntry.headers.Length; i++)
+                {
+                    if (retVal.ContainsKey(i))
+                    {
+                        if (retVal[i].ContainsKey(c.vals[i]))
+                        {
+                            retVal[i][c.vals[i]]++;
+                        }
+                        else
+                        {
+                            retVal[i].Add(c.vals[i], 1);
+                        }
+                    }
+                    else
+                    {
+                        retVal.Add(i, new Dictionary<int, int>());
+                    }
+                }
+            }
+            return retVal;
+        }
 
     }
 }

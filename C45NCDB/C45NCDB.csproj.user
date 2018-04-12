@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>"C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\NCDB.binary" "C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\rules.txt" "C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\GeneratedRules.txt" "C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\IgnoreHeaders.txt" C_SEV</StartArguments>
+    <StartArguments>"C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\NCDB.binary" "C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\rules.txt" "C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\GeneratedRules.txt" "C:\Users\Cooper\Documents\Uni\CPSC599.01\Traffic Collisions Canada\IgnoreHeaders.txt" P_ISEV</StartArguments>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory />

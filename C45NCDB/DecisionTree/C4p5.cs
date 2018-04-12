@@ -306,12 +306,12 @@ namespace C45NCDB.DecisionTree
 
             if (children == null)
             {
-                    string retVal = "";
-                    foreach (Rule r in usedRules)
-                    {
-                        writer.WriteLine(retVal + r.ToString());
-                    }
-                    writer.WriteLine(currentEntries.Count + " collisions");
+                string retVal = "";
+                foreach (Rule r in usedRules)
+                {
+                    writer.WriteLine(retVal + r.ToString());
+                }
+                writer.WriteLine(currentEntries.Count + " collisions");
 
                 if (C4p5.predict)
                 {
@@ -323,11 +323,13 @@ namespace C45NCDB.DecisionTree
 						int count = (currentEntries.Where(x => x.vals[C4p5.Header_To_Predict] == val).Count());
 						writer.WriteLine("Predicted Column with Value: " + val + " has count = " + count + " or %" + Math.Round((double)count / total * 100.0, 3));
                     }
-                    if(C4p5.numberOfLeafNodes >= C4p5.LeafNodeMinimum)
+                }
+
+                if(C4p5.numberOfLeafNodes >= C4p5.LeafNodeMinimum)
                 {
                     PrintStatistics(writer);
                 }
-                    writer.WriteLine();
+                writer.WriteLine();
             }
             else
             {

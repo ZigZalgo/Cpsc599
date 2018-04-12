@@ -159,7 +159,6 @@ namespace C45NCDB.DecisionTree
         public List<Rule> usedRules;
 
         public List<CollisionEntry> currentEntries;
-        public List<int> headersToIgnore;
 
         public List<int> headersToIgnore;
 		public Dictionary<int, int> continuousSplits;
@@ -174,7 +173,6 @@ namespace C45NCDB.DecisionTree
             currentEntries = collisions;
             Parent = parent;
             this.depth = depth;
-            headersToIgnore = new List<int>(ignore);
         }
 
         internal void Divide(Rule rule, List<Node> nextIterationNodes)
@@ -343,7 +341,7 @@ namespace C45NCDB.DecisionTree
 
             List<Rule> childRules = new List<Rule>(usedRules) { rule };
             headersToIgnore.Add(rule.v1);
-            Node child = new Node(passed, depth + 1, childRules, this, headersToIgnore);
+            Node child = new Node(passed, depth + 1, childRules, this, headersToIgnore, continuousSplits);
             if (children == null) children = new List<Node>() { child };
             else children.Add(child);
             return child;

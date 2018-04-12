@@ -29,7 +29,8 @@ namespace C45NCDB
                     //Custom number for the year :P
                     if(i == 0)
                     {
-                        if (byte.TryParse(stringCode[i].Substring(2), out byte result))
+						byte result;
+                        if (byte.TryParse(stringCode[i].Substring(2), out result))
                         {
                             intCode[0] = result;
                         }
@@ -45,7 +46,8 @@ namespace C45NCDB
                                 intCode[i] = 252;
                         }
                     }
-                    if(byte.TryParse(stringCode[i], out byte resCode))
+					byte resCode;
+                    if(byte.TryParse(stringCode[i], out resCode))
                     {
                         intCode[i] = resCode;
                     }
@@ -121,7 +123,7 @@ namespace C45NCDB
         public static void WriteCollisionsToFile(List<CollisionEntry> collisions)
         {
             Console.WriteLine("Writing "+collisions.Count() + " to file");
-            BinaryWriter writer = new BinaryWriter(File.Open("C:\\Users\\Cooper\\Documents\\Uni\\CPSC599.01\\Traffic Collisions Canada\\NCDB.binary", FileMode.Create));
+            BinaryWriter writer = new BinaryWriter(File.Open("NCDB.binary", FileMode.Create));
             writer.Write(collisions.Count);
             writer.Write(CollisionEntry.headers.Length);
             for (int i = 0; i < CollisionEntry.headers.Length; i++)

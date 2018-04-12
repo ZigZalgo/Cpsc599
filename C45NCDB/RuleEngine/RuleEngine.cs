@@ -73,8 +73,9 @@ namespace C45NCDB.RuleEngine
                 throw new Exception("[" + inputted_Rule[0] + "] from " + WriteRule(inputted_Rule) + "not found in collisions headers");
 
             v1 = CollisionEntry.headers.ToList().IndexOf(inputted_Rule[0]);
-            //If we're comparing headers
-            if ((int.TryParse(inputted_Rule[2], out int vTwo)))
+			//If we're comparing headers
+			int vTwo;
+            if ((int.TryParse(inputted_Rule[2], out vTwo)))
             {
                 type = HValType.HeaderCompVal;
                 op = opVals[rule[1]];
@@ -165,6 +166,8 @@ namespace C45NCDB.RuleEngine
                 return entry.vals[v1] == v2;
             if (op == Operator.NotEquals)
                 return entry.vals[v1] != v2;
+			if (op == Operator.GreaterThanEqualTo)
+				return entry.vals[v1] >= v2;
             throw new Exception("this should never happen RuleEngine ValEvaluateFunction");
         }
 

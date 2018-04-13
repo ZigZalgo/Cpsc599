@@ -1,0 +1,10519 @@
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 14
+97238 collisions
+Predicted Column with Value: 1 has count = 280 or 0.288%
+Predicted Column with Value: 2 has count = 96958 or 99.712%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 4
+95572 collisions
+Predicted Column with Value: 1 has count = 648 or 0.678%
+Predicted Column with Value: 2 has count = 94924 or 99.322%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 3
+93236 collisions
+Predicted Column with Value: 1 has count = 450 or 0.483%
+Predicted Column with Value: 2 has count = 92786 or 99.517%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 1
+92792 collisions
+Predicted Column with Value: 1 has count = 1198 or 1.291%
+Predicted Column with Value: 2 has count = 91594 or 98.709%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 4
+92356 collisions
+Predicted Column with Value: 1 has count = 803 or 0.869%
+Predicted Column with Value: 2 has count = 91553 or 99.131%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 18
+P_SEX == 1
+89776 collisions
+Predicted Column with Value: 1 has count = 73 or 0.081%
+Predicted Column with Value: 2 has count = 89703 or 99.919%
+
+
+P_ISEV == 255
+89516 collisions
+Predicted Column with Value: 1 has count = 1220 or 1.363%
+Predicted Column with Value: 2 has count = 88296 or 98.637%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 1
+89169 collisions
+Predicted Column with Value: 1 has count = 380 or 0.426%
+Predicted Column with Value: 2 has count = 88789 or 99.574%
+
+
+P_ISEV == 1
+V_TYPE == 6
+87845 collisions
+Predicted Column with Value: 1 has count = 1187 or 1.351%
+Predicted Column with Value: 2 has count = 86658 or 98.649%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 1
+87758 collisions
+Predicted Column with Value: 1 has count = 2 or 0.002%
+Predicted Column with Value: 2 has count = 87756 or 99.998%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 1
+85376 collisions
+Predicted Column with Value: 1 has count = 112 or 0.131%
+Predicted Column with Value: 2 has count = 85264 or 99.869%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 18
+83203 collisions
+Predicted Column with Value: 1 has count = 38 or 0.046%
+Predicted Column with Value: 2 has count = 83165 or 99.954%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 1
+83077 collisions
+Predicted Column with Value: 1 has count = 209 or 0.252%
+Predicted Column with Value: 2 has count = 82868 or 99.748%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 18
+P_SEX == 0
+75861 collisions
+Predicted Column with Value: 1 has count = 151 or 0.199%
+Predicted Column with Value: 2 has count = 75710 or 99.801%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 3
+75228 collisions
+Predicted Column with Value: 1 has count = 662 or 0.88%
+Predicted Column with Value: 2 has count = 74566 or 99.12%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 1
+P_SEX == 0
+72308 collisions
+Predicted Column with Value: 1 has count = 221 or 0.306%
+Predicted Column with Value: 2 has count = 72087 or 99.694%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 31
+69703 collisions
+Predicted Column with Value: 1 has count = 4200 or 6.026%
+Predicted Column with Value: 2 has count = 65503 or 93.974%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 36
+P_SEX == 1
+68730 collisions
+Predicted Column with Value: 1 has count = 187 or 0.272%
+Predicted Column with Value: 2 has count = 68543 or 99.728%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 1
+68610 collisions
+Predicted Column with Value: 1 has count = 29 or 0.042%
+Predicted Column with Value: 2 has count = 68581 or 99.958%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 253
+68099 collisions
+Predicted Column with Value: 1 has count = 484 or 0.711%
+Predicted Column with Value: 2 has count = 67615 or 99.289%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 18
+66816 collisions
+Predicted Column with Value: 1 has count = 1466 or 2.194%
+Predicted Column with Value: 2 has count = 65350 or 97.806%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 22
+66646 collisions
+Predicted Column with Value: 1 has count = 212 or 0.318%
+Predicted Column with Value: 2 has count = 66434 or 99.682%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 1
+65390 collisions
+Predicted Column with Value: 1 has count = 234 or 0.358%
+Predicted Column with Value: 2 has count = 65156 or 99.642%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 1
+65338 collisions
+Predicted Column with Value: 1 has count = 152 or 0.233%
+Predicted Column with Value: 2 has count = 65186 or 99.767%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 18
+62721 collisions
+Predicted Column with Value: 1 has count = 160 or 0.255%
+Predicted Column with Value: 2 has count = 62561 or 99.745%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 1
+61386 collisions
+Predicted Column with Value: 1 has count = 8 or 0.013%
+Predicted Column with Value: 2 has count = 61378 or 99.987%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 36
+P_SEX == 0
+60985 collisions
+Predicted Column with Value: 1 has count = 345 or 0.566%
+Predicted Column with Value: 2 has count = 60640 or 99.434%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 6
+60629 collisions
+Predicted Column with Value: 1 has count = 1018 or 1.679%
+Predicted Column with Value: 2 has count = 59611 or 98.321%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 18
+59095 collisions
+Predicted Column with Value: 1 has count = 135 or 0.228%
+Predicted Column with Value: 2 has count = 58960 or 99.772%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 1
+56899 collisions
+Predicted Column with Value: 1 has count = 362 or 0.636%
+Predicted Column with Value: 2 has count = 56537 or 99.364%
+
+
+P_ISEV == 2
+P_ID == 4
+56258 collisions
+Predicted Column with Value: 1 has count = 2171 or 3.859%
+Predicted Column with Value: 2 has count = 54087 or 96.141%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 6
+54732 collisions
+Predicted Column with Value: 1 has count = 834 or 1.524%
+Predicted Column with Value: 2 has count = 53898 or 98.476%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 36
+54275 collisions
+Predicted Column with Value: 1 has count = 271 or 0.499%
+Predicted Column with Value: 2 has count = 54004 or 99.501%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 255
+54011 collisions
+Predicted Column with Value: 1 has count = 231 or 0.428%
+Predicted Column with Value: 2 has count = 53780 or 99.572%
+
+
+P_ISEV == 1
+V_TYPE == 7
+52818 collisions
+Predicted Column with Value: 1 has count = 1612 or 3.052%
+Predicted Column with Value: 2 has count = 51206 or 96.948%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 33
+52808 collisions
+Predicted Column with Value: 1 has count = 437 or 0.828%
+Predicted Column with Value: 2 has count = 52371 or 99.172%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 22
+51689 collisions
+Predicted Column with Value: 1 has count = 424 or 0.82%
+Predicted Column with Value: 2 has count = 51265 or 99.18%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 255
+49670 collisions
+Predicted Column with Value: 1 has count = 288 or 0.58%
+Predicted Column with Value: 2 has count = 49382 or 99.42%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 2
+49153 collisions
+Predicted Column with Value: 1 has count = 263 or 0.535%
+Predicted Column with Value: 2 has count = 48890 or 99.465%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 1
+P_SEX == 1
+47522 collisions
+Predicted Column with Value: 1 has count = 85 or 0.179%
+Predicted Column with Value: 2 has count = 47437 or 99.821%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 253
+43181 collisions
+Predicted Column with Value: 1 has count = 293 or 0.679%
+Predicted Column with Value: 2 has count = 42888 or 99.321%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 1
+42754 collisions
+Predicted Column with Value: 1 has count = 204 or 0.477%
+Predicted Column with Value: 2 has count = 42550 or 99.523%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 3
+42459 collisions
+Predicted Column with Value: 1 has count = 361 or 0.85%
+Predicted Column with Value: 2 has count = 42098 or 99.15%
+
+
+P_ISEV == 3
+42247 collisions
+Predicted Column with Value: 1 has count = 42247 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 18
+42095 collisions
+Predicted Column with Value: 1 has count = 433 or 1.029%
+Predicted Column with Value: 2 has count = 41662 or 98.971%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 1
+41892 collisions
+Predicted Column with Value: 1 has count = 12 or 0.029%
+Predicted Column with Value: 2 has count = 41880 or 99.971%
+
+
+P_ISEV == 1
+V_TYPE == 5
+40700 collisions
+Predicted Column with Value: 1 has count = 375 or 0.921%
+Predicted Column with Value: 2 has count = 40325 or 99.079%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 2
+40689 collisions
+Predicted Column with Value: 1 has count = 813 or 1.998%
+Predicted Column with Value: 2 has count = 39876 or 98.002%
+
+
+P_ISEV == 1
+V_TYPE == 8
+40647 collisions
+Predicted Column with Value: 1 has count = 2718 or 6.687%
+Predicted Column with Value: 2 has count = 37929 or 93.313%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 3
+40388 collisions
+Predicted Column with Value: 1 has count = 125 or 0.309%
+Predicted Column with Value: 2 has count = 40263 or 99.691%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 18
+39636 collisions
+Predicted Column with Value: 1 has count = 208 or 0.525%
+Predicted Column with Value: 2 has count = 39428 or 99.475%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 21
+39062 collisions
+Predicted Column with Value: 1 has count = 142 or 0.364%
+Predicted Column with Value: 2 has count = 38920 or 99.636%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 3
+38375 collisions
+Predicted Column with Value: 1 has count = 550 or 1.433%
+Predicted Column with Value: 2 has count = 37825 or 98.567%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 4
+38308 collisions
+Predicted Column with Value: 1 has count = 915 or 2.389%
+Predicted Column with Value: 2 has count = 37393 or 97.611%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 21
+38155 collisions
+Predicted Column with Value: 1 has count = 43 or 0.113%
+Predicted Column with Value: 2 has count = 38112 or 99.887%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 1
+38042 collisions
+Predicted Column with Value: 1 has count = 559 or 1.469%
+Predicted Column with Value: 2 has count = 37483 or 98.531%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 31
+36514 collisions
+Predicted Column with Value: 1 has count = 734 or 2.01%
+Predicted Column with Value: 2 has count = 35780 or 97.99%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 35
+35644 collisions
+Predicted Column with Value: 1 has count = 253 or 0.71%
+Predicted Column with Value: 2 has count = 35391 or 99.29%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 35
+34134 collisions
+Predicted Column with Value: 1 has count = 85 or 0.249%
+Predicted Column with Value: 2 has count = 34049 or 99.751%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 255
+34112 collisions
+Predicted Column with Value: 1 has count = 1003 or 2.94%
+Predicted Column with Value: 2 has count = 33109 or 97.06%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 1
+31756 collisions
+Predicted Column with Value: 1 has count = 14 or 0.044%
+Predicted Column with Value: 2 has count = 31742 or 99.956%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 2
+30716 collisions
+Predicted Column with Value: 1 has count = 37 or 0.12%
+Predicted Column with Value: 2 has count = 30679 or 99.88%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 253
+30446 collisions
+Predicted Column with Value: 1 has count = 392 or 1.288%
+Predicted Column with Value: 2 has count = 30054 or 98.712%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 3
+29431 collisions
+Predicted Column with Value: 1 has count = 819 or 2.783%
+Predicted Column with Value: 2 has count = 28612 or 97.217%
+
+
+P_ISEV == 1
+V_TYPE == 11
+29427 collisions
+Predicted Column with Value: 1 has count = 568 or 1.93%
+Predicted Column with Value: 2 has count = 28859 or 98.07%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 255
+29078 collisions
+Predicted Column with Value: 1 has count = 43 or 0.148%
+Predicted Column with Value: 2 has count = 29035 or 99.852%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 4
+28608 collisions
+Predicted Column with Value: 1 has count = 97 or 0.339%
+Predicted Column with Value: 2 has count = 28511 or 99.661%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 1
+28430 collisions
+Predicted Column with Value: 1 has count = 359 or 1.263%
+Predicted Column with Value: 2 has count = 28071 or 98.737%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 3
+28063 collisions
+Predicted Column with Value: 1 has count = 15 or 0.053%
+Predicted Column with Value: 2 has count = 28048 or 99.947%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 31
+27247 collisions
+Predicted Column with Value: 1 has count = 2757 or 10.119%
+Predicted Column with Value: 2 has count = 24490 or 89.881%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 18
+26672 collisions
+Predicted Column with Value: 1 has count = 183 or 0.686%
+Predicted Column with Value: 2 has count = 26489 or 99.314%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 16
+25406 collisions
+Predicted Column with Value: 1 has count = 33 or 0.13%
+Predicted Column with Value: 2 has count = 25373 or 99.87%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 17
+25392 collisions
+Predicted Column with Value: 1 has count = 28 or 0.11%
+Predicted Column with Value: 2 has count = 25364 or 99.89%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 4
+23127 collisions
+Predicted Column with Value: 1 has count = 3 or 0.013%
+Predicted Column with Value: 2 has count = 23124 or 99.987%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 15
+22820 collisions
+Predicted Column with Value: 1 has count = 27 or 0.118%
+Predicted Column with Value: 2 has count = 22793 or 99.882%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 255
+22118 collisions
+Predicted Column with Value: 1 has count = 9 or 0.041%
+Predicted Column with Value: 2 has count = 22109 or 99.959%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 5
+22048 collisions
+Predicted Column with Value: 1 has count = 293 or 1.329%
+Predicted Column with Value: 2 has count = 21755 or 98.671%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 7
+21992 collisions
+Predicted Column with Value: 1 has count = 773 or 3.515%
+Predicted Column with Value: 2 has count = 21219 or 96.485%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 3
+21981 collisions
+Predicted Column with Value: 1 has count = 1 or 0.005%
+Predicted Column with Value: 2 has count = 21980 or 99.995%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 18
+21975 collisions
+Predicted Column with Value: 1 has count = 269 or 1.224%
+Predicted Column with Value: 2 has count = 21706 or 98.776%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 36
+21872 collisions
+Predicted Column with Value: 1 has count = 81 or 0.37%
+Predicted Column with Value: 2 has count = 21791 or 99.63%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 1
+20950 collisions
+Predicted Column with Value: 1 has count = 124 or 0.592%
+Predicted Column with Value: 2 has count = 20826 or 99.408%
+
+
+P_ISEV == 1
+V_TYPE == 255
+20542 collisions
+Predicted Column with Value: 1 has count = 189 or 0.92%
+Predicted Column with Value: 2 has count = 20353 or 99.08%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 22
+20290 collisions
+Predicted Column with Value: 1 has count = 276 or 1.36%
+Predicted Column with Value: 2 has count = 20014 or 98.64%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 6
+19850 collisions
+Predicted Column with Value: 1 has count = 389 or 1.96%
+Predicted Column with Value: 2 has count = 19461 or 98.04%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 8
+19644 collisions
+Predicted Column with Value: 1 has count = 1216 or 6.19%
+Predicted Column with Value: 2 has count = 18428 or 93.81%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 41
+19284 collisions
+Predicted Column with Value: 1 has count = 98 or 0.508%
+Predicted Column with Value: 2 has count = 19186 or 99.492%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 253
+18863 collisions
+Predicted Column with Value: 1 has count = 167 or 0.885%
+Predicted Column with Value: 2 has count = 18696 or 99.115%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 35
+18616 collisions
+Predicted Column with Value: 1 has count = 388 or 2.084%
+Predicted Column with Value: 2 has count = 18228 or 97.916%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 23
+18510 collisions
+Predicted Column with Value: 1 has count = 115 or 0.621%
+Predicted Column with Value: 2 has count = 18395 or 99.379%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 3
+18395 collisions
+Predicted Column with Value: 1 has count = 4 or 0.022%
+Predicted Column with Value: 2 has count = 18391 or 99.978%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 5
+18157 collisions
+Predicted Column with Value: 1 has count = 215 or 1.184%
+Predicted Column with Value: 2 has count = 17942 or 98.816%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 23
+17801 collisions
+Predicted Column with Value: 1 has count = 121 or 0.68%
+Predicted Column with Value: 2 has count = 17680 or 99.32%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 33
+17683 collisions
+Predicted Column with Value: 1 has count = 56 or 0.317%
+Predicted Column with Value: 2 has count = 17627 or 99.683%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 255
+17564 collisions
+Predicted Column with Value: 1 has count = 148 or 0.843%
+Predicted Column with Value: 2 has count = 17416 or 99.157%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 255
+17506 collisions
+Predicted Column with Value: 1 has count = 2 or 0.011%
+Predicted Column with Value: 2 has count = 17504 or 99.989%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 33
+17492 collisions
+Predicted Column with Value: 1 has count = 109 or 0.623%
+Predicted Column with Value: 2 has count = 17383 or 99.377%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 3
+17372 collisions
+Predicted Column with Value: 1 has count = 35 or 0.201%
+Predicted Column with Value: 2 has count = 17337 or 99.799%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 255
+17353 collisions
+Predicted Column with Value: 1 has count = 207 or 1.193%
+Predicted Column with Value: 2 has count = 17146 or 98.807%
+
+
+P_ISEV == 2
+P_ID == 5
+17280 collisions
+Predicted Column with Value: 1 has count = 857 or 4.959%
+Predicted Column with Value: 2 has count = 16423 or 95.041%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 14
+17236 collisions
+Predicted Column with Value: 1 has count = 23 or 0.133%
+Predicted Column with Value: 2 has count = 17213 or 99.867%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 18
+16804 collisions
+Predicted Column with Value: 1 has count = 19 or 0.113%
+Predicted Column with Value: 2 has count = 16785 or 99.887%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 2
+16669 collisions
+Predicted Column with Value: 1 has count = 56 or 0.336%
+Predicted Column with Value: 2 has count = 16613 or 99.664%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 34
+16566 collisions
+Predicted Column with Value: 1 has count = 29 or 0.175%
+Predicted Column with Value: 2 has count = 16537 or 99.825%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 2
+16376 collisions
+Predicted Column with Value: 1 has count = 270 or 1.649%
+Predicted Column with Value: 2 has count = 16106 or 98.351%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 5
+15993 collisions
+Predicted Column with Value: 1 has count = 22 or 0.138%
+Predicted Column with Value: 2 has count = 15971 or 99.862%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 255
+15914 collisions
+Predicted Column with Value: 1 has count = 7 or 0.044%
+Predicted Column with Value: 2 has count = 15907 or 99.956%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 13
+15861 collisions
+Predicted Column with Value: 1 has count = 19 or 0.12%
+Predicted Column with Value: 2 has count = 15842 or 99.88%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 1
+15800 collisions
+Predicted Column with Value: 1 has count = 107 or 0.677%
+Predicted Column with Value: 2 has count = 15693 or 99.323%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 4
+15264 collisions
+Predicted Column with Value: 2 has count = 15264 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 12
+15240 collisions
+Predicted Column with Value: 1 has count = 18 or 0.118%
+Predicted Column with Value: 2 has count = 15222 or 99.882%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 255
+15180 collisions
+Predicted Column with Value: 1 has count = 38 or 0.25%
+Predicted Column with Value: 2 has count = 15142 or 99.75%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 34
+14660 collisions
+Predicted Column with Value: 1 has count = 84 or 0.573%
+Predicted Column with Value: 2 has count = 14576 or 99.427%
+
+
+P_ISEV == 1
+V_TYPE == 9
+14543 collisions
+Predicted Column with Value: 1 has count = 398 or 2.737%
+Predicted Column with Value: 2 has count = 14145 or 97.263%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 4
+14447 collisions
+Predicted Column with Value: 1 has count = 139 or 0.962%
+Predicted Column with Value: 2 has count = 14308 or 99.038%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 22
+14327 collisions
+Predicted Column with Value: 1 has count = 164 or 1.145%
+Predicted Column with Value: 2 has count = 14163 or 98.855%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 255
+14286 collisions
+Predicted Column with Value: 1 has count = 176 or 1.232%
+Predicted Column with Value: 2 has count = 14110 or 98.768%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 41
+14112 collisions
+Predicted Column with Value: 1 has count = 94 or 0.666%
+Predicted Column with Value: 2 has count = 14018 or 99.334%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 2
+13896 collisions
+Predicted Column with Value: 1 has count = 53 or 0.381%
+Predicted Column with Value: 2 has count = 13843 or 99.619%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 1
+13860 collisions
+Predicted Column with Value: 1 has count = 1021 or 7.367%
+Predicted Column with Value: 2 has count = 12839 or 92.633%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 32
+13206 collisions
+Predicted Column with Value: 1 has count = 252 or 1.908%
+Predicted Column with Value: 2 has count = 12954 or 98.092%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 3
+13201 collisions
+Predicted Column with Value: 1 has count = 29 or 0.22%
+Predicted Column with Value: 2 has count = 13172 or 99.78%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 2
+13136 collisions
+Predicted Column with Value: 1 has count = 35 or 0.266%
+Predicted Column with Value: 2 has count = 13101 or 99.734%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 24
+13068 collisions
+Predicted Column with Value: 1 has count = 52 or 0.398%
+Predicted Column with Value: 2 has count = 13016 or 99.602%
+
+
+P_ISEV == 252
+V_TYPE == 252
+13006 collisions
+Predicted Column with Value: 1 has count = 421 or 3.237%
+Predicted Column with Value: 2 has count = 12585 or 96.763%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 252
+12698 collisions
+Predicted Column with Value: 1 has count = 227 or 1.788%
+Predicted Column with Value: 2 has count = 12471 or 98.212%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 3
+12680 collisions
+Predicted Column with Value: 1 has count = 76 or 0.599%
+Predicted Column with Value: 2 has count = 12604 or 99.401%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 8
+12666 collisions
+Predicted Column with Value: 1 has count = 6 or 0.047%
+Predicted Column with Value: 2 has count = 12660 or 99.953%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 255
+12662 collisions
+Predicted Column with Value: 1 has count = 4 or 0.032%
+Predicted Column with Value: 2 has count = 12658 or 99.968%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 2
+12267 collisions
+Predicted Column with Value: 1 has count = 121 or 0.986%
+Predicted Column with Value: 2 has count = 12146 or 99.014%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 253
+11765 collisions
+Predicted Column with Value: 1 has count = 84 or 0.714%
+Predicted Column with Value: 2 has count = 11681 or 99.286%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 11
+11606 collisions
+Predicted Column with Value: 1 has count = 18 or 0.155%
+Predicted Column with Value: 2 has count = 11588 or 99.845%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 5
+11543 collisions
+Predicted Column with Value: 1 has count = 61 or 0.528%
+Predicted Column with Value: 2 has count = 11482 or 99.472%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 255
+11465 collisions
+Predicted Column with Value: 1 has count = 189 or 1.648%
+Predicted Column with Value: 2 has count = 11276 or 98.352%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 253
+11246 collisions
+Predicted Column with Value: 1 has count = 2 or 0.018%
+Predicted Column with Value: 2 has count = 11244 or 99.982%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 3
+11202 collisions
+Predicted Column with Value: 1 has count = 124 or 1.107%
+Predicted Column with Value: 2 has count = 11078 or 98.893%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 32
+11176 collisions
+Predicted Column with Value: 1 has count = 83 or 0.743%
+Predicted Column with Value: 2 has count = 11093 or 99.257%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 2
+11002 collisions
+Predicted Column with Value: 2 has count = 11002 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 16
+10971 collisions
+Predicted Column with Value: 1 has count = 2 or 0.018%
+Predicted Column with Value: 2 has count = 10969 or 99.982%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 36
+10896 collisions
+Predicted Column with Value: 1 has count = 78 or 0.716%
+Predicted Column with Value: 2 has count = 10818 or 99.284%
+
+
+P_ISEV == 1
+V_TYPE == 14
+10794 collisions
+Predicted Column with Value: 1 has count = 105 or 0.973%
+Predicted Column with Value: 2 has count = 10689 or 99.027%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 3
+10788 collisions
+Predicted Column with Value: 1 has count = 71 or 0.658%
+Predicted Column with Value: 2 has count = 10717 or 99.342%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 6
+10782 collisions
+Predicted Column with Value: 1 has count = 215 or 1.994%
+Predicted Column with Value: 2 has count = 10567 or 98.006%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 24
+10742 collisions
+Predicted Column with Value: 1 has count = 45 or 0.419%
+Predicted Column with Value: 2 has count = 10697 or 99.581%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 19
+10472 collisions
+Predicted Column with Value: 1 has count = 15 or 0.143%
+Predicted Column with Value: 2 has count = 10457 or 99.857%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 15
+10399 collisions
+Predicted Column with Value: 2 has count = 10399 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 2
+10356 collisions
+Predicted Column with Value: 1 has count = 39 or 0.377%
+Predicted Column with Value: 2 has count = 10317 or 99.623%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 3
+10211 collisions
+Predicted Column with Value: 1 has count = 66 or 0.646%
+Predicted Column with Value: 2 has count = 10145 or 99.354%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 255
+10114 collisions
+Predicted Column with Value: 1 has count = 5 or 0.049%
+Predicted Column with Value: 2 has count = 10109 or 99.951%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 17
+10063 collisions
+Predicted Column with Value: 1 has count = 1 or 0.01%
+Predicted Column with Value: 2 has count = 10062 or 99.99%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 4
+10059 collisions
+Predicted Column with Value: 1 has count = 48 or 0.477%
+Predicted Column with Value: 2 has count = 10011 or 99.523%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 255
+9773 collisions
+Predicted Column with Value: 1 has count = 75 or 0.767%
+Predicted Column with Value: 2 has count = 9698 or 99.233%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 255
+9727 collisions
+Predicted Column with Value: 1 has count = 440 or 4.523%
+Predicted Column with Value: 2 has count = 9287 or 95.477%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 253
+9703 collisions
+Predicted Column with Value: 1 has count = 83 or 0.855%
+Predicted Column with Value: 2 has count = 9620 or 99.145%
+
+
+P_ISEV == 252
+V_TYPE == 7
+9657 collisions
+Predicted Column with Value: 1 has count = 244 or 2.527%
+Predicted Column with Value: 2 has count = 9413 or 97.473%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 33
+9594 collisions
+Predicted Column with Value: 1 has count = 105 or 1.094%
+Predicted Column with Value: 2 has count = 9489 or 98.906%
+
+
+P_ISEV == 1
+V_TYPE == 253
+9490 collisions
+Predicted Column with Value: 1 has count = 206 or 2.171%
+Predicted Column with Value: 2 has count = 9284 or 97.829%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 252
+9418 collisions
+Predicted Column with Value: 2 has count = 9418 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 255
+9352 collisions
+Predicted Column with Value: 1 has count = 10 or 0.107%
+Predicted Column with Value: 2 has count = 9342 or 99.893%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 2
+9235 collisions
+Predicted Column with Value: 1 has count = 32 or 0.347%
+Predicted Column with Value: 2 has count = 9203 or 99.653%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 1
+9107 collisions
+Predicted Column with Value: 1 has count = 7 or 0.077%
+Predicted Column with Value: 2 has count = 9100 or 99.923%
+
+
+P_ISEV == 1
+V_TYPE == 17
+9015 collisions
+Predicted Column with Value: 1 has count = 33 or 0.366%
+Predicted Column with Value: 2 has count = 8982 or 99.634%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 14
+8620 collisions
+Predicted Column with Value: 1 has count = 1 or 0.012%
+Predicted Column with Value: 2 has count = 8619 or 99.988%
+
+
+P_ISEV == 1
+V_TYPE == 252
+8611 collisions
+Predicted Column with Value: 1 has count = 140 or 1.626%
+Predicted Column with Value: 2 has count = 8471 or 98.374%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 31
+8449 collisions
+Predicted Column with Value: 1 has count = 526 or 6.226%
+Predicted Column with Value: 2 has count = 7923 or 93.774%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 10
+8427 collisions
+Predicted Column with Value: 1 has count = 11 or 0.131%
+Predicted Column with Value: 2 has count = 8416 or 99.869%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 3
+8307 collisions
+Predicted Column with Value: 1 has count = 13 or 0.156%
+Predicted Column with Value: 2 has count = 8294 or 99.844%
+
+
+P_ISEV == 252
+V_TYPE == 8
+8274 collisions
+Predicted Column with Value: 1 has count = 374 or 4.52%
+Predicted Column with Value: 2 has count = 7900 or 95.48%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 12
+8175 collisions
+Predicted Column with Value: 2 has count = 8175 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 13
+8132 collisions
+Predicted Column with Value: 1 has count = 1 or 0.012%
+Predicted Column with Value: 2 has count = 8131 or 99.988%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 1
+7991 collisions
+Predicted Column with Value: 1 has count = 136 or 1.702%
+Predicted Column with Value: 2 has count = 7855 or 98.298%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 6
+7932 collisions
+Predicted Column with Value: 2 has count = 7932 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 253
+7916 collisions
+Predicted Column with Value: 1 has count = 56 or 0.707%
+Predicted Column with Value: 2 has count = 7860 or 99.293%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 253
+7832 collisions
+Predicted Column with Value: 1 has count = 4 or 0.051%
+Predicted Column with Value: 2 has count = 7828 or 99.949%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 41
+7750 collisions
+Predicted Column with Value: 1 has count = 74 or 0.955%
+Predicted Column with Value: 2 has count = 7676 or 99.045%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 255
+7699 collisions
+Predicted Column with Value: 1 has count = 9 or 0.117%
+Predicted Column with Value: 2 has count = 7690 or 99.883%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 255
+7693 collisions
+Predicted Column with Value: 1 has count = 3 or 0.039%
+Predicted Column with Value: 2 has count = 7690 or 99.961%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 255
+7679 collisions
+Predicted Column with Value: 1 has count = 32 or 0.417%
+Predicted Column with Value: 2 has count = 7647 or 99.583%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 9
+7653 collisions
+Predicted Column with Value: 1 has count = 4 or 0.052%
+Predicted Column with Value: 2 has count = 7649 or 99.948%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 4
+7513 collisions
+Predicted Column with Value: 1 has count = 164 or 2.183%
+Predicted Column with Value: 2 has count = 7349 or 97.817%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 7
+7488 collisions
+Predicted Column with Value: 1 has count = 7 or 0.093%
+Predicted Column with Value: 2 has count = 7481 or 99.907%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 3
+7476 collisions
+Predicted Column with Value: 1 has count = 2 or 0.027%
+Predicted Column with Value: 2 has count = 7474 or 99.973%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 23
+7267 collisions
+Predicted Column with Value: 1 has count = 98 or 1.349%
+Predicted Column with Value: 2 has count = 7169 or 98.651%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 41
+7170 collisions
+Predicted Column with Value: 1 has count = 98 or 1.367%
+Predicted Column with Value: 2 has count = 7072 or 98.633%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 6
+7002 collisions
+Predicted Column with Value: 1 has count = 1 or 0.014%
+Predicted Column with Value: 2 has count = 7001 or 99.986%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 8
+6930 collisions
+Predicted Column with Value: 2 has count = 6930 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 6
+6911 collisions
+Predicted Column with Value: 1 has count = 118 or 1.707%
+Predicted Column with Value: 2 has count = 6793 or 98.293%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 11
+6899 collisions
+Predicted Column with Value: 1 has count = 3 or 0.043%
+Predicted Column with Value: 2 has count = 6896 or 99.957%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 18
+6863 collisions
+Predicted Column with Value: 2 has count = 6863 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 34
+6751 collisions
+Predicted Column with Value: 1 has count = 70 or 1.037%
+Predicted Column with Value: 2 has count = 6681 or 98.963%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 20
+6534 collisions
+Predicted Column with Value: 1 has count = 24 or 0.367%
+Predicted Column with Value: 2 has count = 6510 or 99.633%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 3
+6506 collisions
+Predicted Column with Value: 1 has count = 3 or 0.046%
+Predicted Column with Value: 2 has count = 6503 or 99.954%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 23
+6388 collisions
+Predicted Column with Value: 1 has count = 33 or 0.517%
+Predicted Column with Value: 2 has count = 6355 or 99.483%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 1
+6339 collisions
+Predicted Column with Value: 1 has count = 192 or 3.029%
+Predicted Column with Value: 2 has count = 6147 or 96.971%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 1
+6309 collisions
+Predicted Column with Value: 1 has count = 122 or 1.934%
+Predicted Column with Value: 2 has count = 6187 or 98.066%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 5
+6123 collisions
+Predicted Column with Value: 1 has count = 41 or 0.67%
+Predicted Column with Value: 2 has count = 6082 or 99.33%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 21
+6062 collisions
+Predicted Column with Value: 1 has count = 26 or 0.429%
+Predicted Column with Value: 2 has count = 6036 or 99.571%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 16
+6025 collisions
+Predicted Column with Value: 1 has count = 34 or 0.564%
+Predicted Column with Value: 2 has count = 5991 or 99.436%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 3
+6004 collisions
+Predicted Column with Value: 1 has count = 186 or 3.098%
+Predicted Column with Value: 2 has count = 5818 or 96.902%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 1
+5886 collisions
+Predicted Column with Value: 1 has count = 152 or 2.582%
+Predicted Column with Value: 2 has count = 5734 or 97.418%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 31
+5802 collisions
+Predicted Column with Value: 1 has count = 779 or 13.426%
+Predicted Column with Value: 2 has count = 5023 or 86.574%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 1
+5596 collisions
+Predicted Column with Value: 1 has count = 42 or 0.751%
+Predicted Column with Value: 2 has count = 5554 or 99.249%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 252
+5553 collisions
+Predicted Column with Value: 1 has count = 16 or 0.288%
+Predicted Column with Value: 2 has count = 5537 or 99.712%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 255
+5412 collisions
+Predicted Column with Value: 1 has count = 34 or 0.628%
+Predicted Column with Value: 2 has count = 5378 or 99.372%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 253
+5375 collisions
+Predicted Column with Value: 1 has count = 68 or 1.265%
+Predicted Column with Value: 2 has count = 5307 or 98.735%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 5
+5306 collisions
+Predicted Column with Value: 1 has count = 26 or 0.49%
+Predicted Column with Value: 2 has count = 5280 or 99.51%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 3
+5243 collisions
+Predicted Column with Value: 1 has count = 13 or 0.248%
+Predicted Column with Value: 2 has count = 5230 or 99.752%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 6
+5214 collisions
+Predicted Column with Value: 2 has count = 5214 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 10
+5197 collisions
+Predicted Column with Value: 2 has count = 5197 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 9
+5127 collisions
+Predicted Column with Value: 1 has count = 1 or 0.02%
+Predicted Column with Value: 2 has count = 5126 or 99.98%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 4
+5121 collisions
+Predicted Column with Value: 1 has count = 6 or 0.117%
+Predicted Column with Value: 2 has count = 5115 or 99.883%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 32
+4956 collisions
+Predicted Column with Value: 1 has count = 218 or 4.399%
+Predicted Column with Value: 2 has count = 4738 or 95.601%
+
+
+P_ISEV == 252
+V_TYPE == 6
+4917 collisions
+Predicted Column with Value: 1 has count = 56 or 1.139%
+Predicted Column with Value: 2 has count = 4861 or 98.861%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 24
+4911 collisions
+Predicted Column with Value: 1 has count = 35 or 0.713%
+Predicted Column with Value: 2 has count = 4876 or 99.287%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 41
+4905 collisions
+Predicted Column with Value: 1 has count = 51 or 1.04%
+Predicted Column with Value: 2 has count = 4854 or 98.96%
+
+
+P_ISEV == 2
+P_ID == 6
+4765 collisions
+Predicted Column with Value: 1 has count = 372 or 7.807%
+Predicted Column with Value: 2 has count = 4393 or 92.193%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 22
+4760 collisions
+Predicted Column with Value: 1 has count = 34 or 0.714%
+Predicted Column with Value: 2 has count = 4726 or 99.286%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 255
+4743 collisions
+Predicted Column with Value: 1 has count = 51 or 1.075%
+Predicted Column with Value: 2 has count = 4692 or 98.925%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 5
+4684 collisions
+Predicted Column with Value: 1 has count = 76 or 1.623%
+Predicted Column with Value: 2 has count = 4608 or 98.377%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 24
+4684 collisions
+Predicted Column with Value: 1 has count = 12 or 0.256%
+Predicted Column with Value: 2 has count = 4672 or 99.744%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 255
+4610 collisions
+Predicted Column with Value: 1 has count = 60 or 1.302%
+Predicted Column with Value: 2 has count = 4550 or 98.698%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 4
+4604 collisions
+Predicted Column with Value: 1 has count = 1 or 0.022%
+Predicted Column with Value: 2 has count = 4603 or 99.978%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 253
+4595 collisions
+Predicted Column with Value: 1 has count = 21 or 0.457%
+Predicted Column with Value: 2 has count = 4574 or 99.543%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 3
+4535 collisions
+Predicted Column with Value: 1 has count = 17 or 0.375%
+Predicted Column with Value: 2 has count = 4518 or 99.625%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 253
+4512 collisions
+Predicted Column with Value: 1 has count = 76 or 1.684%
+Predicted Column with Value: 2 has count = 4436 or 98.316%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 255
+4442 collisions
+Predicted Column with Value: 1 has count = 13 or 0.293%
+Predicted Column with Value: 2 has count = 4429 or 99.707%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 19
+4399 collisions
+Predicted Column with Value: 1 has count = 1 or 0.023%
+Predicted Column with Value: 2 has count = 4398 or 99.977%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 13
+4386 collisions
+Predicted Column with Value: 1 has count = 101 or 2.303%
+Predicted Column with Value: 2 has count = 4285 or 97.697%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 7
+4368 collisions
+Predicted Column with Value: 1 has count = 1 or 0.023%
+Predicted Column with Value: 2 has count = 4367 or 99.977%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 255
+4359 collisions
+Predicted Column with Value: 1 has count = 32 or 0.734%
+Predicted Column with Value: 2 has count = 4327 or 99.266%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 31
+4296 collisions
+Predicted Column with Value: 1 has count = 56 or 1.304%
+Predicted Column with Value: 2 has count = 4240 or 98.696%
+
+
+P_ISEV == 252
+V_TYPE == 11
+4197 collisions
+Predicted Column with Value: 1 has count = 31 or 0.739%
+Predicted Column with Value: 2 has count = 4166 or 99.261%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 22
+4095 collisions
+Predicted Column with Value: 1 has count = 69 or 1.685%
+Predicted Column with Value: 2 has count = 4026 or 98.315%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 253
+3972 collisions
+Predicted Column with Value: 1 has count = 4 or 0.101%
+Predicted Column with Value: 2 has count = 3968 or 99.899%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 6
+3937 collisions
+Predicted Column with Value: 1 has count = 112 or 2.845%
+Predicted Column with Value: 2 has count = 3825 or 97.155%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 255
+3906 collisions
+Predicted Column with Value: 1 has count = 17 or 0.435%
+Predicted Column with Value: 2 has count = 3889 or 99.565%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 255
+3829 collisions
+Predicted Column with Value: 1 has count = 1 or 0.026%
+Predicted Column with Value: 2 has count = 3828 or 99.974%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 4
+3821 collisions
+Predicted Column with Value: 1 has count = 10 or 0.262%
+Predicted Column with Value: 2 has count = 3811 or 99.738%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 255
+3732 collisions
+Predicted Column with Value: 1 has count = 36 or 0.965%
+Predicted Column with Value: 2 has count = 3696 or 99.035%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 1
+3732 collisions
+Predicted Column with Value: 1 has count = 40 or 1.072%
+Predicted Column with Value: 2 has count = 3692 or 98.928%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 25
+3724 collisions
+Predicted Column with Value: 1 has count = 13 or 0.349%
+Predicted Column with Value: 2 has count = 3711 or 99.651%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 253
+3689 collisions
+Predicted Column with Value: 1 has count = 6 or 0.163%
+Predicted Column with Value: 2 has count = 3683 or 99.837%
+
+
+P_ISEV == 252
+V_TYPE == 255
+3663 collisions
+Predicted Column with Value: 1 has count = 42 or 1.147%
+Predicted Column with Value: 2 has count = 3621 or 98.853%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 255
+3653 collisions
+Predicted Column with Value: 1 has count = 16 or 0.438%
+Predicted Column with Value: 2 has count = 3637 or 99.562%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 255
+3632 collisions
+Predicted Column with Value: 1 has count = 2 or 0.055%
+Predicted Column with Value: 2 has count = 3630 or 99.945%
+
+
+P_ISEV == 1
+V_TYPE == 20
+3624 collisions
+Predicted Column with Value: 1 has count = 124 or 3.422%
+Predicted Column with Value: 2 has count = 3500 or 96.578%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 6
+3569 collisions
+Predicted Column with Value: 1 has count = 82 or 2.298%
+Predicted Column with Value: 2 has count = 3487 or 97.702%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 255
+3456 collisions
+Predicted Column with Value: 1 has count = 10 or 0.289%
+Predicted Column with Value: 2 has count = 3446 or 99.711%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 18
+3409 collisions
+Predicted Column with Value: 2 has count = 3409 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 25
+3404 collisions
+Predicted Column with Value: 1 has count = 16 or 0.47%
+Predicted Column with Value: 2 has count = 3388 or 99.53%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 23
+3368 collisions
+Predicted Column with Value: 1 has count = 10 or 0.297%
+Predicted Column with Value: 2 has count = 3358 or 99.703%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 19
+3305 collisions
+Predicted Column with Value: 1 has count = 1 or 0.03%
+Predicted Column with Value: 2 has count = 3304 or 99.97%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 4
+3301 collisions
+Predicted Column with Value: 1 has count = 23 or 0.697%
+Predicted Column with Value: 2 has count = 3278 or 99.303%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 3
+3247 collisions
+Predicted Column with Value: 1 has count = 3 or 0.092%
+Predicted Column with Value: 2 has count = 3244 or 99.908%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 255
+3203 collisions
+Predicted Column with Value: 1 has count = 1 or 0.031%
+Predicted Column with Value: 2 has count = 3202 or 99.969%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 253
+3177 collisions
+Predicted Column with Value: 1 has count = 3 or 0.094%
+Predicted Column with Value: 2 has count = 3174 or 99.906%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 20
+3145 collisions
+Predicted Column with Value: 1 has count = 1 or 0.032%
+Predicted Column with Value: 2 has count = 3144 or 99.968%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 20
+3123 collisions
+Predicted Column with Value: 1 has count = 1 or 0.032%
+Predicted Column with Value: 2 has count = 3122 or 99.968%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 11
+3070 collisions
+Predicted Column with Value: 1 has count = 83 or 2.704%
+Predicted Column with Value: 2 has count = 2987 or 97.296%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 6
+3035 collisions
+Predicted Column with Value: 1 has count = 6 or 0.198%
+Predicted Column with Value: 2 has count = 3029 or 99.802%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 5
+3016 collisions
+Predicted Column with Value: 1 has count = 3 or 0.099%
+Predicted Column with Value: 2 has count = 3013 or 99.901%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 17
+3009 collisions
+Predicted Column with Value: 1 has count = 1 or 0.033%
+Predicted Column with Value: 2 has count = 3008 or 99.967%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 21
+3004 collisions
+Predicted Column with Value: 2 has count = 3004 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 255
+2973 collisions
+Predicted Column with Value: 1 has count = 1 or 0.034%
+Predicted Column with Value: 2 has count = 2972 or 99.966%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 8
+2966 collisions
+Predicted Column with Value: 1 has count = 3 or 0.101%
+Predicted Column with Value: 2 has count = 2963 or 99.899%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 21
+2872 collisions
+Predicted Column with Value: 1 has count = 1 or 0.035%
+Predicted Column with Value: 2 has count = 2871 or 99.965%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 22
+2782 collisions
+Predicted Column with Value: 2 has count = 2782 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 22
+2779 collisions
+Predicted Column with Value: 1 has count = 22 or 0.792%
+Predicted Column with Value: 2 has count = 2757 or 99.208%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 255
+2776 collisions
+Predicted Column with Value: 1 has count = 58 or 2.089%
+Predicted Column with Value: 2 has count = 2718 or 97.911%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 6
+2749 collisions
+Predicted Column with Value: 1 has count = 6 or 0.218%
+Predicted Column with Value: 2 has count = 2743 or 99.782%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 23
+2682 collisions
+Predicted Column with Value: 1 has count = 1 or 0.037%
+Predicted Column with Value: 2 has count = 2681 or 99.963%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 7
+2656 collisions
+Predicted Column with Value: 1 has count = 71 or 2.673%
+Predicted Column with Value: 2 has count = 2585 or 97.327%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 12
+2615 collisions
+Predicted Column with Value: 1 has count = 10 or 0.382%
+Predicted Column with Value: 2 has count = 2605 or 99.618%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 255
+2563 collisions
+Predicted Column with Value: 1 has count = 17 or 0.663%
+Predicted Column with Value: 2 has count = 2546 or 99.337%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 3
+2517 collisions
+Predicted Column with Value: 1 has count = 29 or 1.152%
+Predicted Column with Value: 2 has count = 2488 or 98.848%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 3
+2495 collisions
+Predicted Column with Value: 1 has count = 4 or 0.16%
+Predicted Column with Value: 2 has count = 2491 or 99.84%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 253
+2459 collisions
+Predicted Column with Value: 1 has count = 3 or 0.122%
+Predicted Column with Value: 2 has count = 2456 or 99.878%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 2
+2414 collisions
+Predicted Column with Value: 1 has count = 64 or 2.651%
+Predicted Column with Value: 2 has count = 2350 or 97.349%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 3
+2409 collisions
+Predicted Column with Value: 1 has count = 23 or 0.955%
+Predicted Column with Value: 2 has count = 2386 or 99.045%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 24
+2408 collisions
+Predicted Column with Value: 2 has count = 2408 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 23
+2405 collisions
+Predicted Column with Value: 1 has count = 163 or 6.778%
+Predicted Column with Value: 2 has count = 2242 or 93.222%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 25
+2393 collisions
+Predicted Column with Value: 1 has count = 2 or 0.084%
+Predicted Column with Value: 2 has count = 2391 or 99.916%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 3
+2377 collisions
+Predicted Column with Value: 1 has count = 1 or 0.042%
+Predicted Column with Value: 2 has count = 2376 or 99.958%
+
+
+P_ISEV == 252
+V_TYPE == 253
+2352 collisions
+Predicted Column with Value: 1 has count = 71 or 3.019%
+Predicted Column with Value: 2 has count = 2281 or 96.981%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 253
+2345 collisions
+Predicted Column with Value: 1 has count = 9 or 0.384%
+Predicted Column with Value: 2 has count = 2336 or 99.616%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 12
+2310 collisions
+Predicted Column with Value: 1 has count = 54 or 2.338%
+Predicted Column with Value: 2 has count = 2256 or 97.662%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 255
+2286 collisions
+Predicted Column with Value: 1 has count = 11 or 0.481%
+Predicted Column with Value: 2 has count = 2275 or 99.519%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 26
+2236 collisions
+Predicted Column with Value: 2 has count = 2236 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 253
+2221 collisions
+Predicted Column with Value: 1 has count = 1 or 0.045%
+Predicted Column with Value: 2 has count = 2220 or 99.955%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 255
+2212 collisions
+Predicted Column with Value: 1 has count = 2 or 0.09%
+Predicted Column with Value: 2 has count = 2210 or 99.91%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 5
+2201 collisions
+Predicted Column with Value: 1 has count = 24 or 1.09%
+Predicted Column with Value: 2 has count = 2177 or 98.91%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 27
+2196 collisions
+Predicted Column with Value: 2 has count = 2196 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 22
+2188 collisions
+Predicted Column with Value: 2 has count = 2188 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 5
+2181 collisions
+Predicted Column with Value: 1 has count = 32 or 1.467%
+Predicted Column with Value: 2 has count = 2149 or 98.533%
+
+
+P_ISEV == 252
+V_TYPE == 14
+2151 collisions
+Predicted Column with Value: 1 has count = 25 or 1.162%
+Predicted Column with Value: 2 has count = 2126 or 98.838%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 253
+2135 collisions
+Predicted Column with Value: 1 has count = 2 or 0.094%
+Predicted Column with Value: 2 has count = 2133 or 99.906%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 40
+2114 collisions
+Predicted Column with Value: 2 has count = 2114 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 1
+2112 collisions
+Predicted Column with Value: 2 has count = 2112 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 20
+2098 collisions
+Predicted Column with Value: 1 has count = 65 or 3.098%
+Predicted Column with Value: 2 has count = 2033 or 96.902%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 32
+2058 collisions
+Predicted Column with Value: 1 has count = 68 or 3.304%
+Predicted Column with Value: 2 has count = 1990 or 96.696%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 37
+2049 collisions
+Predicted Column with Value: 2 has count = 2049 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 6
+2035 collisions
+Predicted Column with Value: 1 has count = 49 or 2.408%
+Predicted Column with Value: 2 has count = 1986 or 97.592%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 17
+2034 collisions
+Predicted Column with Value: 1 has count = 1 or 0.049%
+Predicted Column with Value: 2 has count = 2033 or 99.951%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 35
+2033 collisions
+Predicted Column with Value: 2 has count = 2033 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 3
+2028 collisions
+Predicted Column with Value: 1 has count = 25 or 1.233%
+Predicted Column with Value: 2 has count = 2003 or 98.767%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 30
+2023 collisions
+Predicted Column with Value: 2 has count = 2023 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 0
+2021 collisions
+Predicted Column with Value: 1 has count = 14 or 0.693%
+Predicted Column with Value: 2 has count = 2007 or 99.307%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 34
+1989 collisions
+Predicted Column with Value: 1 has count = 3 or 0.151%
+Predicted Column with Value: 2 has count = 1986 or 99.849%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 36
+1985 collisions
+Predicted Column with Value: 2 has count = 1985 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 6
+1982 collisions
+Predicted Column with Value: 1 has count = 13 or 0.656%
+Predicted Column with Value: 2 has count = 1969 or 99.344%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 42
+1980 collisions
+Predicted Column with Value: 2 has count = 1980 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 28
+1977 collisions
+Predicted Column with Value: 1 has count = 1 or 0.051%
+Predicted Column with Value: 2 has count = 1976 or 99.949%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 34
+1976 collisions
+Predicted Column with Value: 2 has count = 1976 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 39
+1976 collisions
+Predicted Column with Value: 2 has count = 1976 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 29
+1971 collisions
+Predicted Column with Value: 1 has count = 1 or 0.051%
+Predicted Column with Value: 2 has count = 1970 or 99.949%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 38
+1967 collisions
+Predicted Column with Value: 2 has count = 1967 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 31
+1966 collisions
+Predicted Column with Value: 2 has count = 1966 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 3
+1964 collisions
+Predicted Column with Value: 1 has count = 45 or 2.291%
+Predicted Column with Value: 2 has count = 1919 or 97.709%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 41
+1942 collisions
+Predicted Column with Value: 2 has count = 1942 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 4
+1937 collisions
+Predicted Column with Value: 1 has count = 11 or 0.568%
+Predicted Column with Value: 2 has count = 1926 or 99.432%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 34
+1922 collisions
+Predicted Column with Value: 1 has count = 14 or 0.728%
+Predicted Column with Value: 2 has count = 1908 or 99.272%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 43
+1899 collisions
+Predicted Column with Value: 2 has count = 1899 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 32
+1896 collisions
+Predicted Column with Value: 2 has count = 1896 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 4
+1870 collisions
+Predicted Column with Value: 1 has count = 31 or 1.658%
+Predicted Column with Value: 2 has count = 1839 or 98.342%
+
+
+P_ISEV == 1
+V_TYPE == 18
+1867 collisions
+Predicted Column with Value: 1 has count = 54 or 2.892%
+Predicted Column with Value: 2 has count = 1813 or 97.108%
+
+
+P_ISEV == 2
+P_ID == 7
+1863 collisions
+Predicted Column with Value: 1 has count = 185 or 9.93%
+Predicted Column with Value: 2 has count = 1678 or 90.07%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 8
+1857 collisions
+Predicted Column with Value: 1 has count = 2 or 0.108%
+Predicted Column with Value: 2 has count = 1855 or 99.892%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 253
+1853 collisions
+Predicted Column with Value: 1 has count = 9 or 0.486%
+Predicted Column with Value: 2 has count = 1844 or 99.514%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 45
+1849 collisions
+Predicted Column with Value: 2 has count = 1849 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 6
+1845 collisions
+Predicted Column with Value: 1 has count = 31 or 1.68%
+Predicted Column with Value: 2 has count = 1814 or 98.32%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 44
+1831 collisions
+Predicted Column with Value: 2 has count = 1831 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 33
+1816 collisions
+Predicted Column with Value: 2 has count = 1816 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 2
+1809 collisions
+Predicted Column with Value: 1 has count = 5 or 0.276%
+Predicted Column with Value: 2 has count = 1804 or 99.724%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 6
+1795 collisions
+Predicted Column with Value: 1 has count = 29 or 1.616%
+Predicted Column with Value: 2 has count = 1766 or 98.384%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 46
+1768 collisions
+Predicted Column with Value: 1 has count = 1 or 0.057%
+Predicted Column with Value: 2 has count = 1767 or 99.943%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 48
+1758 collisions
+Predicted Column with Value: 1 has count = 1 or 0.057%
+Predicted Column with Value: 2 has count = 1757 or 99.943%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 6
+1744 collisions
+Predicted Column with Value: 2 has count = 1744 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 6
+1729 collisions
+Predicted Column with Value: 2 has count = 1729 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 47
+1694 collisions
+Predicted Column with Value: 2 has count = 1694 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 20
+1667 collisions
+Predicted Column with Value: 1 has count = 20 or 1.2%
+Predicted Column with Value: 2 has count = 1647 or 98.8%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 16
+1663 collisions
+Predicted Column with Value: 2 has count = 1663 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 6
+1646 collisions
+Predicted Column with Value: 2 has count = 1646 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 1
+1643 collisions
+Predicted Column with Value: 1 has count = 20 or 1.217%
+Predicted Column with Value: 2 has count = 1623 or 98.783%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 8
+1633 collisions
+Predicted Column with Value: 1 has count = 1 or 0.061%
+Predicted Column with Value: 2 has count = 1632 or 99.939%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 255
+1611 collisions
+Predicted Column with Value: 1 has count = 16 or 0.993%
+Predicted Column with Value: 2 has count = 1595 or 99.007%
+
+
+P_ISEV == 1
+V_TYPE == 16
+1595 collisions
+Predicted Column with Value: 1 has count = 39 or 2.445%
+Predicted Column with Value: 2 has count = 1556 or 97.555%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 253
+1593 collisions
+Predicted Column with Value: 1 has count = 1 or 0.063%
+Predicted Column with Value: 2 has count = 1592 or 99.937%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 50
+1589 collisions
+Predicted Column with Value: 2 has count = 1589 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 255
+1579 collisions
+Predicted Column with Value: 1 has count = 6 or 0.38%
+Predicted Column with Value: 2 has count = 1573 or 99.62%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 49
+1555 collisions
+Predicted Column with Value: 2 has count = 1555 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 23
+1546 collisions
+Predicted Column with Value: 2 has count = 1546 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 13
+1530 collisions
+Predicted Column with Value: 1 has count = 11 or 0.719%
+Predicted Column with Value: 2 has count = 1519 or 99.281%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 4
+1522 collisions
+Predicted Column with Value: 1 has count = 8 or 0.526%
+Predicted Column with Value: 2 has count = 1514 or 99.474%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 4
+1514 collisions
+Predicted Column with Value: 1 has count = 25 or 1.651%
+Predicted Column with Value: 2 has count = 1489 or 98.349%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 52
+1508 collisions
+Predicted Column with Value: 2 has count = 1508 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 2
+1500 collisions
+Predicted Column with Value: 1 has count = 3 or 0.2%
+Predicted Column with Value: 2 has count = 1497 or 99.8%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 4
+1497 collisions
+Predicted Column with Value: 1 has count = 15 or 1.002%
+Predicted Column with Value: 2 has count = 1482 or 98.998%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 253
+1495 collisions
+Predicted Column with Value: 1 has count = 7 or 0.468%
+Predicted Column with Value: 2 has count = 1488 or 99.532%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 51
+1478 collisions
+Predicted Column with Value: 2 has count = 1478 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 253
+1477 collisions
+Predicted Column with Value: 1 has count = 11 or 0.745%
+Predicted Column with Value: 2 has count = 1466 or 99.255%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 4
+1453 collisions
+Predicted Column with Value: 1 has count = 12 or 0.826%
+Predicted Column with Value: 2 has count = 1441 or 99.174%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 9
+1452 collisions
+Predicted Column with Value: 1 has count = 50 or 3.444%
+Predicted Column with Value: 2 has count = 1402 or 96.556%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 1
+1405 collisions
+Predicted Column with Value: 1 has count = 52 or 3.701%
+Predicted Column with Value: 2 has count = 1353 or 96.299%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 23
+1403 collisions
+Predicted Column with Value: 1 has count = 19 or 1.354%
+Predicted Column with Value: 2 has count = 1384 or 98.646%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 255
+1400 collisions
+Predicted Column with Value: 2 has count = 1400 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 1
+1399 collisions
+Predicted Column with Value: 1 has count = 7 or 0.5%
+Predicted Column with Value: 2 has count = 1392 or 99.5%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 255
+1396 collisions
+Predicted Column with Value: 1 has count = 2 or 0.143%
+Predicted Column with Value: 2 has count = 1394 or 99.857%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 53
+1394 collisions
+Predicted Column with Value: 1 has count = 1 or 0.072%
+Predicted Column with Value: 2 has count = 1393 or 99.928%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 8
+1368 collisions
+Predicted Column with Value: 1 has count = 1 or 0.073%
+Predicted Column with Value: 2 has count = 1367 or 99.927%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 3
+1363 collisions
+Predicted Column with Value: 1 has count = 1 or 0.073%
+Predicted Column with Value: 2 has count = 1362 or 99.927%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 13
+1361 collisions
+Predicted Column with Value: 1 has count = 28 or 2.057%
+Predicted Column with Value: 2 has count = 1333 or 97.943%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 8
+1311 collisions
+Predicted Column with Value: 1 has count = 42 or 3.204%
+Predicted Column with Value: 2 has count = 1269 or 96.796%
+
+
+P_ISEV == 1
+V_TYPE == 19
+1310 collisions
+Predicted Column with Value: 1 has count = 64 or 4.885%
+Predicted Column with Value: 2 has count = 1246 or 95.115%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 14
+1309 collisions
+Predicted Column with Value: 1 has count = 21 or 1.604%
+Predicted Column with Value: 2 has count = 1288 or 98.396%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 3
+1307 collisions
+Predicted Column with Value: 1 has count = 14 or 1.071%
+Predicted Column with Value: 2 has count = 1293 or 98.929%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 2
+1305 collisions
+Predicted Column with Value: 2 has count = 1305 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 3
+1262 collisions
+Predicted Column with Value: 2 has count = 1262 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 23
+1260 collisions
+Predicted Column with Value: 1 has count = 12 or 0.952%
+Predicted Column with Value: 2 has count = 1248 or 99.048%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 54
+1242 collisions
+Predicted Column with Value: 2 has count = 1242 or 100%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 34
+1241 collisions
+Predicted Column with Value: 1 has count = 18 or 1.45%
+Predicted Column with Value: 2 has count = 1223 or 98.55%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 4
+1235 collisions
+Predicted Column with Value: 1 has count = 9 or 0.729%
+Predicted Column with Value: 2 has count = 1226 or 99.271%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 3
+1233 collisions
+Predicted Column with Value: 1 has count = 7 or 0.568%
+Predicted Column with Value: 2 has count = 1226 or 99.432%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 55
+1225 collisions
+Predicted Column with Value: 2 has count = 1225 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 2
+1203 collisions
+Predicted Column with Value: 1 has count = 19 or 1.579%
+Predicted Column with Value: 2 has count = 1184 or 98.421%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 1
+1201 collisions
+Predicted Column with Value: 1 has count = 19 or 1.582%
+Predicted Column with Value: 2 has count = 1182 or 98.418%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 24
+1189 collisions
+Predicted Column with Value: 1 has count = 9 or 0.757%
+Predicted Column with Value: 2 has count = 1180 or 99.243%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 9
+1168 collisions
+Predicted Column with Value: 1 has count = 13 or 1.113%
+Predicted Column with Value: 2 has count = 1155 or 98.887%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 4
+1159 collisions
+Predicted Column with Value: 2 has count = 1159 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 253
+1150 collisions
+Predicted Column with Value: 1 has count = 8 or 0.696%
+Predicted Column with Value: 2 has count = 1142 or 99.304%
+
+
+P_ISEV == 252
+V_TYPE == 9
+1127 collisions
+Predicted Column with Value: 1 has count = 19 or 1.686%
+Predicted Column with Value: 2 has count = 1108 or 98.314%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 56
+1119 collisions
+Predicted Column with Value: 2 has count = 1119 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 5
+1112 collisions
+Predicted Column with Value: 2 has count = 1112 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 25
+1111 collisions
+Predicted Column with Value: 1 has count = 12 or 1.08%
+Predicted Column with Value: 2 has count = 1099 or 98.92%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 1
+1099 collisions
+Predicted Column with Value: 1 has count = 2 or 0.182%
+Predicted Column with Value: 2 has count = 1097 or 99.818%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 5
+1089 collisions
+Predicted Column with Value: 2 has count = 1089 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 57
+1088 collisions
+Predicted Column with Value: 1 has count = 1 or 0.092%
+Predicted Column with Value: 2 has count = 1087 or 99.908%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 2
+1084 collisions
+Predicted Column with Value: 1 has count = 4 or 0.369%
+Predicted Column with Value: 2 has count = 1080 or 99.631%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 253
+1042 collisions
+Predicted Column with Value: 1 has count = 5 or 0.48%
+Predicted Column with Value: 2 has count = 1037 or 99.52%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 32
+1031 collisions
+Predicted Column with Value: 1 has count = 56 or 5.432%
+Predicted Column with Value: 2 has count = 975 or 94.568%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 58
+1028 collisions
+Predicted Column with Value: 2 has count = 1028 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 2
+1019 collisions
+Predicted Column with Value: 2 has count = 1019 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 0
+1008 collisions
+Predicted Column with Value: 1 has count = 2 or 0.198%
+Predicted Column with Value: 2 has count = 1006 or 99.802%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 6
+1006 collisions
+Predicted Column with Value: 1 has count = 14 or 1.392%
+Predicted Column with Value: 2 has count = 992 or 98.608%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 4
+988 collisions
+Predicted Column with Value: 2 has count = 988 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 2
+987 collisions
+Predicted Column with Value: 1 has count = 4 or 0.405%
+Predicted Column with Value: 2 has count = 983 or 99.595%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 60
+980 collisions
+Predicted Column with Value: 2 has count = 980 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 6
+946 collisions
+Predicted Column with Value: 2 has count = 946 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 15
+940 collisions
+Predicted Column with Value: 2 has count = 940 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 4
+928 collisions
+Predicted Column with Value: 2 has count = 928 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 59
+920 collisions
+Predicted Column with Value: 2 has count = 920 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 2
+912 collisions
+Predicted Column with Value: 1 has count = 18 or 1.974%
+Predicted Column with Value: 2 has count = 894 or 98.026%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 7
+893 collisions
+Predicted Column with Value: 2 has count = 893 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 8
+890 collisions
+Predicted Column with Value: 2 has count = 890 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 2
+889 collisions
+Predicted Column with Value: 1 has count = 2 or 0.225%
+Predicted Column with Value: 2 has count = 887 or 99.775%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 5
+884 collisions
+Predicted Column with Value: 1 has count = 10 or 1.131%
+Predicted Column with Value: 2 has count = 874 or 98.869%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 41
+884 collisions
+Predicted Column with Value: 1 has count = 18 or 2.036%
+Predicted Column with Value: 2 has count = 866 or 97.964%
+
+
+P_ISEV == 2
+P_ID == 8
+852 collisions
+Predicted Column with Value: 1 has count = 99 or 11.62%
+Predicted Column with Value: 2 has count = 753 or 88.38%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 10
+852 collisions
+Predicted Column with Value: 2 has count = 852 or 100%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 252
+848 collisions
+Predicted Column with Value: 1 has count = 34 or 4.009%
+Predicted Column with Value: 2 has count = 814 or 95.991%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 9
+845 collisions
+Predicted Column with Value: 1 has count = 16 or 1.893%
+Predicted Column with Value: 2 has count = 829 or 98.107%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 7
+843 collisions
+Predicted Column with Value: 1 has count = 12 or 1.423%
+Predicted Column with Value: 2 has count = 831 or 98.577%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 0
+841 collisions
+Predicted Column with Value: 1 has count = 2 or 0.238%
+Predicted Column with Value: 2 has count = 839 or 99.762%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 61
+840 collisions
+Predicted Column with Value: 2 has count = 840 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 9
+835 collisions
+Predicted Column with Value: 2 has count = 835 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 12
+835 collisions
+Predicted Column with Value: 1 has count = 1 or 0.12%
+Predicted Column with Value: 2 has count = 834 or 99.88%
+
+
+P_ISEV == 252
+V_TYPE == 5
+831 collisions
+Predicted Column with Value: 1 has count = 16 or 1.925%
+Predicted Column with Value: 2 has count = 815 or 98.075%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 14
+812 collisions
+Predicted Column with Value: 2 has count = 812 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 252
+810 collisions
+Predicted Column with Value: 2 has count = 810 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 253
+809 collisions
+Predicted Column with Value: 1 has count = 7 or 0.865%
+Predicted Column with Value: 2 has count = 802 or 99.135%
+
+
+P_ISEV == 1
+V_TYPE == 22
+808 collisions
+Predicted Column with Value: 1 has count = 36 or 4.455%
+Predicted Column with Value: 2 has count = 772 or 95.545%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 13
+806 collisions
+Predicted Column with Value: 2 has count = 806 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 11
+804 collisions
+Predicted Column with Value: 1 has count = 1 or 0.124%
+Predicted Column with Value: 2 has count = 803 or 99.876%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 2
+790 collisions
+Predicted Column with Value: 1 has count = 2 or 0.253%
+Predicted Column with Value: 2 has count = 788 or 99.747%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 6
+781 collisions
+Predicted Column with Value: 2 has count = 781 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 255
+771 collisions
+Predicted Column with Value: 2 has count = 771 or 100%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 24
+771 collisions
+Predicted Column with Value: 1 has count = 8 or 1.038%
+Predicted Column with Value: 2 has count = 763 or 98.962%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 62
+770 collisions
+Predicted Column with Value: 2 has count = 770 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 5
+765 collisions
+Predicted Column with Value: 1 has count = 5 or 0.654%
+Predicted Column with Value: 2 has count = 760 or 99.346%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 1
+742 collisions
+Predicted Column with Value: 1 has count = 4 or 0.539%
+Predicted Column with Value: 2 has count = 738 or 99.461%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 63
+741 collisions
+Predicted Column with Value: 2 has count = 741 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 4
+740 collisions
+Predicted Column with Value: 1 has count = 6 or 0.811%
+Predicted Column with Value: 2 has count = 734 or 99.189%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 8
+738 collisions
+Predicted Column with Value: 2 has count = 738 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 17
+735 collisions
+Predicted Column with Value: 1 has count = 7 or 0.952%
+Predicted Column with Value: 2 has count = 728 or 99.048%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 253
+714 collisions
+Predicted Column with Value: 1 has count = 13 or 1.821%
+Predicted Column with Value: 2 has count = 701 or 98.179%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 11
+710 collisions
+Predicted Column with Value: 1 has count = 12 or 1.69%
+Predicted Column with Value: 2 has count = 698 or 98.31%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 4
+706 collisions
+Predicted Column with Value: 1 has count = 3 or 0.425%
+Predicted Column with Value: 2 has count = 703 or 99.575%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 13
+698 collisions
+Predicted Column with Value: 2 has count = 698 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 13
+697 collisions
+Predicted Column with Value: 1 has count = 1 or 0.143%
+Predicted Column with Value: 2 has count = 696 or 99.857%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 8
+693 collisions
+Predicted Column with Value: 1 has count = 1 or 0.144%
+Predicted Column with Value: 2 has count = 692 or 99.856%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 1
+692 collisions
+Predicted Column with Value: 1 has count = 4 or 0.578%
+Predicted Column with Value: 2 has count = 688 or 99.422%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 65
+683 collisions
+Predicted Column with Value: 2 has count = 683 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 8
+677 collisions
+Predicted Column with Value: 1 has count = 7 or 1.034%
+Predicted Column with Value: 2 has count = 670 or 98.966%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 8
+672 collisions
+Predicted Column with Value: 2 has count = 672 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 64
+665 collisions
+Predicted Column with Value: 2 has count = 665 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 13
+663 collisions
+Predicted Column with Value: 1 has count = 1 or 0.151%
+Predicted Column with Value: 2 has count = 662 or 99.849%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 18
+V_YEAR == 0
+C_HOUR == 4
+658 collisions
+Predicted Column with Value: 1 has count = 3 or 0.456%
+Predicted Column with Value: 2 has count = 655 or 99.544%
+
+
+P_ISEV == 1
+V_TYPE == 21
+656 collisions
+Predicted Column with Value: 1 has count = 20 or 3.049%
+Predicted Column with Value: 2 has count = 636 or 96.951%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 6
+653 collisions
+Predicted Column with Value: 1 has count = 15 or 2.297%
+Predicted Column with Value: 2 has count = 638 or 97.703%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 255
+653 collisions
+Predicted Column with Value: 1 has count = 4 or 0.613%
+Predicted Column with Value: 2 has count = 649 or 99.387%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 13
+649 collisions
+Predicted Column with Value: 1 has count = 2 or 0.308%
+Predicted Column with Value: 2 has count = 647 or 99.692%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 7
+645 collisions
+Predicted Column with Value: 1 has count = 20 or 3.101%
+Predicted Column with Value: 2 has count = 625 or 96.899%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 1
+P_SEX == 255
+643 collisions
+Predicted Column with Value: 1 has count = 3 or 0.467%
+Predicted Column with Value: 2 has count = 640 or 99.533%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 18
+636 collisions
+Predicted Column with Value: 1 has count = 40 or 6.289%
+Predicted Column with Value: 2 has count = 596 or 93.711%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 32
+626 collisions
+Predicted Column with Value: 1 has count = 2 or 0.319%
+Predicted Column with Value: 2 has count = 624 or 99.681%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 253
+621 collisions
+Predicted Column with Value: 1 has count = 4 or 0.644%
+Predicted Column with Value: 2 has count = 617 or 99.356%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 12
+621 collisions
+Predicted Column with Value: 1 has count = 4 or 0.644%
+Predicted Column with Value: 2 has count = 617 or 99.356%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 5
+621 collisions
+Predicted Column with Value: 2 has count = 621 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 3
+619 collisions
+Predicted Column with Value: 1 has count = 1 or 0.162%
+Predicted Column with Value: 2 has count = 618 or 99.838%
+
+
+P_ISEV == 1
+V_TYPE == 10
+594 collisions
+Predicted Column with Value: 1 has count = 8 or 1.347%
+Predicted Column with Value: 2 has count = 586 or 98.653%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 66
+581 collisions
+Predicted Column with Value: 2 has count = 581 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 4
+580 collisions
+Predicted Column with Value: 1 has count = 10 or 1.724%
+Predicted Column with Value: 2 has count = 570 or 98.276%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 13
+579 collisions
+Predicted Column with Value: 1 has count = 9 or 1.554%
+Predicted Column with Value: 2 has count = 570 or 98.446%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 3
+576 collisions
+Predicted Column with Value: 1 has count = 8 or 1.389%
+Predicted Column with Value: 2 has count = 568 or 98.611%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 22
+575 collisions
+Predicted Column with Value: 1 has count = 1 or 0.174%
+Predicted Column with Value: 2 has count = 574 or 99.826%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 67
+571 collisions
+Predicted Column with Value: 2 has count = 571 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 10
+563 collisions
+Predicted Column with Value: 1 has count = 9 or 1.599%
+Predicted Column with Value: 2 has count = 554 or 98.401%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 4
+559 collisions
+Predicted Column with Value: 1 has count = 23 or 4.114%
+Predicted Column with Value: 2 has count = 536 or 95.886%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 1
+555 collisions
+Predicted Column with Value: 2 has count = 555 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 12
+548 collisions
+Predicted Column with Value: 1 has count = 19 or 3.467%
+Predicted Column with Value: 2 has count = 529 or 96.533%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 12
+547 collisions
+Predicted Column with Value: 1 has count = 14 or 2.559%
+Predicted Column with Value: 2 has count = 533 or 97.441%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 7
+528 collisions
+Predicted Column with Value: 1 has count = 4 or 0.758%
+Predicted Column with Value: 2 has count = 524 or 99.242%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 2
+526 collisions
+Predicted Column with Value: 2 has count = 526 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 68
+524 collisions
+Predicted Column with Value: 2 has count = 524 or 100%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 9
+521 collisions
+Predicted Column with Value: 1 has count = 3 or 0.576%
+Predicted Column with Value: 2 has count = 518 or 99.424%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 5
+515 collisions
+Predicted Column with Value: 1 has count = 3 or 0.583%
+Predicted Column with Value: 2 has count = 512 or 99.417%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 4
+514 collisions
+Predicted Column with Value: 2 has count = 514 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 13
+513 collisions
+Predicted Column with Value: 2 has count = 513 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 4
+512 collisions
+Predicted Column with Value: 2 has count = 512 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 69
+511 collisions
+Predicted Column with Value: 2 has count = 511 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 19
+495 collisions
+Predicted Column with Value: 1 has count = 11 or 2.222%
+Predicted Column with Value: 2 has count = 484 or 97.778%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 70
+491 collisions
+Predicted Column with Value: 2 has count = 491 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 7
+490 collisions
+Predicted Column with Value: 1 has count = 19 or 3.878%
+Predicted Column with Value: 2 has count = 471 or 96.122%
+
+
+P_ISEV == 2
+P_ID == 9
+487 collisions
+Predicted Column with Value: 1 has count = 54 or 11.088%
+Predicted Column with Value: 2 has count = 433 or 88.912%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 2
+482 collisions
+Predicted Column with Value: 1 has count = 2 or 0.415%
+Predicted Column with Value: 2 has count = 480 or 99.585%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 253
+464 collisions
+Predicted Column with Value: 1 has count = 22 or 4.741%
+Predicted Column with Value: 2 has count = 442 or 95.259%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 17
+458 collisions
+Predicted Column with Value: 1 has count = 1 or 0.218%
+Predicted Column with Value: 2 has count = 457 or 99.782%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 253
+456 collisions
+Predicted Column with Value: 1 has count = 1 or 0.219%
+Predicted Column with Value: 2 has count = 455 or 99.781%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 253
+450 collisions
+Predicted Column with Value: 1 has count = 2 or 0.444%
+Predicted Column with Value: 2 has count = 448 or 99.556%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 253
+447 collisions
+Predicted Column with Value: 2 has count = 447 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 71
+441 collisions
+Predicted Column with Value: 2 has count = 441 or 100%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 5
+434 collisions
+Predicted Column with Value: 1 has count = 13 or 2.995%
+Predicted Column with Value: 2 has count = 421 or 97.005%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 12
+426 collisions
+Predicted Column with Value: 1 has count = 4 or 0.939%
+Predicted Column with Value: 2 has count = 422 or 99.061%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 5
+425 collisions
+Predicted Column with Value: 2 has count = 425 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 72
+424 collisions
+Predicted Column with Value: 2 has count = 424 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 6
+423 collisions
+Predicted Column with Value: 1 has count = 1 or 0.236%
+Predicted Column with Value: 2 has count = 422 or 99.764%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 253
+417 collisions
+Predicted Column with Value: 1 has count = 2 or 0.48%
+Predicted Column with Value: 2 has count = 415 or 99.52%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 18
+P_SEX == 255
+400 collisions
+Predicted Column with Value: 1 has count = 3 or 0.75%
+Predicted Column with Value: 2 has count = 397 or 99.25%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 7
+394 collisions
+Predicted Column with Value: 2 has count = 394 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 74
+392 collisions
+Predicted Column with Value: 2 has count = 392 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 2
+392 collisions
+Predicted Column with Value: 2 has count = 392 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 2
+C_RALN == 6
+387 collisions
+Predicted Column with Value: 1 has count = 1 or 0.258%
+Predicted Column with Value: 2 has count = 386 or 99.742%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 73
+387 collisions
+Predicted Column with Value: 1 has count = 1 or 0.258%
+Predicted Column with Value: 2 has count = 386 or 99.742%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 8
+386 collisions
+Predicted Column with Value: 1 has count = 19 or 4.922%
+Predicted Column with Value: 2 has count = 367 or 95.078%
+
+
+P_ISEV == 2
+P_ID == 10
+385 collisions
+Predicted Column with Value: 1 has count = 47 or 12.208%
+Predicted Column with Value: 2 has count = 338 or 87.792%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 75
+383 collisions
+Predicted Column with Value: 2 has count = 383 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 11
+372 collisions
+Predicted Column with Value: 1 has count = 7 or 1.882%
+Predicted Column with Value: 2 has count = 365 or 98.118%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 76
+367 collisions
+Predicted Column with Value: 2 has count = 367 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 2
+366 collisions
+Predicted Column with Value: 1 has count = 4 or 1.093%
+Predicted Column with Value: 2 has count = 362 or 98.907%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 1
+C_HOUR == 4
+363 collisions
+Predicted Column with Value: 1 has count = 1 or 0.275%
+Predicted Column with Value: 2 has count = 362 or 99.725%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 6
+358 collisions
+Predicted Column with Value: 1 has count = 5 or 1.397%
+Predicted Column with Value: 2 has count = 353 or 98.603%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 1
+355 collisions
+Predicted Column with Value: 1 has count = 6 or 1.69%
+Predicted Column with Value: 2 has count = 349 or 98.31%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 5
+345 collisions
+Predicted Column with Value: 2 has count = 345 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 255
+337 collisions
+Predicted Column with Value: 1 has count = 9 or 2.671%
+Predicted Column with Value: 2 has count = 328 or 97.329%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 77
+334 collisions
+Predicted Column with Value: 2 has count = 334 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 1
+333 collisions
+Predicted Column with Value: 1 has count = 1 or 0.3%
+Predicted Column with Value: 2 has count = 332 or 99.7%
+
+
+P_ISEV == 2
+P_ID == 11
+322 collisions
+Predicted Column with Value: 1 has count = 39 or 12.112%
+Predicted Column with Value: 2 has count = 283 or 87.888%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 252
+319 collisions
+Predicted Column with Value: 2 has count = 319 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 2
+319 collisions
+Predicted Column with Value: 1 has count = 2 or 0.627%
+Predicted Column with Value: 2 has count = 317 or 99.373%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 252
+315 collisions
+Predicted Column with Value: 1 has count = 17 or 5.397%
+Predicted Column with Value: 2 has count = 298 or 94.603%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 15
+314 collisions
+Predicted Column with Value: 2 has count = 314 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 16
+313 collisions
+Predicted Column with Value: 1 has count = 15 or 4.792%
+Predicted Column with Value: 2 has count = 298 or 95.208%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 12
+306 collisions
+Predicted Column with Value: 1 has count = 2 or 0.654%
+Predicted Column with Value: 2 has count = 304 or 99.346%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 12
+299 collisions
+Predicted Column with Value: 1 has count = 56 or 18.729%
+Predicted Column with Value: 2 has count = 243 or 81.271%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 8
+293 collisions
+Predicted Column with Value: 1 has count = 2 or 0.683%
+Predicted Column with Value: 2 has count = 291 or 99.317%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 7
+292 collisions
+Predicted Column with Value: 1 has count = 10 or 3.425%
+Predicted Column with Value: 2 has count = 282 or 96.575%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 4
+292 collisions
+Predicted Column with Value: 1 has count = 3 or 1.027%
+Predicted Column with Value: 2 has count = 289 or 98.973%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 17
+290 collisions
+Predicted Column with Value: 1 has count = 3 or 1.034%
+Predicted Column with Value: 2 has count = 287 or 98.966%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 13
+290 collisions
+Predicted Column with Value: 2 has count = 290 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 78
+284 collisions
+Predicted Column with Value: 2 has count = 284 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 15
+282 collisions
+Predicted Column with Value: 2 has count = 282 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 255
+277 collisions
+Predicted Column with Value: 1 has count = 1 or 0.361%
+Predicted Column with Value: 2 has count = 276 or 99.639%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 12
+276 collisions
+Predicted Column with Value: 1 has count = 1 or 0.362%
+Predicted Column with Value: 2 has count = 275 or 99.638%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 4
+276 collisions
+Predicted Column with Value: 1 has count = 10 or 3.623%
+Predicted Column with Value: 2 has count = 266 or 96.377%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 79
+275 collisions
+Predicted Column with Value: 2 has count = 275 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 13
+270 collisions
+Predicted Column with Value: 1 has count = 4 or 1.481%
+Predicted Column with Value: 2 has count = 266 or 98.519%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 8
+268 collisions
+Predicted Column with Value: 1 has count = 3 or 1.119%
+Predicted Column with Value: 2 has count = 265 or 98.881%
+
+
+P_ISEV == 2
+P_ID == 12
+265 collisions
+Predicted Column with Value: 1 has count = 36 or 13.585%
+Predicted Column with Value: 2 has count = 229 or 86.415%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 2
+264 collisions
+Predicted Column with Value: 1 has count = 1 or 0.379%
+Predicted Column with Value: 2 has count = 263 or 99.621%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 6
+263 collisions
+Predicted Column with Value: 1 has count = 1 or 0.38%
+Predicted Column with Value: 2 has count = 262 or 99.62%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 9
+259 collisions
+Predicted Column with Value: 2 has count = 259 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 2
+255 collisions
+Predicted Column with Value: 1 has count = 2 or 0.784%
+Predicted Column with Value: 2 has count = 253 or 99.216%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 6
+254 collisions
+Predicted Column with Value: 2 has count = 254 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 252
+252 collisions
+Predicted Column with Value: 1 has count = 1 or 0.397%
+Predicted Column with Value: 2 has count = 251 or 99.603%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 9
+249 collisions
+Predicted Column with Value: 1 has count = 8 or 3.213%
+Predicted Column with Value: 2 has count = 241 or 96.787%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 80
+246 collisions
+Predicted Column with Value: 2 has count = 246 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 14
+240 collisions
+Predicted Column with Value: 1 has count = 9 or 3.75%
+Predicted Column with Value: 2 has count = 231 or 96.25%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 6
+237 collisions
+Predicted Column with Value: 1 has count = 4 or 1.688%
+Predicted Column with Value: 2 has count = 233 or 98.312%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 7
+233 collisions
+Predicted Column with Value: 2 has count = 233 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 6
+233 collisions
+Predicted Column with Value: 1 has count = 3 or 1.288%
+Predicted Column with Value: 2 has count = 230 or 98.712%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 81
+227 collisions
+Predicted Column with Value: 2 has count = 227 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 15
+226 collisions
+Predicted Column with Value: 1 has count = 3 or 1.327%
+Predicted Column with Value: 2 has count = 223 or 98.673%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 13
+224 collisions
+Predicted Column with Value: 2 has count = 224 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 13
+222 collisions
+Predicted Column with Value: 1 has count = 2 or 0.901%
+Predicted Column with Value: 2 has count = 220 or 99.099%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 22
+217 collisions
+Predicted Column with Value: 1 has count = 4 or 1.843%
+Predicted Column with Value: 2 has count = 213 or 98.157%
+
+
+P_ISEV == 2
+P_ID == 13
+212 collisions
+Predicted Column with Value: 1 has count = 32 or 15.094%
+Predicted Column with Value: 2 has count = 180 or 84.906%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 16
+208 collisions
+Predicted Column with Value: 1 has count = 3 or 1.442%
+Predicted Column with Value: 2 has count = 205 or 98.558%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 255
+206 collisions
+Predicted Column with Value: 1 has count = 3 or 1.456%
+Predicted Column with Value: 2 has count = 203 or 98.544%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 7
+206 collisions
+Predicted Column with Value: 1 has count = 3 or 1.456%
+Predicted Column with Value: 2 has count = 203 or 98.544%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 5
+205 collisions
+Predicted Column with Value: 1 has count = 4 or 1.951%
+Predicted Column with Value: 2 has count = 201 or 98.049%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 5
+204 collisions
+Predicted Column with Value: 1 has count = 9 or 4.412%
+Predicted Column with Value: 2 has count = 195 or 95.588%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 2
+C_CONF == 25
+203 collisions
+Predicted Column with Value: 1 has count = 1 or 0.493%
+Predicted Column with Value: 2 has count = 202 or 99.507%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 13
+202 collisions
+Predicted Column with Value: 2 has count = 202 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 253
+199 collisions
+Predicted Column with Value: 2 has count = 199 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 5
+198 collisions
+Predicted Column with Value: 2 has count = 198 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 2
+197 collisions
+Predicted Column with Value: 1 has count = 2 or 1.015%
+Predicted Column with Value: 2 has count = 195 or 98.985%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 4
+191 collisions
+Predicted Column with Value: 1 has count = 5 or 2.618%
+Predicted Column with Value: 2 has count = 186 or 97.382%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 82
+191 collisions
+Predicted Column with Value: 1 has count = 2 or 1.047%
+Predicted Column with Value: 2 has count = 189 or 98.953%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 11
+188 collisions
+Predicted Column with Value: 2 has count = 188 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 4
+187 collisions
+Predicted Column with Value: 1 has count = 9 or 4.813%
+Predicted Column with Value: 2 has count = 178 or 95.187%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 12
+187 collisions
+Predicted Column with Value: 2 has count = 187 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 11
+182 collisions
+Predicted Column with Value: 2 has count = 182 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 9
+181 collisions
+Predicted Column with Value: 1 has count = 8 or 4.42%
+Predicted Column with Value: 2 has count = 173 or 95.58%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 1
+180 collisions
+Predicted Column with Value: 2 has count = 180 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 255
+179 collisions
+Predicted Column with Value: 2 has count = 179 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 36
+P_SEX == 255
+178 collisions
+Predicted Column with Value: 2 has count = 178 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 2
+174 collisions
+Predicted Column with Value: 2 has count = 174 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 13
+167 collisions
+Predicted Column with Value: 2 has count = 167 or 100%
+
+
+P_ISEV == 2
+P_ID == 14
+165 collisions
+Predicted Column with Value: 1 has count = 22 or 13.333%
+Predicted Column with Value: 2 has count = 143 or 86.667%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 6
+163 collisions
+Predicted Column with Value: 2 has count = 163 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 13
+159 collisions
+Predicted Column with Value: 2 has count = 159 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 10
+156 collisions
+Predicted Column with Value: 2 has count = 156 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 253
+154 collisions
+Predicted Column with Value: 2 has count = 154 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 10
+151 collisions
+Predicted Column with Value: 2 has count = 151 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 22
+150 collisions
+Predicted Column with Value: 1 has count = 7 or 4.667%
+Predicted Column with Value: 2 has count = 143 or 95.333%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 10
+145 collisions
+Predicted Column with Value: 2 has count = 145 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 83
+145 collisions
+Predicted Column with Value: 2 has count = 145 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 253
+145 collisions
+Predicted Column with Value: 1 has count = 1 or 0.69%
+Predicted Column with Value: 2 has count = 144 or 99.31%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 253
+144 collisions
+Predicted Column with Value: 2 has count = 144 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 7
+140 collisions
+Predicted Column with Value: 2 has count = 140 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 5
+138 collisions
+Predicted Column with Value: 2 has count = 138 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 13
+138 collisions
+Predicted Column with Value: 2 has count = 138 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 23
+136 collisions
+Predicted Column with Value: 1 has count = 1 or 0.735%
+Predicted Column with Value: 2 has count = 135 or 99.265%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 8
+136 collisions
+Predicted Column with Value: 2 has count = 136 or 100%
+
+
+P_ISEV == 2
+P_ID == 15
+135 collisions
+Predicted Column with Value: 1 has count = 20 or 14.815%
+Predicted Column with Value: 2 has count = 115 or 85.185%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 7
+130 collisions
+Predicted Column with Value: 2 has count = 130 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 25
+130 collisions
+Predicted Column with Value: 2 has count = 130 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 255
+130 collisions
+Predicted Column with Value: 2 has count = 130 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 84
+129 collisions
+Predicted Column with Value: 2 has count = 129 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 12
+127 collisions
+Predicted Column with Value: 2 has count = 127 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 85
+125 collisions
+Predicted Column with Value: 2 has count = 125 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 8
+122 collisions
+Predicted Column with Value: 1 has count = 3 or 2.459%
+Predicted Column with Value: 2 has count = 119 or 97.541%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 1
+121 collisions
+Predicted Column with Value: 1 has count = 2 or 1.653%
+Predicted Column with Value: 2 has count = 119 or 98.347%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 20
+120 collisions
+Predicted Column with Value: 2 has count = 120 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 7
+119 collisions
+Predicted Column with Value: 2 has count = 119 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 10
+117 collisions
+Predicted Column with Value: 2 has count = 117 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 5
+116 collisions
+Predicted Column with Value: 1 has count = 1 or 0.862%
+Predicted Column with Value: 2 has count = 115 or 99.138%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 7
+116 collisions
+Predicted Column with Value: 2 has count = 116 or 100%
+
+
+P_ISEV == 2
+P_ID == 16
+113 collisions
+Predicted Column with Value: 1 has count = 18 or 15.929%
+Predicted Column with Value: 2 has count = 95 or 84.071%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 12
+109 collisions
+Predicted Column with Value: 2 has count = 109 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 15
+108 collisions
+Predicted Column with Value: 2 has count = 108 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 8
+107 collisions
+Predicted Column with Value: 1 has count = 2 or 1.869%
+Predicted Column with Value: 2 has count = 105 or 98.131%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 13
+106 collisions
+Predicted Column with Value: 1 has count = 1 or 0.943%
+Predicted Column with Value: 2 has count = 105 or 99.057%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 36
+106 collisions
+Predicted Column with Value: 2 has count = 106 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 9
+103 collisions
+Predicted Column with Value: 2 has count = 103 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 35
+101 collisions
+Predicted Column with Value: 2 has count = 101 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 72
+100 collisions
+Predicted Column with Value: 2 has count = 100 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 7
+99 collisions
+Predicted Column with Value: 2 has count = 99 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 18
+98 collisions
+Predicted Column with Value: 2 has count = 98 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 5
+97 collisions
+Predicted Column with Value: 1 has count = 1 or 1.031%
+Predicted Column with Value: 2 has count = 96 or 98.969%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 11
+96 collisions
+Predicted Column with Value: 2 has count = 96 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 15
+95 collisions
+Predicted Column with Value: 1 has count = 2 or 2.105%
+Predicted Column with Value: 2 has count = 93 or 97.895%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 7
+95 collisions
+Predicted Column with Value: 2 has count = 95 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 77
+95 collisions
+Predicted Column with Value: 1 has count = 13 or 13.684%
+Predicted Column with Value: 2 has count = 82 or 86.316%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 4
+95 collisions
+Predicted Column with Value: 1 has count = 5 or 5.263%
+Predicted Column with Value: 2 has count = 90 or 94.737%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 10
+94 collisions
+Predicted Column with Value: 1 has count = 2 or 2.128%
+Predicted Column with Value: 2 has count = 92 or 97.872%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 21
+94 collisions
+Predicted Column with Value: 1 has count = 2 or 2.128%
+Predicted Column with Value: 2 has count = 92 or 97.872%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 17
+93 collisions
+Predicted Column with Value: 1 has count = 16 or 17.204%
+Predicted Column with Value: 2 has count = 77 or 82.796%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 86
+92 collisions
+Predicted Column with Value: 2 has count = 92 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 2
+C_WTHR == 5
+89 collisions
+Predicted Column with Value: 2 has count = 89 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 5
+88 collisions
+Predicted Column with Value: 1 has count = 3 or 3.409%
+Predicted Column with Value: 2 has count = 85 or 96.591%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 6
+88 collisions
+Predicted Column with Value: 2 has count = 88 or 100%
+
+
+P_ISEV == 2
+P_ID == 17
+88 collisions
+Predicted Column with Value: 1 has count = 14 or 15.909%
+Predicted Column with Value: 2 has count = 74 or 84.091%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 15
+88 collisions
+Predicted Column with Value: 1 has count = 1 or 1.136%
+Predicted Column with Value: 2 has count = 87 or 98.864%
+
+
+P_ISEV == 252
+V_TYPE == 19
+88 collisions
+Predicted Column with Value: 1 has count = 3 or 3.409%
+Predicted Column with Value: 2 has count = 85 or 96.591%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 255
+88 collisions
+Predicted Column with Value: 2 has count = 88 or 100%
+
+
+P_ISEV == 2
+P_ID == 19
+85 collisions
+Predicted Column with Value: 1 has count = 16 or 18.824%
+Predicted Column with Value: 2 has count = 69 or 81.176%
+
+
+P_ISEV == 2
+P_ID == 18
+85 collisions
+Predicted Column with Value: 1 has count = 15 or 17.647%
+Predicted Column with Value: 2 has count = 70 or 82.353%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 17
+84 collisions
+Predicted Column with Value: 1 has count = 1 or 1.19%
+Predicted Column with Value: 2 has count = 83 or 98.81%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 7
+83 collisions
+Predicted Column with Value: 2 has count = 83 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 8
+83 collisions
+Predicted Column with Value: 1 has count = 9 or 10.843%
+Predicted Column with Value: 2 has count = 74 or 89.157%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 16
+83 collisions
+Predicted Column with Value: 1 has count = 1 or 1.205%
+Predicted Column with Value: 2 has count = 82 or 98.795%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 8
+83 collisions
+Predicted Column with Value: 2 has count = 83 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 14
+82 collisions
+Predicted Column with Value: 2 has count = 82 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 15
+81 collisions
+Predicted Column with Value: 2 has count = 81 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 21
+80 collisions
+Predicted Column with Value: 1 has count = 9 or 11.25%
+Predicted Column with Value: 2 has count = 71 or 88.75%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 11
+80 collisions
+Predicted Column with Value: 1 has count = 8 or 10%
+Predicted Column with Value: 2 has count = 72 or 90%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 6
+80 collisions
+Predicted Column with Value: 1 has count = 4 or 5%
+Predicted Column with Value: 2 has count = 76 or 95%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 16
+77 collisions
+Predicted Column with Value: 2 has count = 77 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 22
+77 collisions
+Predicted Column with Value: 2 has count = 77 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 5
+76 collisions
+Predicted Column with Value: 1 has count = 1 or 1.316%
+Predicted Column with Value: 2 has count = 75 or 98.684%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 16
+76 collisions
+Predicted Column with Value: 2 has count = 76 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 11
+75 collisions
+Predicted Column with Value: 2 has count = 75 or 100%
+
+
+P_ISEV == 2
+P_ID == 20
+75 collisions
+Predicted Column with Value: 1 has count = 16 or 21.333%
+Predicted Column with Value: 2 has count = 59 or 78.667%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 252
+74 collisions
+Predicted Column with Value: 2 has count = 74 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 8
+74 collisions
+Predicted Column with Value: 2 has count = 74 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 87
+74 collisions
+Predicted Column with Value: 2 has count = 74 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 15
+73 collisions
+Predicted Column with Value: 2 has count = 73 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 3
+71 collisions
+Predicted Column with Value: 1 has count = 3 or 4.225%
+Predicted Column with Value: 2 has count = 68 or 95.775%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 7
+70 collisions
+Predicted Column with Value: 2 has count = 70 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 4
+70 collisions
+Predicted Column with Value: 2 has count = 70 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 14
+70 collisions
+Predicted Column with Value: 2 has count = 70 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 5
+69 collisions
+Predicted Column with Value: 2 has count = 69 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 10
+69 collisions
+Predicted Column with Value: 2 has count = 69 or 100%
+
+
+P_ISEV == 2
+P_ID == 21
+69 collisions
+Predicted Column with Value: 1 has count = 15 or 21.739%
+Predicted Column with Value: 2 has count = 54 or 78.261%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 8
+68 collisions
+Predicted Column with Value: 2 has count = 68 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 18
+68 collisions
+Predicted Column with Value: 1 has count = 2 or 2.941%
+Predicted Column with Value: 2 has count = 66 or 97.059%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 9
+67 collisions
+Predicted Column with Value: 2 has count = 67 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 19
+67 collisions
+Predicted Column with Value: 2 has count = 67 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 15
+67 collisions
+Predicted Column with Value: 2 has count = 67 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 6
+67 collisions
+Predicted Column with Value: 1 has count = 1 or 1.493%
+Predicted Column with Value: 2 has count = 66 or 98.507%
+
+
+P_ISEV == 2
+P_ID == 22
+66 collisions
+Predicted Column with Value: 1 has count = 13 or 19.697%
+Predicted Column with Value: 2 has count = 53 or 80.303%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 13
+66 collisions
+Predicted Column with Value: 2 has count = 66 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 9
+66 collisions
+Predicted Column with Value: 2 has count = 66 or 100%
+
+
+P_ISEV == 2
+P_ID == 23
+66 collisions
+Predicted Column with Value: 1 has count = 14 or 21.212%
+Predicted Column with Value: 2 has count = 52 or 78.788%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 9
+65 collisions
+Predicted Column with Value: 2 has count = 65 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 12
+64 collisions
+Predicted Column with Value: 2 has count = 64 or 100%
+
+
+P_ISEV == 2
+P_ID == 24
+64 collisions
+Predicted Column with Value: 1 has count = 13 or 20.312%
+Predicted Column with Value: 2 has count = 51 or 79.688%
+
+
+P_ISEV == 2
+P_ID == 25
+64 collisions
+Predicted Column with Value: 1 has count = 13 or 20.312%
+Predicted Column with Value: 2 has count = 51 or 79.688%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 5
+63 collisions
+Predicted Column with Value: 2 has count = 63 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 88
+63 collisions
+Predicted Column with Value: 2 has count = 63 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 11
+63 collisions
+Predicted Column with Value: 2 has count = 63 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 12
+62 collisions
+Predicted Column with Value: 2 has count = 62 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 96
+62 collisions
+Predicted Column with Value: 1 has count = 4 or 6.452%
+Predicted Column with Value: 2 has count = 58 or 93.548%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 252
+62 collisions
+Predicted Column with Value: 2 has count = 62 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 17
+61 collisions
+Predicted Column with Value: 1 has count = 1 or 1.639%
+Predicted Column with Value: 2 has count = 60 or 98.361%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 54
+60 collisions
+Predicted Column with Value: 1 has count = 60 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 11
+60 collisions
+Predicted Column with Value: 2 has count = 60 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 255
+60 collisions
+Predicted Column with Value: 2 has count = 60 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 9
+60 collisions
+Predicted Column with Value: 1 has count = 3 or 5%
+Predicted Column with Value: 2 has count = 57 or 95%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 12
+60 collisions
+Predicted Column with Value: 2 has count = 60 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 38
+59 collisions
+Predicted Column with Value: 1 has count = 17 or 28.814%
+Predicted Column with Value: 2 has count = 42 or 71.186%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 10
+59 collisions
+Predicted Column with Value: 2 has count = 59 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 20
+59 collisions
+Predicted Column with Value: 1 has count = 13 or 22.034%
+Predicted Column with Value: 2 has count = 46 or 77.966%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 9
+59 collisions
+Predicted Column with Value: 2 has count = 59 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 12
+59 collisions
+Predicted Column with Value: 1 has count = 2 or 3.39%
+Predicted Column with Value: 2 has count = 57 or 96.61%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 12
+57 collisions
+Predicted Column with Value: 1 has count = 7 or 12.281%
+Predicted Column with Value: 2 has count = 50 or 87.719%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 9
+57 collisions
+Predicted Column with Value: 1 has count = 1 or 1.754%
+Predicted Column with Value: 2 has count = 56 or 98.246%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 255
+56 collisions
+Predicted Column with Value: 2 has count = 56 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 26
+56 collisions
+Predicted Column with Value: 2 has count = 56 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 5
+55 collisions
+Predicted Column with Value: 1 has count = 5 or 9.091%
+Predicted Column with Value: 2 has count = 50 or 90.909%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 10
+55 collisions
+Predicted Column with Value: 2 has count = 55 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 12
+55 collisions
+Predicted Column with Value: 2 has count = 55 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 9
+55 collisions
+Predicted Column with Value: 2 has count = 55 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 7
+54 collisions
+Predicted Column with Value: 2 has count = 54 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 23
+52 collisions
+Predicted Column with Value: 1 has count = 2 or 3.846%
+Predicted Column with Value: 2 has count = 50 or 96.154%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 77
+52 collisions
+Predicted Column with Value: 1 has count = 41 or 78.846%
+Predicted Column with Value: 2 has count = 11 or 21.154%
+
+
+P_ISEV == 2
+P_ID == 26
+51 collisions
+Predicted Column with Value: 1 has count = 13 or 25.49%
+Predicted Column with Value: 2 has count = 38 or 74.51%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 3
+50 collisions
+Predicted Column with Value: 1 has count = 3 or 6%
+Predicted Column with Value: 2 has count = 47 or 94%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 17
+49 collisions
+Predicted Column with Value: 2 has count = 49 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 16
+49 collisions
+Predicted Column with Value: 2 has count = 49 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 12
+49 collisions
+Predicted Column with Value: 2 has count = 49 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 12
+49 collisions
+Predicted Column with Value: 2 has count = 49 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 2
+47 collisions
+Predicted Column with Value: 1 has count = 2 or 4.255%
+Predicted Column with Value: 2 has count = 45 or 95.745%
+
+
+P_ISEV == 2
+P_ID == 30
+47 collisions
+Predicted Column with Value: 1 has count = 8 or 17.021%
+Predicted Column with Value: 2 has count = 39 or 82.979%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 27
+47 collisions
+Predicted Column with Value: 2 has count = 47 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 12
+46 collisions
+Predicted Column with Value: 2 has count = 46 or 100%
+
+
+P_ISEV == 2
+P_ID == 29
+46 collisions
+Predicted Column with Value: 1 has count = 10 or 21.739%
+Predicted Column with Value: 2 has count = 36 or 78.261%
+
+
+P_ISEV == 2
+P_ID == 27
+46 collisions
+Predicted Column with Value: 1 has count = 10 or 21.739%
+Predicted Column with Value: 2 has count = 36 or 78.261%
+
+
+P_ISEV == 2
+P_ID == 28
+45 collisions
+Predicted Column with Value: 1 has count = 10 or 22.222%
+Predicted Column with Value: 2 has count = 35 or 77.778%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 15
+45 collisions
+Predicted Column with Value: 2 has count = 45 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 1
+45 collisions
+Predicted Column with Value: 1 has count = 12 or 26.667%
+Predicted Column with Value: 2 has count = 33 or 73.333%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 18
+44 collisions
+Predicted Column with Value: 1 has count = 1 or 2.273%
+Predicted Column with Value: 2 has count = 43 or 97.727%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 15
+44 collisions
+Predicted Column with Value: 2 has count = 44 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 11
+43 collisions
+Predicted Column with Value: 1 has count = 5 or 11.628%
+Predicted Column with Value: 2 has count = 38 or 88.372%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 5
+43 collisions
+Predicted Column with Value: 2 has count = 43 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 14
+42 collisions
+Predicted Column with Value: 1 has count = 2 or 4.762%
+Predicted Column with Value: 2 has count = 40 or 95.238%
+
+
+P_ISEV == 2
+P_ID == 31
+42 collisions
+Predicted Column with Value: 1 has count = 8 or 19.048%
+Predicted Column with Value: 2 has count = 34 or 80.952%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 28
+42 collisions
+Predicted Column with Value: 2 has count = 42 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 31
+42 collisions
+Predicted Column with Value: 2 has count = 42 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 255
+42 collisions
+Predicted Column with Value: 2 has count = 42 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 41
+41 collisions
+Predicted Column with Value: 2 has count = 41 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 51
+40 collisions
+Predicted Column with Value: 2 has count = 40 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 15
+40 collisions
+Predicted Column with Value: 2 has count = 40 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 44
+40 collisions
+Predicted Column with Value: 2 has count = 40 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 10
+39 collisions
+Predicted Column with Value: 1 has count = 4 or 10.256%
+Predicted Column with Value: 2 has count = 35 or 89.744%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 13
+39 collisions
+Predicted Column with Value: 2 has count = 39 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 21
+39 collisions
+Predicted Column with Value: 2 has count = 39 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 12
+39 collisions
+Predicted Column with Value: 2 has count = 39 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 36
+39 collisions
+Predicted Column with Value: 2 has count = 39 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 46
+38 collisions
+Predicted Column with Value: 2 has count = 38 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 2
+C_RALN == 253
+37 collisions
+Predicted Column with Value: 2 has count = 37 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 47
+37 collisions
+Predicted Column with Value: 2 has count = 37 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 10
+36 collisions
+Predicted Column with Value: 1 has count = 2 or 5.556%
+Predicted Column with Value: 2 has count = 34 or 94.444%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 11
+36 collisions
+Predicted Column with Value: 2 has count = 36 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 5
+36 collisions
+Predicted Column with Value: 2 has count = 36 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 10
+36 collisions
+Predicted Column with Value: 2 has count = 36 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 6
+36 collisions
+Predicted Column with Value: 1 has count = 2 or 5.556%
+Predicted Column with Value: 2 has count = 34 or 94.444%
+
+
+P_ISEV == 2
+P_ID == 33
+35 collisions
+Predicted Column with Value: 1 has count = 8 or 22.857%
+Predicted Column with Value: 2 has count = 27 or 77.143%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 13
+35 collisions
+Predicted Column with Value: 2 has count = 35 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 6
+35 collisions
+Predicted Column with Value: 1 has count = 3 or 8.571%
+Predicted Column with Value: 2 has count = 32 or 91.429%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 253
+35 collisions
+Predicted Column with Value: 2 has count = 35 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 19
+35 collisions
+Predicted Column with Value: 2 has count = 35 or 100%
+
+
+P_ISEV == 2
+P_ID == 34
+34 collisions
+Predicted Column with Value: 1 has count = 8 or 23.529%
+Predicted Column with Value: 2 has count = 26 or 76.471%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 11
+33 collisions
+Predicted Column with Value: 2 has count = 33 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 13
+33 collisions
+Predicted Column with Value: 2 has count = 33 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 2
+C_RSUR == 8
+33 collisions
+Predicted Column with Value: 2 has count = 33 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 39
+33 collisions
+Predicted Column with Value: 2 has count = 33 or 100%
+
+
+P_ISEV == 2
+P_ID == 32
+33 collisions
+Predicted Column with Value: 1 has count = 8 or 24.242%
+Predicted Column with Value: 2 has count = 25 or 75.758%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 12
+32 collisions
+Predicted Column with Value: 1 has count = 8 or 25%
+Predicted Column with Value: 2 has count = 24 or 75%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 10
+32 collisions
+Predicted Column with Value: 1 has count = 1 or 3.125%
+Predicted Column with Value: 2 has count = 31 or 96.875%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 11
+32 collisions
+Predicted Column with Value: 2 has count = 32 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 17
+32 collisions
+Predicted Column with Value: 2 has count = 32 or 100%
+
+
+P_ISEV == 2
+P_ID == 35
+31 collisions
+Predicted Column with Value: 1 has count = 7 or 22.581%
+Predicted Column with Value: 2 has count = 24 or 77.419%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 89
+31 collisions
+Predicted Column with Value: 2 has count = 31 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 34
+30 collisions
+Predicted Column with Value: 2 has count = 30 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 21
+30 collisions
+Predicted Column with Value: 1 has count = 12 or 40%
+Predicted Column with Value: 2 has count = 18 or 60%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 56
+30 collisions
+Predicted Column with Value: 1 has count = 30 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 18
+29 collisions
+Predicted Column with Value: 2 has count = 29 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 90
+29 collisions
+Predicted Column with Value: 2 has count = 29 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 40
+29 collisions
+Predicted Column with Value: 1 has count = 29 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 10
+29 collisions
+Predicted Column with Value: 2 has count = 29 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 10
+29 collisions
+Predicted Column with Value: 1 has count = 1 or 3.448%
+Predicted Column with Value: 2 has count = 28 or 96.552%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 2
+29 collisions
+Predicted Column with Value: 2 has count = 29 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 26
+28 collisions
+Predicted Column with Value: 2 has count = 28 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 92
+28 collisions
+Predicted Column with Value: 2 has count = 28 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 33
+28 collisions
+Predicted Column with Value: 2 has count = 28 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 9
+28 collisions
+Predicted Column with Value: 2 has count = 28 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 15
+27 collisions
+Predicted Column with Value: 1 has count = 1 or 3.704%
+Predicted Column with Value: 2 has count = 26 or 96.296%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 16
+27 collisions
+Predicted Column with Value: 2 has count = 27 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 5
+27 collisions
+Predicted Column with Value: 2 has count = 27 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 10
+27 collisions
+Predicted Column with Value: 2 has count = 27 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 22
+27 collisions
+Predicted Column with Value: 2 has count = 27 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 77
+27 collisions
+Predicted Column with Value: 1 has count = 21 or 77.778%
+Predicted Column with Value: 2 has count = 6 or 22.222%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 91
+27 collisions
+Predicted Column with Value: 2 has count = 27 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 44
+26 collisions
+Predicted Column with Value: 2 has count = 26 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 11
+26 collisions
+Predicted Column with Value: 2 has count = 26 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 17
+26 collisions
+Predicted Column with Value: 2 has count = 26 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 253
+26 collisions
+Predicted Column with Value: 2 has count = 26 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 58
+26 collisions
+Predicted Column with Value: 2 has count = 26 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 19
+25 collisions
+Predicted Column with Value: 2 has count = 25 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 9
+24 collisions
+Predicted Column with Value: 1 has count = 1 or 4.167%
+Predicted Column with Value: 2 has count = 23 or 95.833%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 24
+24 collisions
+Predicted Column with Value: 2 has count = 24 or 100%
+
+
+P_ISEV == 2
+P_ID == 36
+23 collisions
+Predicted Column with Value: 1 has count = 5 or 21.739%
+Predicted Column with Value: 2 has count = 18 or 78.261%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 15
+23 collisions
+Predicted Column with Value: 2 has count = 23 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 36
+23 collisions
+Predicted Column with Value: 2 has count = 23 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 77
+23 collisions
+Predicted Column with Value: 1 has count = 23 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 38
+23 collisions
+Predicted Column with Value: 1 has count = 19 or 82.609%
+Predicted Column with Value: 2 has count = 4 or 17.391%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 6
+23 collisions
+Predicted Column with Value: 2 has count = 23 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 12
+22 collisions
+Predicted Column with Value: 2 has count = 22 or 100%
+
+
+P_ISEV == 2
+P_ID == 39
+22 collisions
+Predicted Column with Value: 1 has count = 6 or 27.273%
+Predicted Column with Value: 2 has count = 16 or 72.727%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 22
+22 collisions
+Predicted Column with Value: 1 has count = 2 or 9.091%
+Predicted Column with Value: 2 has count = 20 or 90.909%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 21
+21 collisions
+Predicted Column with Value: 2 has count = 21 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 9
+21 collisions
+Predicted Column with Value: 2 has count = 21 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 9
+21 collisions
+Predicted Column with Value: 2 has count = 21 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 21
+20 collisions
+Predicted Column with Value: 1 has count = 8 or 40%
+Predicted Column with Value: 2 has count = 12 or 60%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 14
+20 collisions
+Predicted Column with Value: 2 has count = 20 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 13
+20 collisions
+Predicted Column with Value: 2 has count = 20 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 23
+20 collisions
+Predicted Column with Value: 1 has count = 2 or 10%
+Predicted Column with Value: 2 has count = 18 or 90%
+
+
+P_ISEV == 2
+P_ID == 37
+20 collisions
+Predicted Column with Value: 1 has count = 5 or 25%
+Predicted Column with Value: 2 has count = 15 or 75%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 12
+20 collisions
+Predicted Column with Value: 2 has count = 20 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 31
+20 collisions
+Predicted Column with Value: 2 has count = 20 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 20
+20 collisions
+Predicted Column with Value: 1 has count = 1 or 5%
+Predicted Column with Value: 2 has count = 19 or 95%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 71
+19 collisions
+Predicted Column with Value: 1 has count = 19 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 7
+19 collisions
+Predicted Column with Value: 2 has count = 19 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 25
+19 collisions
+Predicted Column with Value: 2 has count = 19 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 25
+19 collisions
+Predicted Column with Value: 2 has count = 19 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 255
+19 collisions
+Predicted Column with Value: 2 has count = 19 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 20
+19 collisions
+Predicted Column with Value: 2 has count = 19 or 100%
+
+
+P_ISEV == 2
+P_ID == 40
+19 collisions
+Predicted Column with Value: 1 has count = 5 or 26.316%
+Predicted Column with Value: 2 has count = 14 or 73.684%
+
+
+P_ISEV == 2
+P_ID == 38
+19 collisions
+Predicted Column with Value: 1 has count = 6 or 31.579%
+Predicted Column with Value: 2 has count = 13 or 68.421%
+
+
+P_ISEV == 2
+P_ID == 41
+18 collisions
+Predicted Column with Value: 1 has count = 5 or 27.778%
+Predicted Column with Value: 2 has count = 13 or 72.222%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 7
+18 collisions
+Predicted Column with Value: 2 has count = 18 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 5
+17 collisions
+Predicted Column with Value: 2 has count = 17 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 23
+17 collisions
+Predicted Column with Value: 1 has count = 1 or 5.882%
+Predicted Column with Value: 2 has count = 16 or 94.118%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 29
+17 collisions
+Predicted Column with Value: 2 has count = 17 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 7
+17 collisions
+Predicted Column with Value: 1 has count = 1 or 5.882%
+Predicted Column with Value: 2 has count = 16 or 94.118%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 7
+17 collisions
+Predicted Column with Value: 2 has count = 17 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 255
+17 collisions
+Predicted Column with Value: 1 has count = 1 or 5.882%
+Predicted Column with Value: 2 has count = 16 or 94.118%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 23
+17 collisions
+Predicted Column with Value: 2 has count = 17 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 13
+16 collisions
+Predicted Column with Value: 2 has count = 16 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 4
+16 collisions
+Predicted Column with Value: 1 has count = 1 or 6.25%
+Predicted Column with Value: 2 has count = 15 or 93.75%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 6
+16 collisions
+Predicted Column with Value: 2 has count = 16 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 5
+16 collisions
+Predicted Column with Value: 1 has count = 1 or 6.25%
+Predicted Column with Value: 2 has count = 15 or 93.75%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 18
+16 collisions
+Predicted Column with Value: 2 has count = 16 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 1
+C_TRAF == 9
+16 collisions
+Predicted Column with Value: 2 has count = 16 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 15
+16 collisions
+Predicted Column with Value: 2 has count = 16 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 43
+15 collisions
+Predicted Column with Value: 2 has count = 15 or 100%
+
+
+P_ISEV == 2
+P_ID == 42
+15 collisions
+Predicted Column with Value: 1 has count = 5 or 33.333%
+Predicted Column with Value: 2 has count = 10 or 66.667%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 5
+15 collisions
+Predicted Column with Value: 2 has count = 15 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 7
+15 collisions
+Predicted Column with Value: 2 has count = 15 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 35
+15 collisions
+Predicted Column with Value: 2 has count = 15 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 37
+15 collisions
+Predicted Column with Value: 1 has count = 15 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 11
+15 collisions
+Predicted Column with Value: 2 has count = 15 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 56
+14 collisions
+Predicted Column with Value: 1 has count = 14 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 32
+14 collisions
+Predicted Column with Value: 1 has count = 14 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 12
+14 collisions
+Predicted Column with Value: 1 has count = 1 or 7.143%
+Predicted Column with Value: 2 has count = 13 or 92.857%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 8
+14 collisions
+Predicted Column with Value: 1 has count = 1 or 7.143%
+Predicted Column with Value: 2 has count = 13 or 92.857%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 16
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 16
+13 collisions
+Predicted Column with Value: 1 has count = 7 or 53.846%
+Predicted Column with Value: 2 has count = 6 or 46.154%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 16
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 94
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 16
+13 collisions
+Predicted Column with Value: 1 has count = 8 or 61.538%
+Predicted Column with Value: 2 has count = 5 or 38.462%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 98
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 6
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 10
+13 collisions
+Predicted Column with Value: 1 has count = 2 or 15.385%
+Predicted Column with Value: 2 has count = 11 or 84.615%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 57
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 2
+P_ID == 43
+13 collisions
+Predicted Column with Value: 1 has count = 3 or 23.077%
+Predicted Column with Value: 2 has count = 10 or 76.923%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 14
+13 collisions
+Predicted Column with Value: 2 has count = 13 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 26
+12 collisions
+Predicted Column with Value: 2 has count = 12 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 71
+12 collisions
+Predicted Column with Value: 1 has count = 12 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 17
+12 collisions
+Predicted Column with Value: 1 has count = 6 or 50%
+Predicted Column with Value: 2 has count = 6 or 50%
+
+
+P_ISEV == 2
+P_ID == 45
+12 collisions
+Predicted Column with Value: 1 has count = 2 or 16.667%
+Predicted Column with Value: 2 has count = 10 or 83.333%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 24
+12 collisions
+Predicted Column with Value: 2 has count = 12 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 20
+12 collisions
+Predicted Column with Value: 2 has count = 12 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 71
+12 collisions
+Predicted Column with Value: 1 has count = 12 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 5
+12 collisions
+Predicted Column with Value: 1 has count = 1 or 8.333%
+Predicted Column with Value: 2 has count = 11 or 91.667%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 10
+12 collisions
+Predicted Column with Value: 2 has count = 12 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 9
+11 collisions
+Predicted Column with Value: 2 has count = 11 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 18
+11 collisions
+Predicted Column with Value: 2 has count = 11 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 9
+11 collisions
+Predicted Column with Value: 2 has count = 11 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 11
+11 collisions
+Predicted Column with Value: 2 has count = 11 or 100%
+
+
+P_ISEV == 2
+P_ID == 46
+11 collisions
+Predicted Column with Value: 1 has count = 2 or 18.182%
+Predicted Column with Value: 2 has count = 9 or 81.818%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 16
+11 collisions
+Predicted Column with Value: 2 has count = 11 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 36
+11 collisions
+Predicted Column with Value: 2 has count = 11 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 255
+10 collisions
+Predicted Column with Value: 2 has count = 10 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 3
+10 collisions
+Predicted Column with Value: 2 has count = 10 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 8
+10 collisions
+Predicted Column with Value: 2 has count = 10 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 17
+10 collisions
+Predicted Column with Value: 2 has count = 10 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 20
+10 collisions
+Predicted Column with Value: 1 has count = 1 or 10%
+Predicted Column with Value: 2 has count = 9 or 90%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 27
+10 collisions
+Predicted Column with Value: 2 has count = 10 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 19
+10 collisions
+Predicted Column with Value: 2 has count = 10 or 100%
+
+
+P_ISEV == 2
+P_ID == 47
+9 collisions
+Predicted Column with Value: 1 has count = 2 or 22.222%
+Predicted Column with Value: 2 has count = 7 or 77.778%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 16
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 17
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 31
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 99
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 1
+P_SAFE == 252
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 10
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 47
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 13
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 10
+9 collisions
+Predicted Column with Value: 2 has count = 9 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 30
+9 collisions
+Predicted Column with Value: 1 has count = 9 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 21
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 12
+8 collisions
+Predicted Column with Value: 1 has count = 3 or 37.5%
+Predicted Column with Value: 2 has count = 5 or 62.5%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 21
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 22
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 93
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 49
+8 collisions
+Predicted Column with Value: 1 has count = 2 or 25%
+Predicted Column with Value: 2 has count = 6 or 75%
+
+
+P_ISEV == 2
+P_ID == 44
+8 collisions
+Predicted Column with Value: 1 has count = 2 or 25%
+Predicted Column with Value: 2 has count = 6 or 75%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 9
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 38
+8 collisions
+Predicted Column with Value: 1 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 25
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 9
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 40
+8 collisions
+Predicted Column with Value: 1 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 12
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 15
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 1
+V_ID == 2
+8 collisions
+Predicted Column with Value: 1 has count = 1 or 12.5%
+Predicted Column with Value: 2 has count = 7 or 87.5%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 17
+8 collisions
+Predicted Column with Value: 2 has count = 8 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 19
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 6
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 22
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 28
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 8
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 17
+7 collisions
+Predicted Column with Value: 1 has count = 5 or 71.429%
+Predicted Column with Value: 2 has count = 2 or 28.571%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 16
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 48
+7 collisions
+Predicted Column with Value: 1 has count = 2 or 28.571%
+Predicted Column with Value: 2 has count = 5 or 71.429%
+
+
+P_ISEV == 2
+P_ID == 52
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 255
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 21
+7 collisions
+Predicted Column with Value: 1 has count = 1 or 14.286%
+Predicted Column with Value: 2 has count = 6 or 85.714%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 25
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 27
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 8
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 9
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 35
+V_TYPE == 19
+7 collisions
+Predicted Column with Value: 1 has count = 1 or 14.286%
+Predicted Column with Value: 2 has count = 6 or 85.714%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 58
+7 collisions
+Predicted Column with Value: 2 has count = 7 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 12
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 13
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 9
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 50
+6 collisions
+Predicted Column with Value: 1 has count = 1 or 16.667%
+Predicted Column with Value: 2 has count = 5 or 83.333%
+
+
+P_ISEV == 2
+P_ID == 51
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 32
+6 collisions
+Predicted Column with Value: 1 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 53
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 11
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 96
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 46
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 17
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 13
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 18
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 47
+6 collisions
+Predicted Column with Value: 2 has count = 6 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 29
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 33
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 35
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 15
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 96
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 26
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 55
+5 collisions
+Predicted Column with Value: 2 has count = 5 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 9
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 10
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 21
+C_TRAF == 18
+P_SAFE == 9
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 54
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 7
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 36
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 58
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 9
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 9
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 10
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 51
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 4
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 7
+4 collisions
+Predicted Column with Value: 1 has count = 3 or 75%
+Predicted Column with Value: 2 has count = 1 or 25%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 11
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 5
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 11
+4 collisions
+Predicted Column with Value: 2 has count = 4 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 1
+V_YEAR == 0
+P_SAFE == 2
+C_RSUR == 1
+V_ID == 1
+C_TRAF == 9
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 46
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 1
+C_TRAF == 16
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 31
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 14
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 33
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 7
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 252
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+C_TRAF == 18
+P_SEX == 252
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 6
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 97
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 58
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 56
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 9
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 3
+C_CONF == 5
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 252
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 23
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 17
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 32
+3 collisions
+Predicted Column with Value: 1 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 34
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 17
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 57
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 10
+3 collisions
+Predicted Column with Value: 2 has count = 3 or 100%
+
+
+P_ISEV == 2
+P_ID == 59
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 63
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 62
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 61
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 60
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 2
+V_TYPE == 23
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 3
+P_SAFE == 2
+C_TRAF == 16
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 3
+P_SAFE == 10
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 10
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 95
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 29
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 34
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 33
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 24
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 29
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 58
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 7
+2 collisions
+Predicted Column with Value: 2 has count = 2 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 33
+C_TRAF == 16
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 36
+V_YEAR == 0
+C_RALN == 1
+C_RSUR == 1
+C_WTHR == 5
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 21
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 35
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 21
+C_VEHS == 57
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 43
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 57
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 28
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 22
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 18
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 67
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 70
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 71
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 73
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 74
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 75
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 76
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 77
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 68
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 11
+C_VEHS == 39
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 31
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 33
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 6
+P_PSN == 32
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 2
+P_SAFE == 10
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 2
+V_YEAR == 0
+C_RCFG == 2
+P_AGE == 98
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 15
+1 collisions
+Predicted Column with Value: 1 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 99
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 64
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 79
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 56
+1 collisions
+Predicted Column with Value: 1 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 23
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 98
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 33
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 252
+V_TYPE == 1
+C_VEHS == 2
+P_USER == 1
+P_ID == 1
+C_CONF == 5
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 0
+P_PSN == 11
+C_TRAF == 9
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 35
+C_RCFG == 2
+C_TRAF == 16
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 17
+C_VEHS == 8
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 1
+C_CONF == 35
+P_SAFE == 2
+P_SEX == 1
+C_VEHS == 25
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 2
+C_CONF == 21
+C_VEHS == 41
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 81
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 82
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 84
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 85
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 91
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 93
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 21
+C_TRAF == 1
+P_SAFE == 10
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 1
+V_TYPE == 1
+C_VEHS == 2
+C_CONF == 33
+V_YEAR == 0
+C_TRAF == 16
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 1
+V_TYPE == 252
+V_YEAR == 252
+C_VEHS == 19
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+P_ISEV == 2
+P_ID == 78
+1 collisions
+Predicted Column with Value: 2 has count = 1 or 100%
+
+
+
+Total cases: 6171328

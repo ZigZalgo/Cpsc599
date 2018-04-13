@@ -12,7 +12,7 @@ Run the program using the command `./run.sh`. You may optionally supply the foll
  - rules: The file name of the rules file to use		(defaults to rules.txt)
  - headers: The file name of the headers tile to use	(defaults to headers.txt)
  - out: The file name of the output rules file			(defaults to out.txt)
- - MaxDepth: The MaxDepth of the tree, followed by the value
+ - MaxDepth: The MaxDepth parameter of the tree, followed by the value
  - MinDivSize: The MinDivSize parameter of the tree, followed by the value
  - MaxContinuousSplits: The MaxContinuousSplits parameter of the tree, followed by the value
  - LeafNodeMinimum: The LeafNodeMinimum parameter of the tree, followed by the value

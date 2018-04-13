@@ -36,10 +36,10 @@ namespace C45NCDB
 				C4p5.SetSpecialHeaders(Helper.ReadSpecialHeaders(args[3]));
 				C4p5 alg = new C4p5(collisions.ToList(), gen.CurrentRules);
 				
-				C4p5.MaxDepth = 10;
+				/*C4p5.MaxDepth = 10;
 				C4p5.MinDivSize = 100000;
 				C4p5.MaxContinuousSplits = 5;
-				C4p5.LeafNodeMinimum = 5;
+				C4p5.LeafNodeMinimum = 5;*/
 				
 				if (args[3].Equals("-o"))
 				{
@@ -47,10 +47,10 @@ namespace C45NCDB
 					alg.PrintRules(args[2]);
 					return;
 				}
-				if (args.Length == 5) {
+				if (args.Length >= 5) {
 					C4p5.SetHeaderToPredict(args[4]);
 				}
-				else if (args.Length > 5 && args.Length < 11){
+				if (args.Length > 5 && args.Length < 14){
 	                for (int i = 0; i < args.Length - 5; i += 2){
 	                	if (args[i + 5].Equals("-MaxDepth")){
 	                		C4p5.MaxDepth = int.Parse(args[i+6]);

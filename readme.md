@@ -6,13 +6,17 @@ Build the project using the command `make release`.
 
 ## Usage
 
-Run the program using the command `./run.sh`. You may optionally supply the following arguments to this script (in the given order):
+Run the program using the command `./run.sh`. You may optionally supply the following arguments to this script:
  - search: The feature to search optionally				(defaults to C_SEV)
  - data: The file name of the binary data to use		(defaults to NCDB.binary)
  - rules: The file name of the rules file to use		(defaults to rules.txt)
  - headers: The file name of the headers tile to use	(defaults to headers.txt)
  - out: The file name of the output rules file			(defaults to out.txt)
-
+ - MaxDepth: The MaxDepth of the tree, followed by the value
+ - MinDivSize: The MinDivSize parameter of the tree, followed by the value
+ - MaxContinuousSplits: The MaxContinuousSplits parameter of the tree, followed by the value
+ - LeafNodeMinimum: The LeafNodeMinimum parameter of the tree, followed by the value
+ 
 A rules and headers file **must** be passed to the program, but they may be empty files.
 
 The rules file must contain zero or more lines of the format:
